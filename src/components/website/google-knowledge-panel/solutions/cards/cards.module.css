@@ -1,0 +1,20 @@
+.root {
+    @apply grid grid-cols-12 gap-y-3 xl:gap-y-5 gap-x-4 xl:gap-x-8 max-w-[1300px] mx-auto;
+  }
+  
+  .cards {
+    @apply rounded-[20px] h-full [boxShadow:0px_10px_80px_rgba(0,_0,_0,_0.1)] p-6 xl:p-8 hover:border-[#E4E4E4] border-2 hover:bg-black transition-all duration-500 col-span-12 sm:col-span-6 lg:odd:-mt-[60px];
+  }
+  
+  .title {
+    @apply text-xl 2xl:text-2xl 3xl:text-3xl font-mono font-normal leading-tight my-3 transition-all duration-500;
+  }
+  
+  .para {
+    @apply text-base sm:text-sm xl:text-base 3xl:text-lg text-navy leading-normal transition-all duration-500;
+  }
+  
+  .cards img {
+    @apply transition-all duration-500;
+  }
+  

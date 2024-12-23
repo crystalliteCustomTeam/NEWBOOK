@@ -1,0 +1,37 @@
+.__root {
+  @apply bg-black lg:py-[80px] py-[60px];
+}
+.__grid {
+  @apply grid xl:grid-cols-2 grid-cols-1 gap-10;
+}
+.__leftGrid {
+  @apply text-white;
+}
+.__content {
+  @apply py-8;
+}
+.__leftGrid > a > svg {
+  @apply mx-auto xl:mx-[inherit]
+}
+.title {
+  @apply xl:text-[60px] lg:text-[50px] md:text-[40px] text-[30px] leading-tight font-mono font-normal text-center xl:text-left max-w-[500px] mx-auto xl:mx-[inherit];
+}
+.__cta {
+  @apply flex justify-center xl:justify-start gap-4 mt-10;
+}
+.__reviewsLogos {
+  @apply flex items-center justify-center xl:justify-start  gap-10 mt-5;
+}
+
+.__rightGrid .__locationCard {
+  @apply xl:flex gap-10 text-center xl:text-left items-center md:mb-10 mb-5 last:mb-0 text-white;
+}
+.__rightGrid .__locationCard > img {
+  @apply mx-auto mb-5 xl:mb-0 xl:mx-[inherit]
+}
+.__rightGrid .__locationCard > div > h4 {
+  @apply text-base leading-tight font-bold font-manrope mb-2 xl:mb-5;
+}
+.__rightGrid .__locationCard > div > span {
+  @apply block text-sm leading-normal font-normal font-manrope mb-2;
+}

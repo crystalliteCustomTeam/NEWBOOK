@@ -1,0 +1,3 @@
+.video {
+    @apply w-full h-full object-cover object-center absolute inset-0 z-[-2]
+}

@@ -1,0 +1,42 @@
+.root {
+  @apply lg:pt-[115px] lg:pb-[45px] md:py-[80px] py-[60px] overflow-hidden;
+}
+.content {
+  @apply max-w-[700px] mx-auto text-center;
+}
+.title {
+  @apply text-[35px] sm:text-[40px] md:text-[50px] lg:text-[60px] 3xl:text-[65px] leading-[1.1] font-mono mb-3;
+}
+.para {
+  @apply text-[14px] sm:text-[16px] 3xl:text-[18px] leading-normal text-navy;
+}
+.__grid {
+  @apply grid lg:grid-cols-12 grid-cols-1 gap-10 sm:mt-16 mt-12;
+}
+.leftColumn {
+  @apply lg:col-span-8;
+}
+.cardGrid {
+  @apply grid md:grid-cols-3 grid-cols-2 sm:gap-x-10 gap-x-5 sm:gap-y-14 gap-y-10;
+}
+.card .img {
+  @apply transition-all ease-in-out duration-300 shadow-[0_0_50px_rgba(0,_0,_0,_0.4)] mb-3;
+}
+.card .title {
+  @apply sm:text-[28px] text-[20px] leading-[1.3] text-black font-mono mb-1;
+}
+.card .para {
+  @apply text-[12px] sm:text-[14px] md:text-[16px] xl:text-[18px] leading-normal text-navy;
+}
+.rightColumn {
+  @apply relative lg:col-span-4;
+}
+.bg {
+  @apply bg-black lg:pt-[60px] 3xl:pb-[540px] xl:pb-[580px] lg:pb-[500px] px-[20px] py-[40px] text-center text-white rounded-[20px];
+}
+.title2 {
+  @apply text-[20px] md:text-[30px] lg:text-[35px] xl:text-[40px] 2xl:text-[50px] 3xl:text-[60px] leading-[1.4] font-mono lg:mb-0 mb-5;
+}
+.rightImg {
+  @apply lg:absolute lg:left-0 2xl:max-w-[700px] xl:max-w-[500px] lg:max-w-[400px] lg:bottom-0 mx-auto;
+}

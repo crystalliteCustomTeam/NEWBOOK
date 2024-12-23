@@ -1,0 +1,21 @@
+.root {
+  @apply lg:py-[100px] md:py-[80px] py-[60px];
+}
+.__grid {
+  @apply grid grid-cols-12 lg:gap-x-5 gap-y-10 items-center;
+}
+.leftColumn {
+  @apply lg:col-span-7 col-span-12;
+}
+.rightColumn {
+  @apply lg:col-span-5 col-span-12;
+}
+.title {
+  @apply text-[25px] sm:text-[30px] md:text-[35px] xl:text-[40px] 2xl:text-[50px] 3xl:text-[55px] leading-[1.1] font-mono mb-3;
+}
+.para {
+  @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal;
+}
+.cta {
+  @apply flex items-center gap-4 mt-7;
+}

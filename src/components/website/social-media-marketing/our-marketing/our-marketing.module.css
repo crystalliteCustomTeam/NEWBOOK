@@ -1,0 +1,35 @@
+.root1 {
+    @apply pt-[70px] md:pt-[120px]
+}
+
+.title {
+    @apply text-[30px] md:text-[40px] xl:text-[50px] 2xl:text-[60px] font-mono leading-[1.1] max-w-[900px] 2xl:max-w-[1100px] mb-[60px] md:mb-[120px]
+}
+
+.root2 {
+    @apply relative z-[1]
+}
+
+.beforeLeft {
+    @apply md:absolute md:left-0 md:top-0 md:bottom-0 md:bg-white md:z-[2] md:h-full md:w-[30%]
+}
+
+.card {
+    @apply border border-[#F1F1FF] rounded-[20px] bg-[#F2F5F7] px-4 md:px-8 py-[40px] md:py-[63px] max-w-[420px] mx-auto md:mx-0 md:max-w-full md:w-[480px] xl:w-[530px] relative z-[3] h-full
+}
+
+.cardTitle {
+    @apply text-[30px] md:text-[40px] lg:text-[45px] xl:text-[55px] font-mono leading-[1.1] mt-5 xl:mt-[40px] mb-5
+}
+
+.cardPara {
+    @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal mb-5 xl:mb-[40px]
+}
+
+.cta {
+    @apply flex gap-4
+}
+
+.cardWrapper {
+    @apply md:absolute md:inset-0 mb-10 md:mb-0
+}

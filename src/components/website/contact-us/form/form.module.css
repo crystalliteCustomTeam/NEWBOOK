@@ -1,0 +1,15 @@
+.root {
+    @apply py-[100px] z-10
+}
+
+.content {
+    @apply max-w-[1100px] mx-auto
+}
+
+.title {
+    @apply text-[35px] sm:text-[35px] md:text-[40px] lg:text-[50px] 2xl:text-[60px] leading-[1.1] font-mono mb-5 text-center
+}
+
+.para {
+    @apply text-[16px] 2xl:text-[18px] leading-normal mb-10 max-w-[600px] lg:max-w-[800px] 2xl:max-w-[900px] mx-auto text-center
+}

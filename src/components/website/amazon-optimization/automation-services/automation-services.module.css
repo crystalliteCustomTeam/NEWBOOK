@@ -1,0 +1,22 @@
+.root {
+    @apply relative z-10 overflow-hidden 3xl:py-[200px] lg:py-[100px] pb-[50px];
+  }
+  .img {
+    @apply lg:absolute lg:top-0 lg:bottom-0 lg:-right-0 3xl:w-[55%] lg:w-[50%] h-full object-fill lg:object-right object-center;
+  }
+  .__grid {
+    @apply grid grid-cols-12 items-center gap-x-5;
+  }
+  .column {
+    @apply lg:col-span-6 col-span-12;
+  }
+  .title {
+    @apply text-[25px] sm:text-[35px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[55px] leading-[1.1] font-mono mb-5 3xl:max-w-[730px] 2xl:max-w-[630px] lg:max-w-[500px];
+  }
+  .para {
+    @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal lg:max-w-[750px];
+  }
+  .cta {
+    @apply flex items-center gap-4 mt-7;
+  }
+  

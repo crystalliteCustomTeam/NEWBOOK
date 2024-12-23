@@ -1,0 +1,21 @@
+.__grid {
+  @apply lg:grid flex flex-wrap flex-col-reverse lg:grid-cols-2 items-center gap-x-5;
+}
+.leftColumn {
+  @apply relative w-full h-full;
+}
+.img {
+  @apply lg:absolute lg:bottom-0 lg:left-0 lg:right-0 lg:w-max lg:h-max mx-auto object-cover object-center;
+}
+.content {
+  @apply xl:py-[200px] lg:py-[120px] md:py-[80px] py-[50px];
+}
+.title {
+  @apply text-[25px] sm:text-[35px] xl:text-[45px] 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono mb-3;
+}
+.para {
+  @apply text-[14px] sm:text-[16px] 3xl:text-[18px] text-navy leading-normal mb-5 last:mb-0;
+}
+.cta {
+  @apply flex items-center gap-x-4 mt-7;
+}

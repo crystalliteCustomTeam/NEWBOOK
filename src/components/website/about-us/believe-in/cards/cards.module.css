@@ -1,0 +1,14 @@
+.grids {
+  @apply grid grid-cols-12 gap-5 md:pt-[60px] pt-[30px];
+}
+.cards {
+  @apply rounded-[20px] [boxShadow:0px_10px_80px_rgba(0,_0,_0,_0.1)] py-8 px-4 xl:p-8 3xl:p-10 hover:border-[#E4E4E4] border-2 hover:bg-black transition-all duration-500 col-span-12 sm:col-span-6 md:col-span-4 xl:col-span-3;
+}
+
+.title {
+  @apply text-[20px] xl:text-[24px] 3xl:text-[30px] font-mono font-normal leading-tight mb-5 transition-all duration-500;
+}
+
+.para {
+  @apply text-[16px] sm:text-[14px] xl:text-[16px] 3xl:text-[18px] text-navy leading-normal transition-all duration-500 md:min-h-[125px];
+}

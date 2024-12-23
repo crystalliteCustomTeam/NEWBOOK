@@ -1,0 +1,12 @@
+.root {
+  @apply pb-[60px] lg:pb-[100px];
+}
+.content {
+  @apply lg:max-w-[1150px] 2xl:max-w-[1200px] text-center mx-auto mb-[60px];
+}
+.title {
+  @apply text-[25px] sm:text-[35px] lg:text-[45px] xl:text-[50px] 2xl:text-[60px] 3xl:text-[60px] leading-[1.1] font-mono;
+}
+.video {
+  @apply rounded-[20px] md:rounded-[40px] [filter:drop-shadow(0px_20px_50px_rgba(0,_0,_0,_0.2))];
+}

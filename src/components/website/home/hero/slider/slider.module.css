@@ -1,0 +1,3 @@
+.slides {
+    @apply grow-0 shrink-0 basis-auto min-w-0 pl-[30px] md:pl-[50px]
+}

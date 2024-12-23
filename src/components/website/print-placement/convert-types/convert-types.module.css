@@ -1,0 +1,15 @@
+.root {
+  @apply py-[60px] md:py-[80px] bg-[#F2F5F7];
+}
+.content {
+  @apply max-w-[1400px] mx-auto lg:flex lg:gap-x-10 lg:items-center;
+}
+.title {
+  @apply lg:basis-[100%] xl:basis-[100%] text-[30px] sm:text-[35px] xl:text-[45px] 2xl:text-[60px] 3xl:text-[60px] leading-[1.1] font-mono mb-3;
+}
+.para {
+  @apply lg:basis-[100%] text-[14px] sm:text-[16px] xl:text-[18px] text-navy leading-normal;
+}
+.cta {
+  @apply flex justify-center gap-x-4 mt-8 md:mt-14;
+}

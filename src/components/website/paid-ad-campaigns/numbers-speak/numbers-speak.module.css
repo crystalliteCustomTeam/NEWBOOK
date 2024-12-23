@@ -1,0 +1,15 @@
+.root {
+  @apply md:pt-[80px] pt-[50px];
+}
+.content {
+  @apply text-center pb-[30px];
+}
+.title {
+  @apply text-[25px] sm:text-[35px] xl:text-[40px] 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono mb-3;
+}
+.para {
+  @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal lg:max-w-[1050px] mx-auto;
+}
+.cta {
+  @apply flex justify-center items-center gap-4 mt-7;
+}

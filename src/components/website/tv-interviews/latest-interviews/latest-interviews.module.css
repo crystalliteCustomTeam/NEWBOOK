@@ -1,0 +1,39 @@
+.tabList {
+  @apply w-full bg-transparent flex-wrap justify-between;
+}
+.__grid {
+  @apply flex gap-x-8 my-5 md:overflow-hidden overflow-x-scroll;
+}
+.title {
+  @apply text-[25px] sm:text-[35px] xl:text-[40px] text-black 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono mb-3;
+}
+.tabTrigger {
+  @apply capitalize w-max px-6 text-lg font-manrope font-medium border-2 border-[#4A4A6880] rounded-full;
+}
+.content {
+  @apply w-full xl:my-[100px] mt-[150px] mb-[80px];
+}
+.__grid2 {
+  @apply grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 items-center mt-0;
+}
+.card {
+  @apply py-3 xl:px-5 px-3 bg-white transition-all ease-in-out duration-500 shadow-[0px_4px_12px_rgba(0,_0,_0,_0.08)] hover:shadow-[0px_4px_12px_rgba(0,_0,_0,_0.18)] rounded-2xl;
+}
+.__grid3 {
+  @apply flex justify-between sm:items-start items-end;
+}
+.img {
+  @apply flex 2xl:gap-4 gap-2;
+}
+.name {
+  @apply 3xl:text-[25px] 2xl:text-[22px] text-[18px] leading-tight text-black font-mono mb-2;
+}
+.about {
+  @apply text-base leading-tight font-normal font-manrope text-navy;
+}
+.about > span {
+  @apply font-bold;
+}
+.cta {
+  @apply 3xl:text-[18px] 2xl:text-[16px] text-[14px] leading-tight text-black font-mono mb-2;
+}

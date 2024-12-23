@@ -1,0 +1,7 @@
+.__range {
+  @apply w-full flex items-center flex-row-reverse gap-x-5;
+}
+.__range > input{
+  @apply rounded-none max-w-[90px]
+}
+

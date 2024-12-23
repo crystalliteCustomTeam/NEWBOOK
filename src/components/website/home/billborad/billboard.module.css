@@ -1,0 +1,30 @@
+.root {
+  @apply relative z-10 xl:py-[120px] lg:py-[100px] md:py-[80px] py-[60px];
+}
+.banner {
+  @apply absolute -z-10 left-0 right-0 top-0 bottom-0 h-full w-full object-cover object-center;
+}
+.__grid {
+  @apply grid lg:grid-cols-2 grid-cols-1;
+}
+.card {
+  @apply bg-[linear-gradient(180deg,_rgba(255,_255,_255,_0.85)_0%,_rgba(255,_255,_255,_0.5)_100%)] border border-[#D6D7DE] shadow-[0px_40px_80px_rgba(0,_0,_0,_0.05)] backdrop-blur-[25px] rounded-2xl sm:p-[50px_45px_30px] p-[40px_20px] max-w-[550px];
+}
+.title {
+  @apply text-[35px] sm:text-[40px] md:text-[50px] lg:text-[60px] leading-[1.1] font-mono text-black mb-2;
+}
+.para {
+  @apply xl:text-[18px] md:text-[16px] text-[14px] leading-normal text-navy;
+}
+.opinion {
+  @apply sm:grid sm:grid-cols-3 flex flex-wrap justify-center xl:gap-8 gap-5 mt-5 mb-8;
+}
+.counter {
+  @apply lg:text-[40px] text-[30px] leading-tight font-normal text-black font-mono mb-2;
+}
+.desc {
+  @apply text-sm leading-normal font-normal text-black;
+}
+.cta {
+  @apply flex items-center gap-5 text-white
+}

@@ -1,0 +1,42 @@
+.root {
+  @apply relative bg-[#F2F2F2] pt-[50px] lg:py-[100px];
+}
+
+.img {
+  @apply lg:absolute lg:block hidden lg:left-0 3xl:top-[100px] xl:top-[120px] lg:top-[160px] lg:w-[54%] object-contain object-center;
+}
+.img2 {
+  @apply lg:hidden block object-contain object-center;
+}
+
+.grids {
+  @apply flex flex-wrap lg:gap-0 gap-10 lg:justify-end;
+}
+
+.cols {
+  @apply lg:basis-[47%];
+}
+
+.title {
+  @apply text-[35px] sm:text-[40px] md:text-[45px] 2xl:text-[55px] 3xl:text-[65px] leading-[1.1] font-mono mb-5;
+}
+
+.para {
+  @apply text-[14px] sm:text-[16px] 2xl:text-[18px] leading-normal text-navy max-w-[630px];
+}
+
+.cta {
+  @apply flex gap-4;
+}
+.counters {
+  @apply flex sm:gap-4 gap-3  divide-x divide-[#1B4219] md:max-w-[500px] xl:mt-10 xl:mb-[50px] my-8;
+}
+.counterCard {
+  @apply md:ps-8 ps-5 first:p-0 text-blue;
+}
+.numbers {
+  @apply text-[30px] md:text-[35px] lg:text-[45px] 2xl:text-[55px] font-manrope leading-tight font-extrabold;
+}
+.about {
+  @apply block text-[#969AA0] text-[14px] sm:text-[16px] 2xl:text-[18px] leading-normal font-normal;
+}

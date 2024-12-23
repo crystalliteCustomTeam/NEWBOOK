@@ -1,0 +1,15 @@
+.root {
+  @apply relative z-10 lg:h-dvh lg:py-0 md:py-[80px] py-[60px];
+}
+.img {
+  @apply absolute -z-10 object-cover object-center w-full h-full left-0 right-0 top-0 bottom-0;
+}
+.content {
+  @apply max-w-[700px] mx-auto lg:pt-24;
+}
+.title {
+  @apply text-center text-[25px] sm:text-[35px] lg:text-[40px] xl:text-[55px] 2xl:text-[60px] leading-[1.1] font-mono mb-3;
+}
+.cta {
+  @apply flex items-center justify-center gap-4 mt-7;
+}

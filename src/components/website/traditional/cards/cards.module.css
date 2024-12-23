@@ -1,0 +1,14 @@
+.root {
+    @apply grid sm:grid-cols-2 grid-cols-1 items-center gap-[20px];
+  }
+  .cards {
+    @apply rounded-[20px] bg-white py-8 px-4 xl:p-8 3xl:p-10 border-b-[6px] border-transparent hover:border-pink hover:shadow-[0px_10px_80px_0px_#0000001A] transition-all duration-500 xl:h-auto h-full xl:[&:nth-child(2)]:mt-[80px] xl:[&:nth-child(3)]:mt-[-80px]
+  }
+  .title {
+    @apply text-[60px] xl:text-[100px] 2xl:text-[120px] font-mono font-normal leading-tight mb-2 transition-all duration-500;
+  }
+  
+  .para {
+    @apply text-[20px] xl:text-[22px] 2xl:text-[28px] 3xl:text-[32px] text-navy leading-normal mb-5 transition-all duration-500;
+  }
+  

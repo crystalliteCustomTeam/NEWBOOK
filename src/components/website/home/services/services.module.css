@@ -1,0 +1,19 @@
+.root {
+    @apply pb-[90px]
+}
+
+.content {
+    @apply flex flex-wrap xl:flex-nowrap gap-4 items-center justify-between
+}
+
+.content .title {
+    @apply leading-[1.1] text-[35px] sm:text-[45px] xl:text-[55px] 3xl:text-[60px] font-mono font-normal basis-full xl:basis-auto
+}
+
+.content .para {
+    @apply max-w-[650px] 2xl:max-w-[860px] text-base 2xl:text-lg leading-normal text-navy
+}
+
+.content .link {
+    @apply text-base 2xl:text-lg leading-normal text-navy hover:text-pink transition-all duration-500 hover:underline hover:underline-offset-8 inline-flex gap-2 [&_img]:opacity-0 [&_img]:-translate-x-5 [&:hover_img]:opacity-100 [&:hover_img]:translate-x-0 [&_img]:transition-all [&_img]:duration-500 items-center
+}

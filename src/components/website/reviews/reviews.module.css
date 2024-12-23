@@ -1,0 +1,27 @@
+.root {
+  @apply relative overflow-hidden lg:py-[100px] py-[60px];
+}
+
+.content {
+  @apply flex flex-wrap xl:flex-nowrap gap-4 items-center justify-between lg:pb-[80px] pb-[60px];
+}
+
+.title {
+  @apply leading-[1.1] text-[35px] sm:text-[45px] xl:text-[55px] 3xl:text-[60px] font-mono font-normal basis-full xl:basis-auto max-w-[500px];
+}
+
+.para {
+  @apply max-w-[650px] 2xl:max-w-[920px] text-base 2xl:text-lg leading-normal text-navy;
+}
+.rating {
+  @apply text-center lg:mt-[80px] mt-[40px];
+}
+.rating .para2 {
+  @apply lg:text-[20px] md:text-base text-sm lg:leading-tight leading-normal font-medium text-navy font-manrope;
+}
+.paraDark {
+  @apply text-[#1B1B1D];
+}
+.stars {
+  @apply text-red-600;
+}

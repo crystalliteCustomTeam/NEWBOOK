@@ -1,0 +1,18 @@
+.root {
+  @apply relative z-10 lg:py-[100px] md:py-[80px] py-[60px];
+}
+.img {
+  @apply absolute right-0 bottom-8 object-contain object-right;
+}
+.__grid {
+  @apply grid grid-cols-2 items-center lg:gap-x-10 gap-y-10;
+}
+.title {
+  @apply text-[30px] sm:text-[40px] xl:text-[50px] 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono mb-5 3xl:max-w-[650px] lg:max-w-[600px];
+}
+.para {
+  @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal lg:max-w-[680px];
+}
+.cta {
+  @apply flex items-center gap-4 mt-7;
+}

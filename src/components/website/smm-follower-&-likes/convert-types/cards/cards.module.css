@@ -1,0 +1,19 @@
+.root {
+  @apply grid grid-cols-12 gap-x-3 xl:gap-x-5 gap-y-4 xl:gap-y-8 mt-[50px] max-w-[1300px] mx-auto;
+}
+
+.cards {
+  @apply rounded-[20px] [boxShadow:0px_10px_80px_rgba(0,_0,_0,_0.1)] p-6 md:p-8 hover:border-[#E4E4E4] border-2 hover:bg-black transition-all duration-500 col-span-12 sm:col-span-6 lg:col-span-4;
+}
+
+.title {
+  @apply text-xl xl:text-2xl 3xl:text-3xl font-mono font-normal leading-tight my-5 transition-all duration-500;
+}
+
+.para {
+  @apply text-base sm:text-sm xl:text-base 3xl:text-lg text-navy leading-normal transition-all duration-500;
+}
+
+.cards img {
+  @apply transition-all duration-500;
+}

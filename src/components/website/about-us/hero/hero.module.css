@@ -1,0 +1,23 @@
+.root {
+    @apply text-white flex flex-col items-end relative z-10 text-center pt-[180px] lg:pt-[270px] pb-[80px] md:pb-[100px] lg:pb-[360px]
+}
+
+.title {
+    @apply font-mono font-normal text-[30px] sm:text-[40px] md:text-[50px] lg:text-[55px] 2xl:text-[60px] leading-[1.1] mb-4 max-w-[1000px] mx-auto
+}
+
+.para {
+    @apply text-[14px] sm:text-[16px] lg:text-[18px] leading-normal max-w-[800px] mx-auto mb-8
+}
+
+.cta {
+    @apply flex gap-4 justify-center
+}
+
+.bg {
+    @apply object-cover object-center -z-10 
+}
+
+.stats {
+    @apply mx-auto mt-[-200px] lg:mt-[-300px] relative z-10
+}

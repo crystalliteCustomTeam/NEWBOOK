@@ -1,0 +1,15 @@
+._grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-[20px] 3xl:gap-[30px]
+}
+
+.cards {
+    @apply rounded-[20px] bg-white hover:bg-black transition-all duration-500 py-8 xl:py-12 px-4 2xl:px-6 3xl:py-16 3xl:px-8
+}
+
+.title {
+    @apply text-[18px] xl:text-[20px] 2xl:text-[25px] 3xl:text-[28px] font-mono font-normal leading-[1.1] my-4 transition-all duration-500;
+}
+
+.para {
+    @apply text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[20px] text-navy leading-normal transition-all duration-500;
+}

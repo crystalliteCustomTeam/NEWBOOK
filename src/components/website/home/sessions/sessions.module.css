@@ -1,0 +1,35 @@
+.title {
+    @apply text-[35px] sm:text-[40px] md:text-[50px] lg:text-[60px] 3xl:text-[65px] leading-[1.1] font-mono mb-5 max-w-[415px]
+}
+
+.para {
+    @apply text-[14px] sm:text-[16px] 2xl:text-[18px] leading-normal max-w-[630px]
+}
+
+.lists {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-4 max-w-[450px] my-7
+}
+
+.items {
+    @apply flex items-center gap-3 text-[16px] md:text-[13px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] leading-normal font-medium
+}
+
+.cta {
+    @apply flex gap-4
+}
+
+.camera {
+    @apply absolute left-0 bottom-[100px] -z-10
+}
+
+.root {
+    @apply py-[60px] relative bg-black z-10
+}
+
+._flex {
+    @apply flex flex-wrap lg:flex-nowrap items-center lg:gap-10
+}
+
+.left {
+    @apply text-white basis-[625px] mb-[50px] lg:mb-0
+}

@@ -1,0 +1,15 @@
+.root {
+  @apply relative pt-[40px] lg:pb-[100px] md:pb-[80px] pb-[60px];
+}
+.grids {
+  @apply grid lg:grid-cols-2 grid-cols-1 items-center gap-10;
+}
+.title {
+  @apply text-[35px] sm:text-[40px] md:text-[50px] lg:text-[60px] leading-[1.1] font-mono text-black mb-3 max-w-[460px];
+}
+.para {
+  @apply xl:text-[18px] md:text-[16px] text-[14px] leading-normal text-navy max-w-[690px];
+}
+.cta {
+  @apply flex items-center gap-4 mt-8;
+}

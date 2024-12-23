@@ -1,0 +1,6 @@
+.title {
+    @apply font-mono font-normal text-center text-[25px] sm:text-[40px] md:text-[50px] lg:text-[55px] 2xl:text-[60px] leading-[1.1] max-w-[1125px] mx-auto;
+  }
+.img{
+    @apply mx-auto relative xl:-mb-32 lg:-mb-24
+}

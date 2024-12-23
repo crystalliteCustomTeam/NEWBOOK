@@ -1,0 +1,12 @@
+.root {
+  @apply lg:py-[100px] py-[60px];
+}
+.content {
+  @apply text-center;
+}
+.title {
+  @apply text-[30px] md:text-[35px] lg:text-[45px] 2xl:text-[60px] 3xl:text-[65px] leading-[1.1] font-mono mb-5;
+}
+.cta {
+  @apply flex justify-center gap-x-5 items-center md:mt-16 mt-10;
+}

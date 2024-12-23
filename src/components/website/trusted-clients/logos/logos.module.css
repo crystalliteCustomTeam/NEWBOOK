@@ -1,0 +1,17 @@
+.root {
+  @apply pt-0 max-w-[1300px] mx-auto
+}
+.__grid1 > div > img,
+.__grid2 > div > img,
+.__grid3 > div > img {
+  margin: 0 auto;
+}
+.__grid1 {
+  @apply grid grid-cols-5 items-center lg:gap-12 md:gap-8 gap-4 lg:pb-16 md:pb-12 pb-10;
+}
+.__grid2 {
+  @apply grid grid-cols-4 items-center lg:gap-12 md:gap-8 gap-4 lg:pb-16 md:pb-12 pb-10;
+}
+.__grid3 {
+  @apply md:flex md:justify-evenly grid grid-cols-3 md:gap-8 gap-4 items-center;
+}

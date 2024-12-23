@@ -1,0 +1,46 @@
+.root {
+    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-10
+}
+.slides {
+    @apply text-white pb-2
+}
+
+.imgBox {
+    @apply rounded-xl overflow-hidden relative
+}
+
+.episode {
+    @apply absolute left-[40px] bottom-[40px] flex w-[170px] bg-white rounded-full items-center h-[40px] gap-3
+}
+
+.episode .icon {
+    @apply w-[60px] bg-blue h-full flex items-center rounded-full justify-center
+}
+
+.episode .number {
+    @apply inline-block text-[14px] leading-tight font-manrope text-purple
+}
+
+.title {
+    @apply text-[24px] sm:text-[20px] 2xl:text-[26px] font-mono leading-tight my-7
+}
+
+.details {
+    @apply flex gap-3 md:gap-1 lg:gap-2 2xl:gap-4 sm:gap-8 pb-5 border-b-2 border-white mb-5
+}
+
+.details .col {
+    @apply flex items-center gap-3 md:gap-1 lg:gap-2 2xl:gap-3
+}
+
+.details .col .name {
+    @apply text-[12px] lg:text-[14px] xl:text-[12px] 2xl:text-[16px] leading-tight inline-block
+}
+
+.para {
+    @apply text-[12px] lg:text-[14px] xl:text-[12px] 2xl:text-[16px] leading-normal mb-5
+}
+
+.cta {
+    @apply text-[12px] lg:text-[14px] xl:text-[12px] 2xl:text-[16px] leading-tight underline underline-offset-8
+}

@@ -1,0 +1,27 @@
+.root {
+  @apply lg:py-[100px] md:py-[80px] py-[60px];
+}
+.content {
+  @apply max-w-[1300px] mx-auto text-center;
+}
+.title {
+  @apply text-[30px] sm:text-[35px] lg:text-[45px] xl:text-[50px] 2xl:text-[60px] leading-[1.1] font-mono mb-5;
+}
+.para {
+  @apply text-[14px] sm:text-[16px] xl:text-[24px] font-mono text-[#101828] leading-normal mb-5 last:mb-0;
+}
+.__grid {
+  @apply lg:grid lg:grid-cols-3 flex flex-wrap justify-center sm:gap-x-10 gap-y-10 my-[50px];
+}
+.card {
+  @apply text-center sm:basis-[45%] basis-[100%];
+}
+.card .title {
+  @apply text-[40px] md:text-[60px] xl:text-[80px] 2xl:text-[100px] 3xl:text-[120px] leading-[1.1] font-mono mb-3 text-black;
+}
+.card .desc {
+  @apply block text-[14px] xl:text-[16px] 2xl:text-[20px] 3xl:text-[23px] text-navy leading-normal;
+}
+.cta {
+  @apply flex items-center justify-center gap-4;
+}

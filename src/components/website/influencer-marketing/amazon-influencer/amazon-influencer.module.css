@@ -1,0 +1,19 @@
+.root {
+  @apply lg:pt-[100px] md:py-[80px] py-[60px];
+}
+.__grid {
+  @apply grid lg:grid-cols-2 grid-cols-1 gap-x-5 items-center;
+}
+.title {
+  @apply text-[30px] sm:text-[40px] xl:text-[50px] 2xl:text-[60px] 3xl:text-[65px] leading-[1.1] font-mono mb-5;
+}
+.lists {
+  @apply grid grid-cols-1 gap-x-2 gap-y-4 my-7;
+}
+
+.items {
+  @apply flex items-center gap-3 text-black text-[16px] md:text-[13px] lg:text-[15px] xl:text-[16px] 2xl:text-[25px] leading-normal font-mono;
+}
+.cta {
+  @apply flex gap-4;
+}

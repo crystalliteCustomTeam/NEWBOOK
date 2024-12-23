@@ -1,0 +1,26 @@
+.root {
+    @apply lg:w-[50%] 3xl:w-[55%] pb-[60px] lg:py-0 lg:ml-auto overflow-hidden
+}
+
+.slides {
+    @apply grow-0 shrink-0 basis-[290px] md:basis-[390px] pl-5
+}
+
+.cards {
+    @apply [boxShadow:_18px_15px_35px_0px_#00000017] py-8 px-4 xl:p-8 3xl:p-10  hover:bg-black transition-all duration-500 rounded-[20px]
+}
+
+.title {
+    @apply text-xl xl:text-2xl 3xl:text-3xl font-mono font-normal leading-tight mb-5 transition-all duration-500
+}
+
+.para {
+    @apply text-base sm:text-sm xl:text-base 3xl:text-lg text-navy  leading-normal mb-5 transition-all duration-500
+}
+
+.cta {
+    @apply text-base 3xl:text-lg text-navy  leading-normal hover:text-white hover:underline hover:underline-offset-8 transition-all duration-500 [&_img]:opacity-0 [&:hover_img]:opacity-100 [&_img]:-translate-x-5 [&:hover_img]:translate-x-0 [&_img]:transition-all [&_img]:duration-500
+}
+.cta a {
+    @apply inline-flex gap-2 items-center
+}

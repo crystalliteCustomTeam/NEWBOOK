@@ -1,0 +1,9 @@
+.root {
+  @apply relative xl:py-[90px] lg:py-[80px] py-[60px];
+}
+.__content {
+  @apply text-center lg:pb-[80px] md:pb-[60px] pb-[40px];
+}
+.title {
+  @apply lg:text-[55px] md:text-[45px] text-[30px] leading-tight font-normal font-mono capitalize;
+}

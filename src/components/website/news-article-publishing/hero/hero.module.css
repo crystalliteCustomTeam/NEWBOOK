@@ -1,0 +1,19 @@
+.root {
+  @apply text-white flex flex-col items-end relative z-10 2xl:py-[250px] lg:py-[200px] py-[150px] pb-[80px];
+}
+
+.title {
+  @apply font-mono font-normal text-[30px] sm:text-[40px] md:text-[50px] lg:text-[55px] 2xl:text-[60px] leading-[1.1] mb-4 3xl:max-w-[700px] max-w-[650px];
+}
+
+.para {
+  @apply text-[14px] sm:text-[16px] lg:text-[18px] leading-normal max-w-[650px] mb-8;
+}
+
+.cta {
+  @apply flex gap-4;
+}
+
+.bg {
+  @apply object-cover object-center -z-10;
+}

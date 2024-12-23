@@ -1,0 +1,33 @@
+.tabList {
+  @apply w-full h-full p-0 bg-transparent flex-wrap gap-10 lg:justify-between justify-center;
+}
+.__grid {
+  @apply flex gap-x-8 md:overflow-hidden overflow-x-scroll;
+}
+.title {
+  @apply text-[25px] sm:text-[35px] xl:text-[40px] text-black 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono;
+}
+.tabTrigger {
+  @apply capitalize w-max px-6 text-lg font-manrope font-medium border-2 border-[#4A4A6880] rounded-full;
+}
+.content {
+  @apply w-full xl:my-[100px] my-[80px];
+}
+.__grid2 {
+  @apply grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 items-center mt-0;
+}
+.card {
+  @apply py-3 xl:px-5 px-3 bg-[#FAFAFA] transition-all ease-in-out duration-500 shadow-[0px_4px_12px_rgba(0,_0,_0,_0.08)] hover:shadow-[0px_4px_12px_rgba(0,_0,_0,_0.18)] rounded-2xl;
+}
+.__grid3 {
+  @apply flex justify-between sm:items-center items-end;
+}
+.img {
+  @apply flex 2xl:gap-4 gap-2 overflow-hidden rounded-xl;
+}
+.name {
+  @apply 3xl:text-[25px] 2xl:text-[22px] text-[18px] leading-none text-black font-mono mb-2;
+}
+.about {
+  @apply text-base leading-none font-normal font-manrope text-navy mb-2;
+}

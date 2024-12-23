@@ -1,0 +1,7 @@
+.root {
+    @apply py-[50px] sm:py-[60px]
+}
+
+.video {
+    @apply w-full sm:w-[80%] max-w-[1300px] mx-auto shadow-[0px_20px_50px_0px_#00000033]
+}

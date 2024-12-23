@@ -1,0 +1,42 @@
+.root {
+  @apply lg:py-[100px] md:py-[80px] py-[60px];
+}
+.content {
+  @apply max-w-[1200px] lg:pb-[100px] md:pb-[80px] pb-[60px];
+}
+.title {
+  @apply text-[25px] sm:text-[35px] lg:text-[40px] xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono;
+}
+.__grid {
+  @apply grid grid-cols-12 items-center lg:gap-x-10 gap-y-10;
+}
+.leftColumn {
+  @apply xl:col-span-4 lg:col-span-5 col-span-12 h-full;
+}
+.card {
+  @apply 3xl:px-[70px] xl:px-[60px] xl:py-0 py-[40px] md:px-[50px] px-[30px] bg-[#F2F5F7] h-full flex flex-col justify-center rounded-[20px];
+}
+.card .title {
+  @apply text-[25px] sm:text-[35px] lg:text-[40px] 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono my-3;
+}
+.card .para {
+  @apply text-[14px] sm:text-[16px] xl:text-[18px] 3xl:text-[20px] leading-normal text-navy;
+}
+.rightColumn {
+  @apply xl:col-span-8 lg:col-span-7 col-span-12 h-full;
+}
+.imgBox {
+  @apply relative h-full;
+}
+.imgBox img:not(.icon img) {
+  @apply w-full h-full rounded-2xl;
+}
+.episode {
+  @apply absolute sm:left-[40px] left-[20px] sm:bottom-[40px] bottom-[20px] flex w-[170px] bg-white rounded-full items-center h-[40px] gap-3;
+}
+.episode .icon {
+  @apply w-[60px] bg-blue h-full flex items-center rounded-full justify-center;
+}
+.episode .number {
+  @apply inline-block text-[14px] leading-tight font-manrope text-purple;
+}

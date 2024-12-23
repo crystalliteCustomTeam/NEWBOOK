@@ -1,0 +1,21 @@
+.root {
+  @apply lg:py-[80px] py-[50px] bg-[#F2F5F7];
+}
+.content {
+  @apply text-center;
+}
+.title {
+  @apply text-[22px] sm:text-[35px] xl:text-[40px] 2xl:text-[50px] 3xl:text-[55px] leading-[1.1] font-mono;
+}
+.__grid {
+  @apply grid grid-cols-12 lg:py-[80px] py-[40px];
+}
+.hidColumn {
+  @apply lg:col-span-1;
+}
+.mainColumn {
+  @apply lg:col-span-10 col-span-12;
+}
+.cta {
+  @apply flex justify-center items-center gap-4;
+}

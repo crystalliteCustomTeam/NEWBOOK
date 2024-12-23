@@ -1,0 +1,24 @@
+.root {
+    @apply text-white flex flex-col items-end relative z-10 pt-[150px] md:pt-[200px] pb-[60px] lg:pt-[250px] lg:pb-[250px]
+}
+.grids{
+    @apply grid lg:grid-cols-2 grid-cols-1
+}
+.content {
+    @apply max-w-[600px] lg:ms-auto
+}
+.title {
+    @apply font-mono font-normal text-[30px] sm:text-[40px] md:text-[50px] lg:text-[55px] 2xl:text-[60px] leading-[1.1] mb-4
+}
+
+.para {
+    @apply text-[14px] sm:text-[16px] lg:text-[18px] leading-normal mb-8
+}
+
+.cta {
+    @apply block text-[25px] md:text-[40px] lg:text-[50px] leading-tight font-mono font-normal
+}
+
+.bg {
+    @apply object-cover object-center -z-10
+}

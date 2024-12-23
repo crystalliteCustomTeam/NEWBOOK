@@ -1,0 +1,35 @@
+.root {
+  @apply relative pb-[50px] lg:py-[100px];
+}
+
+.img {
+  @apply lg:absolute lg:top-0 lg:left-0 lg:bottom-0 lg:w-[50%] lg:h-full lg:object-fill lg:object-left;
+}
+
+.grids {
+  @apply lg:flex justify-end mt-[50px] lg:mt-0;
+}
+
+.cols {
+  @apply md:basis-1/2 sm:pl-[30px] xl:pl-[40px];
+}
+
+.title {
+  @apply text-[35px] sm:text-[40px] md:text-[50px] lg:text-[60px] 3xl:text-[65px] leading-[1.1] font-mono mb-5 max-w-[500px];
+}
+
+.para {
+  @apply text-[14px] sm:text-[16px] 2xl:text-[18px] leading-normal text-navy max-w-[700px];
+}
+
+.lists {
+  @apply grid grid-cols-1 gap-x-2 gap-y-4 my-7;
+}
+
+.items {
+  @apply flex items-center gap-3 text-black text-[16px] md:text-[13px] lg:text-[15px] xl:text-[16px] 2xl:text-[25px] leading-normal font-mono;
+}
+
+.cta {
+  @apply flex gap-4;
+}

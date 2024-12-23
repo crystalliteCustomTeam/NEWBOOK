@@ -1,0 +1,9 @@
+.root {
+  @apply bg-black lg:pt-[100px] md:pt-[80px] pt-[60px];
+}
+.content {
+  @apply text-white text-center pb-[40px];
+}
+.title {
+  @apply text-[30px] sm:text-[35px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[55px] leading-[1.1] font-mono mb-5 3xl:max-w-[600px] 2xl:max-w-[500px] lg:max-w-[500px] mx-auto;
+}

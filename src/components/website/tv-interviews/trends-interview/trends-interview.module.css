@@ -1,0 +1,9 @@
+.root{
+  @apply bg-black lg:py-[100px] md:py-[80px] py-[60px]
+}
+.content {
+  @apply max-w-[750px] md:pb-[80px] pb-[60px];
+}
+.title {
+  @apply text-[25px] sm:text-[35px] xl:text-[40px] text-white 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono;
+}

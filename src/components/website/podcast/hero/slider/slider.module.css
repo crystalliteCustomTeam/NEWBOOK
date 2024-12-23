@@ -1,0 +1,7 @@
+.slides {
+    @apply grow-0 shrink-0 basis-full pl-4
+}
+
+.img {
+    @apply rounded-[20px] overflow-hidden
+}

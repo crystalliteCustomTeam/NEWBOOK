@@ -1,0 +1,43 @@
+.root {
+    @apply py-[100px]
+}
+
+.content {
+    @apply text-center mb-[50px]
+}
+
+.content  .title {
+    @apply text-[35px] md:text-[40px] xl:text-[50px] 2xl:text-[60px] leading-none font-mono mb-3
+}
+
+.content  .para {
+    @apply text-[14px] sm:text-[16px] xl:text-[18px] 3xl:text-[20px] leading-normal text-navy
+}
+
+._grids {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 2xl:gap-[40px]
+}
+
+.cards {
+    @apply  hover:p-5 transition-all duration-300 rounded-xl overflow-hidden cursor-pointer hover:bg-[#E4EBEF] h-[535px] [boxShadow:_0px_10px_30px_rgba(0,_0,_0,_0.07)]
+}
+
+.cards ._img {
+    @apply h-full object-cover object-top transition-all duration-300 w-full
+}
+
+._flex {
+    @apply mb-3 mt-5 flex items-center justify-between
+}
+
+._flex .title {
+    @apply text-[25px] leading-none font-mono opacity-0 transition-all duration-300
+}
+
+.cards .para {
+    @apply text-[16px] sm:text-[18px] leading-normal text-navy opacity-0 transition-all duration-300 max-w-[260px]
+}
+
+.cta {
+    @apply flex text-white items-center text-sm md:text-base leading-none px-3 md:px-0 h-[40px] w-[200px] md:h-[50px] rounded-xl bg-gradient justify-center uppercase transition-all duration-300 mt-[50px] hover:bg-black hover:border hover:border-white hover:[boxShadow:0px_5px_15px_rgba(255,_118,_117,_0.3)] hover:bg-none mx-auto
+}

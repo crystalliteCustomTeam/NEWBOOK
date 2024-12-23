@@ -1,0 +1,15 @@
+.root {
+  @apply relative;
+}
+.content {
+  @apply mb-5;
+}
+.title {
+  @apply font-mono font-normal text-[25px] md:text-[35px] lg:text-[45px] 2xl:text-[55px] 3xl:text-[60px] mb-3 leading-[1.1] xl:max-w-[75%] lg:max-w-[80%];
+}
+.para {
+  @apply text-[14px] md:text-[16px] 3xl:text-[20px] leading-normal text-navy 3xl:max-w-[68%] xl:max-w-[62%];
+}
+.img {
+  @apply mx-auto object-cover object-center;
+}

@@ -1,0 +1,24 @@
+.__root {
+  @apply bg-[#0A1225] border-y border-[#334155] py-[20px];
+}
+.__bottomBar {
+  @apply xl:grid xl:grid-cols-3 flex flex-wrap justify-center gap-5 items-center text-[#94A3B8];
+}
+.__bottomBar .copyright {
+  @apply block lg:text-start text-center lg:basis-[45%] basis-full;
+}
+.__grid {
+  @apply flex sm:gap-5 gap-2 md:mx-auto xl:justify-start lg:justify-end justify-center  lg:basis-[45%] basis-full;
+}
+.__grid a {
+  @apply transition-all ease-in-out duration-500 hover:text-white;
+}
+.__grid span {
+  @apply ps-5;
+}
+.__grid2 {
+  @apply flex gap-5 xl:ms-auto items-center xl:justify-start justify-center  lg:basis-[50%] basis-full;
+}
+.__smmIcons {
+  @apply bg-[#C4C4C433] transition-all ease-in-out duration-500 hover:opacity-50 inline-flex items-center justify-center w-8 h-8 rounded-full;
+}

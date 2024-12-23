@@ -1,0 +1,27 @@
+.root {
+    @apply absolute left-0 right-0 top-0 z-50 transition duration-200 cursor-pointer
+}
+
+.navbar {
+    @apply text-lg font-manrope font-medium
+}
+
+.row {
+    @apply flex items-center gap-5 py-8
+}
+
+.logo {
+    @apply block mr-auto
+}
+
+.navlist {
+    @apply hidden xl:block xl:mr-[150px]
+}
+
+.mobileNav {
+    @apply flex items-center xl:hidden
+}
+
+.cta {
+    @apply hidden sm:block text-white
+}

@@ -1,0 +1,15 @@
+.slides {
+    @apply grow-0 shrink-0 basis-[300px] pl-[50px] cursor-pointer
+}
+
+.title {
+    @apply text-[25px] font-mono leading-[1.1] mt-5 mb-3
+}
+
+.para {
+    @apply text-[14px] sm:text-[16px] 2xl:text-[18px] leading-normal text-navy max-w-[630px]
+}
+
+.slides  img {
+    @apply transition-all duration-300 hover:[boxShadow:_18px_15px_35px_0px_#00000017] scale-100 hover:scale-105
+}

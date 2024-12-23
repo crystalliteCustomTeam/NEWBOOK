@@ -1,0 +1,7 @@
+.root {
+  @apply relative;
+}
+
+.video {
+  @apply w-full h-full rounded-[20px] mx-auto shadow-[0px_20px_50px_0px_#00000033];
+}

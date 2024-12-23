@@ -1,0 +1,19 @@
+.root {
+    @apply relative lg:py-[80px] py-[50px];
+  }
+  .__grid {
+    @apply grid lg:grid-cols-2 grid-cols-1 items-center lg:gap-x-5 gap-y-10;
+  }
+  .content {
+    @apply lg:max-w-[650px] lg:ms-auto;
+  }
+  .title {
+    @apply text-[25px] sm:text-[35px] xl:text-[40px] 2xl:text-[50px] 3xl:text-[55px] leading-[1.1] font-mono mb-5 3xl:max-w-[650px] lg:max-w-[600px];
+  }
+  .para {
+    @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal lg:max-w-[700px];
+  }
+  .cta {
+    @apply flex items-center gap-4 mt-7;
+  }
+  

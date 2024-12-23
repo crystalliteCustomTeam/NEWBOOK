@@ -1,0 +1,17 @@
+.root {
+  @apply grid sm:grid-cols-2 grid-cols-1 gap-x-3 xl:gap-x-8 gap-y-4 xl:gap-y-4 mt-[40px] max-w-[1300px] mx-auto;
+}
+
+.cards {
+  @apply rounded-[20px] h-full [boxShadow:0px_10px_80px_rgba(0,_0,_0,_0.1)] p-6 md:p-8 transition-all duration-500 lg:odd:-mt-[60px];
+}
+.__grid {
+  @apply grid grid-cols-2 items-center;
+}
+.title {
+  @apply text-xl xl:text-2xl 3xl:text-[32px] font-mono text-[#E735AA] font-normal leading-tight mt-5 mb-2;
+}
+
+.para {
+  @apply block text-base sm:text-sm xl:text-base 3xl:text-lg text-navy leading-normal;
+}

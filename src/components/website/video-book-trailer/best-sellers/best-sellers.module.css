@@ -1,0 +1,27 @@
+.root {
+  @apply lg:py-[100px] md:py-[80px] py-[60px];
+}
+.content {
+  @apply max-w-[700px] mx-auto text-center;
+}
+.title {
+  @apply text-[35px] sm:text-[40px] md:text-[50px] lg:text-[60px] 3xl:text-[65px] leading-[1.1] font-mono mb-3;
+}
+.para {
+  @apply text-[14px] sm:text-[16px] 3xl:text-[18px] leading-normal text-navy;
+}
+.cardGrid {
+  @apply grid lg:grid-cols-5 sm:grid-cols-3 grid-cols-2 items-center sm:gap-x-10 gap-x-5 gap-y-10 md:py-[60px] py-[50px];
+}
+.card .img {
+  @apply transition-all ease-in-out duration-300 shadow-[0_0_50px_rgba(0,_0,_0,_0.4)] mb-3;
+}
+.card .title {
+  @apply sm:text-[28px] text-[20px] leading-[1.3] text-black font-mono mb-1;
+}
+.card .para {
+  @apply text-[12px] sm:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[20px] leading-normal text-navy;
+}
+.cta {
+  @apply flex items-center justify-center gap-4;
+}

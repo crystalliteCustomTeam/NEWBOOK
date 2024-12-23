@@ -1,0 +1,16 @@
+.root {
+  @apply grid sm:grid-cols-2 grid-cols-1 items-center 2xl:gap-[40px] sm:gap-[30px] gap-[20px];
+}
+.cards {
+  @apply rounded-[20px] bg-[#F2F5F7] py-8 px-4 xl:p-8 3xl:p-10  hover:bg-black transition-all duration-500 xl:h-auto h-full xl:[&:nth-child(2)]:mt-[160px] xl:[&:nth-child(3)]:mt-[-160px]
+}
+.icon {
+  @apply mb-5
+}
+.title {
+  @apply text-[25px] xl:text-[30px] 2xl:text-[35px] 3xl:text-[40px] font-mono font-normal leading-tight mb-5 transition-all line-clamp-2 duration-500;
+}
+
+.para {
+  @apply text-base sm:text-sm xl:text-base 3xl:text-lg text-navy  leading-normal mb-5 transition-all duration-500;
+}

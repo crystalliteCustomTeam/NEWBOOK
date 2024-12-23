@@ -1,0 +1,3 @@
+.video {
+    @apply rounded-[15px] md:rounded-[30px] w-[90%] max-w-[380px] mx-auto [filter:drop-shadow(0px_20px_50px_rgba(0,_0,_0,_0.2))]
+}

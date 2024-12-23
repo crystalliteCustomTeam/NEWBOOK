@@ -1,0 +1,15 @@
+.slides {
+  @apply grow-0 shrink-0 basis-full md:basis-[50%] lg:basis-[45%] xl:basis-[35%] 2xl:basis-[32%] 3xl:basis-[28%] pl-4;
+}
+
+.cards {
+  @apply shadow-[0px_4px_12px_rgba(0,_0,_0,_0.08)] bg-white rounded-xl p-5 mb-5 text-[#2E2E2E];
+}
+
+.title {
+  @apply text-sm line-clamp-1 sm:text-base font-manrope font-bold leading-tight transition-all duration-500;
+}
+
+.para {
+  @apply text-sm xl:text-base 3xl:text-lg text-[#6B6B78]  leading-normal transition-all duration-500;
+}

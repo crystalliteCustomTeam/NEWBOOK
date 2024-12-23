@@ -1,0 +1,18 @@
+.title {
+  @apply font-mono text-center font-normal text-[22px] md:text-[35px] lg:text-[45px] 2xl:text-[55px] 3xl:text-[60px] mb-10 leading-[1.1];
+}
+.__grid {
+  @apply grid grid-cols-12;
+}
+.mobColumn {
+  @apply lg:col-span-1 col-span-12;
+}
+.deskColumn {
+  @apply lg:col-span-10;
+}
+.deskImg {
+  @apply lg:block hidden object-cover object-center mx-auto;
+}
+.mobImg {
+  @apply lg:hidden block object-cover object-center mx-auto first:mb-5;
+}

@@ -1,0 +1,19 @@
+.root {
+    @apply lg:w-[50%] 3xl:w-[55%] pt-[50px]  pb-[80px] lg:py-0 lg:ml-auto overflow-hidden
+}
+
+.slides {
+    @apply grow-0 shrink-0 basis-[250px] 3xl:basis-[270px] text-center border-y border-[#EEF3F5] h-[300px] flex items-center justify-center flex-col gap-4 hover:[boxShadow:_18px_15px_35px_0px_#00000017] border-x
+}
+
+.slides img {
+    @apply mx-auto
+}
+
+.slides h3 {
+    @apply text-[24px] font-mono font-normal
+}
+
+.slides p {
+    @apply text-navy text-lg 3xl:text-xl leading-normal min-h-[50px]
+}

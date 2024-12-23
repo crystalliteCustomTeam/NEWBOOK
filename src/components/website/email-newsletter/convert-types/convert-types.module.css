@@ -1,0 +1,16 @@
+.root {
+  @apply py-[60px] md:py-[100px] bg-[#F2F5F7];
+}
+.content {
+  @apply max-w-[1220px];
+}
+.title {
+  @apply text-[25px] sm:text-[35px] md:text-[45px] lg:text-[50px] xl:text-[55px] 2xl:text-[60px] leading-[1.1] font-mono mb-6;
+}
+
+.para {
+  @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal;
+}
+.cta {
+  @apply flex justify-center gap-x-4 mt-8 md:mt-14;
+}

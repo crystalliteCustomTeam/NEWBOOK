@@ -1,0 +1,21 @@
+.root {
+  @apply grid grid-cols-12 gap-x-3 xl:gap-x-5 gap-y-4 xl:gap-y-8 mt-[50px] max-w-[1300px] mx-auto;
+}
+
+.cards {
+  @apply relative z-10 rounded-[20px] p-6 md:p-8 hover:bg-transparent border-2 transition-all duration-500 col-span-12 sm:col-span-6 lg:col-span-4;
+}
+
+.title {
+  @apply text-[25px] lg:text-[30px] 3xl:text-[32px] font-mono font-normal leading-tight my-5 transition-all duration-500 max-w-[280px];
+}
+
+.para {
+  @apply text-base sm:text-sm xl:text-base 3xl:text-lg text-navy leading-normal transition-all duration-500;
+}
+.cards span {
+  @apply block absolute w-full h-full left-0 right-0 bottom-0 top-0 -z-10 opacity-0 rounded-[20px] bg-[linear-gradient(248.66deg,_rgba(0,_0,_0,_0.24)_0%,_rgba(0,_0,_0,_0.92)_100%)] transition-all duration-500;
+}
+.cards img {
+  @apply absolute w-full h-full left-0 right-0 bottom-0 top-0 -z-20 opacity-0 rounded-[20px] transition-all duration-500;
+}

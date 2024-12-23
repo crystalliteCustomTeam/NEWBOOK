@@ -1,0 +1,12 @@
+.root {
+  @apply lg:py-[90px] md:py-[70px] py-[50px];
+}
+.content {
+  @apply lg:mb-[70px] mb-[40px];
+}
+.title {
+  @apply font-mono font-normal text-[30px] md:text-[35px] lg:text-[45px] 2xl:text-[55px] 3xl:text-[60px] mb-3 leading-[1.1] xl:max-w-[70%] lg:max-w-[80%];
+}
+.para {
+  @apply text-[14px] md:text-[16px] 3xl:text-[20px] leading-normal text-navy;
+}

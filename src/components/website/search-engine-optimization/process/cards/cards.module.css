@@ -1,0 +1,15 @@
+.root {
+  @apply grid sm:grid-cols-2 grid-cols-1 items-center gap-[20px];
+}
+.cards {
+  @apply relative rounded-[20px] bg-white shadow-[0px_10px_80px_0px_#0000001A] py-8 px-4 xl:p-8 3xl:p-10  hover:bg-black transition-all duration-500 xl:h-auto h-full xl:[&:nth-child(2)]:mt-[110px] xl:[&:nth-child(3)]:mt-[-80px]
+}
+.counter{
+  @apply block 3xl:text-[100px] text-[80px] font-mono font-bold text-black opacity-10 absolute right-5 -bottom-5 transition-all duration-500
+}
+.title {
+  @apply text-[25px] xl:text-[30px] 2xl:text-[28px] 3xl:text-[32px] font-mono font-normal leading-tight mb-3 transition-all duration-500;
+}
+.para {
+  @apply  text-xs xl:text-base 3xl:text-base text-navy  leading-normal transition-all duration-500 md:min-h-[120px] min-h-[80px];
+}

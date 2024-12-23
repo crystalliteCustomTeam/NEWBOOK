@@ -1,0 +1,19 @@
+.toggle {
+    @apply inline-flex flex-col gap-2 ml-auto
+}
+
+.toggle span {
+    @apply block w-[35px] h-[3px] bg-white
+}
+
+.sheet {
+    @apply text-xl leading-loose font-medium
+}
+
+.dropdown {
+    @apply inline-flex items-center
+}
+
+.submenu {
+    @apply text-xl leading-loose font-manrope font-medium
+}
