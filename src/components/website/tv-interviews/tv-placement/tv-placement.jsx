@@ -20,8 +20,8 @@ export default function TvPlacement() {
                         </div>
                         <div>
                             <div>
-                                <h2 className={styles.title}>What Can TV Placement Do For You?</h2>
-                                <p className={styles.para}>Get booked on major TV networks for news stories and positive media coverage that will get you the right attention you need.</p>
+                                <h2 className={styles.title}>Get Started with Book Marketing</h2>
+                                <p className={styles.para}>Want to boost your public presence with TV interviews? Contact us today to learn how our services can enhance your media exposure!</p>
                                 <div className={styles.cta}>
                                     <CTAGroupLight />
                                 </div>

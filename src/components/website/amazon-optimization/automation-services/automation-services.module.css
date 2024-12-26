@@ -11,10 +11,10 @@
     @apply lg:col-span-6 col-span-12;
   }
   .title {
-    @apply text-[25px] sm:text-[35px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[55px] leading-[1.1] font-mono mb-5 3xl:max-w-[730px] 2xl:max-w-[630px] lg:max-w-[500px];
+    @apply text-[25px] sm:text-[30px] xl:text-[35px] 2xl:text-[43px] 3xl:text-[50px] leading-[1.1] font-mono mb-5 3xl:max-w-[730px] 2xl:max-w-[630px] lg:max-w-[500px];
   }
   .para {
-    @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal lg:max-w-[750px];
+    @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal lg:max-w-[650px];
   }
   .cta {
     @apply flex items-center gap-4 mt-7;

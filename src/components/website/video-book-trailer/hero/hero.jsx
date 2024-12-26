@@ -16,10 +16,10 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Tap Into Video Book Trailer Services to Boost Your Results!
+                            Build Excitement for Your Book with Our Trailer Services!
                             </h1>
                             <p className={style.para}>
-                            Keep your audience captivated and steadily guide them toward a purchase with targeted News / Article Publishing services.
+                            Create buzz for your book with a Video Book Trailer that captures its essence and hooks your audience on the go.
                             </p>
                             <div className={style.cta}>
                                 <CTAGroupDark />

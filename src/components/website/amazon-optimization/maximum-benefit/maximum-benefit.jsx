@@ -17,8 +17,8 @@ export default function MaximumBenefit() {
                             <Image src={DeliveryModel} alt="domain" className={styles.img} />
                         </div>
                         <div className={styles.content}>
-                            <h2 className={styles.title}>Streamline your operations for maximum benefit.</h2>
-                            <p className={styles.para}>At Book Marketing, we enhance your operational efficiency to drive sales growth. Whether you operate with FBA, FBM, or PL, our Amazon seller specialists manage listings, orders, product sourcing, and inventory. With state-of-the-art automation tools, your store operates seamlessly round the clock, ensuring continuous performance.</p>
+                            <h2 className={styles.title}>From Clicks to Conversions: Make the Most of Amazon Marketing with Book Marketing Today</h2>
+                            <p className={styles.para}>Optimize the art of Amazon Marketing by signing up our services.</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />
                             </div>

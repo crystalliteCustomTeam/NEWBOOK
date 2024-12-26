@@ -1,5 +1,5 @@
 // Next
-import Image from "next/image";
+import Image from "next/image"
 // Css
 import styles from "./logos.module.css"
 // Media
@@ -17,37 +17,46 @@ import Logo11 from "media/home/trusted-clients/logos/11.jpg"
 import Logo12 from "media/home/trusted-clients/logos/12.jpg"
 
 export default function Logos() {
-    return (
-        <div className={styles.root}>
-            <div className={styles.__grid1}>
-                {
-                    [Logo1, Logo2, Logo3, Logo4, Logo5].map((e, i) => (
-                        <div key={i}>
-                            <Image src={e} alt="icons" />
-                        </div>
-                    ))
-                }
-            </div>
+  const logos = [
+    Logo1,
+    Logo2,
+    Logo3,
+    Logo4,
+    Logo5,
+    Logo6,
+    Logo7,
+    Logo8,
+    Logo9,
+    Logo10,
+    Logo11,
+    Logo12,
+  ]
 
-            <div className={styles.__grid2}>
-                {
-                    [Logo6, Logo7, Logo8, Logo9].map((e, i) => (
-                        <div key={i}>
-                            <Image src={e} alt="icons" />
-                        </div>
-                    ))
-                }
-            </div>
+  return (
+    <div className={styles.root}>
+      <div className={styles.__grid1}>
+        {logos.slice(0, 5).map((logo, i) => (
+          <div key={i}>
+            <Image src={logo} alt="icons" />
+          </div>
+        ))}
+      </div>
 
-            <div className={styles.__grid3}>
-                {
-                    [Logo10, Logo11, Logo12].map((e, i) => (
-                        <div key={i}>
-                            <Image src={e} alt="icons" />
-                        </div>
-                    ))
-                }
-            </div>
-        </div>
-    )
-};
+      <div className={styles.__grid2}>
+        {logos.slice(5, 9).map((logo, i) => (
+          <div key={i}>
+            <Image src={logo} alt="icons" />
+          </div>
+        ))}
+      </div>
+
+      <div className={styles.__grid3}>
+        {logos.slice(9).map((logo, i) => (
+          <div key={i}>
+            <Image src={logo} alt="icons" />
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}

@@ -14,32 +14,32 @@ const data = [
     {
         img: One,
         title: "Amazon PPC",
-        para: "Control the digital narrative, improve online visibility, and build trust with reputation management solutions designed for businesses of all sizes."
+        para: "Enable your business’ Amazon visibility to drive targeted sales with cost-savvy strategies."
     },
     {
         img: Two,
         title: "Amazon DSP",
-        para: "Earn more positive online reviews, remove negative reviews that interfere with your brand’s online reputation, and improve trust in your brand with cutting-edge review management solutions."
+        para: "Attract potential customers on and off Amazon with ads meant for your audience."
     },
     {
         img: Three,
         title: "External Traffic",
-        para: "Identify current and emerging threats, streamline communications, and recover quickly with customized crisis management solutions."
+        para: "Insufficient traffic on Amazon? Redirect some traffic from external sources to your listings."
     },
     {
         img: Four,
         title: "Amazon Marketing",
-        para: "Spot problems before they harm your business prospects with proactive 24/7 business reputation monitoring solutions designed for your needs."
+        para: "Let integrated marketing expand your business by advertising on Amazon."
     },
     {
         img: Five,
         title: "Listing Creation",
-        para: "Remove harmful content and information that has the potential to damage your hard-earned online reputation."
+        para: "Create specific product pages that target your desired audience on Amazon."
     },
     {
         img: Six,
         title: "Amazon PPC Audit",
-        para: "Develop a visible, authoritative, and influential brand with comprehensive business branding services."
+        para: "Re-evaluate your campaigns with a thorough Amazon PPC audit to reduct investment and maximize profits."
     }
 ]
 

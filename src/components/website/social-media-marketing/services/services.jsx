@@ -12,10 +12,10 @@ export default function Services() {
             <div className={style.root}>
                 <div className={style.content}>
                     <h2 className={style.title}>
-                        Other Services!
+                    Book Marketing’s Services at a Glance
                     </h2>
                     <p className={style.para}>
-                        Promote your book through a team of dedicated experts who understand  your physical, emotional, and monetary investment into the project and  are ready, willing, and able to take your book marketing worldwide.
+                    Writing a book is just the beginning. At Book Marketing, we help you choose the right strategies to maximize its potential within your budget:
                     </p>
                     <div className={style.cta}>
                         <CTAGroupLight />

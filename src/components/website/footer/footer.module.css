@@ -14,7 +14,7 @@
   @apply mx-auto xl:mx-[inherit]
 }
 .title {
-  @apply xl:text-[60px] lg:text-[50px] md:text-[40px] text-[30px] leading-tight font-mono font-normal text-center xl:text-left max-w-[500px] mx-auto xl:mx-[inherit];
+  @apply xl:text-[50px] lg:text-[40px] sm:text-[30px] text-[25px] leading-tight font-mono font-normal text-center xl:text-left max-w-[500px] mx-auto xl:mx-[inherit];
 }
 .__cta {
   @apply flex justify-center xl:justify-start gap-4 mt-10;

@@ -1,9 +1,9 @@
 .root {
-  @apply relative py-[50px] md:py-[80px] lg:py-[100px] lg:my-[80px];
+  @apply relative py-[50px] md:py-[80px] xl:py-[150px] lg:my-[80px];
 }
 
 .img {
-  @apply lg:absolute lg:top-0 lg:left-14 lg:bottom-0 lg:w-[50%] lg:h-full lg:object-fill lg:object-center;
+  @apply lg:absolute inset-[0_0_0_50px] lg:bottom-0 lg:w-[50%] lg:h-full lg:object-fill lg:object-center;
 }
 
 .grids {

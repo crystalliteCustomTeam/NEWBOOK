@@ -12,33 +12,33 @@ import Six from "media/online-reputation-management/icons/7.png"
 const data = [
     {
         img: One,
-        title: "Expertise and Creativity",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+        title: "Conceptualization",
+        para: "Develop a concept, tone, and message for your trailer."
     },
     {
         img: Two,
-        title: "Unique Approach",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+        title: "Footage Gathering",
+        para: "Collect necessary footage, whether new or existing."
     },
     {
         img: Three,
-        title: "Cost-Effective",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+        title: "Editing",
+        para: "Edit the footage into a cohesive and engaging trailer."
     },
     {
         img: Four,
-        title: "Fast Turnaround",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+        title: "Promotion",
+        para: "Promote your trailer across various channels."
     },
     {
         img: Five,
-        title: "Flexible",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+        title: "Ongoing Efforts",
+        para: "Support continuous promotion even after the release."
     },
     {
         img: Six,
-        title: "Guaranteed Satisfaction",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+        title: "Comprehensive Support",
+        para: "Our team guides you through every step, from concept to promotion."
     }
 ]
 

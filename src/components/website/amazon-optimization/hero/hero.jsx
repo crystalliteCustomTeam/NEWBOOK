@@ -16,7 +16,7 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                                Tap Into News / Article Publishing Services to Boost Your Results!
+                            Let Amazon Optimization Place Your Book on the Top Shelf Always!
                             </h1>
                             <p className={style.para}>
                                 Keep your audience captivated and steadily guide them toward a purchase with targeted News / Article Publishing services.

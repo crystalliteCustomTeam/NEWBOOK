@@ -7,24 +7,24 @@ import { CTAGroupLight } from "@/components"
 import styles from "./why-choose.module.css"
 
 export default function WhyChoose({
-    title = "What Makes Book Marketing the Best Ghostwriting Company?",
-    desc = "While our reasons are plenty, and our portfolio speaks for itself, we have summarized some of the highlights for you:",
+    title = "Why Choose Book Marketing?",
+    desc = "At Book Marketing, we combine creativity with strategy to deliver impactful solutions for promoting your book.",
     data = [
         {
-            title: "Customizable Bundles",
-            desc: "Unlike our competitors, we offer the best price in the industry, along with customizable service bundles to fit your budget and book marketing needs for maximum impact."
+            title: "Diverse Marketing Strategies",
+            desc: "Our book marketing services reach diverse audiences through social media campaigns, email marketing, and influencer partnerships to ensure your book gets noticed."
         },
         {
-            title: "24/7 Consultation and Support",
-            desc: "Worried about being ghosted by your service providers? At Book Marketing, our consultants are available around the clock to offer timely support and expert advice for your book."
+            title: "Supportive Community",
+            desc: "We help you build a loyal community of readers by fostering engagement and encouraging discussions, turning them into passionate advocates for your book."
         },
         {
-            title: "One-stop Hub",
-            desc: "With years of industry experience, Book Marketing is equipped to manage every aspect of your book’s journey. Our professional team delivers seamless and comprehensive execution from start to finish."
+            title: "Cutting-Edge Digital Tools",
+            desc: "Stay ahead with cutting-edge digital marketing tools, using targeted ads and analytics to ensure your book gets the attention it deserves."
         },
         {
-            title: "Satisfaction-guaranteed",
-            desc: "Our customers keep coming back to us because we deliver satisfaction-guaranteed results, ensuring every project exceeds expectations and leaves a lasting impression."
+            title: "Exclusive Author Merchandise",
+            desc: "Engage your audience with branded merchandise that reflects your book's theme. From bookmarks to custom prints, we create memorable items that fans can cherish and share."
         }
     ]
 }) {

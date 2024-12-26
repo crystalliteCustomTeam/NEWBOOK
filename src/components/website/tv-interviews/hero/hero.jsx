@@ -16,10 +16,10 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Tap Into TV Interviews Services to Boost Your Results!
+                            From Pages to Screens: Book Marketing’s TV Interviews Bring You to Your Reader’s Screens
                             </h1>
                             <p className={style.para}>
-                            Keep your audience captivated and steadily guide them toward a purchase with targeted TV Interview services.
+                            TV interviews are powerful for brand promotion. With Book Marketing’s TV Interview Service, we help your book gain recognition and connect with a wider audience. 
                             </p>
                             <div className={style.cta}>
                                 <CTAGroupDark />

@@ -38,7 +38,7 @@ export default function Footer() {
                                 </svg>
                             </Link>
                             <div className={styles.__content}>
-                                <h2 className={styles.title}>Let’s Talk About Your Project!</h2>
+                                <h2 className={styles.title}>Reach Out Today For A Free Consultation On Your Project</h2>
                                 <div className={styles.__cta}>
                                     <CTAGroupDark />
                                 </div>

@@ -11,8 +11,8 @@ export default function ImportanceOf() {
                 <div className="container">
                     <div className={style._grid}>
                         <div>
-                            <h2 className={style.title}>The Importance of Social Media Marketing!</h2>
-                            <p className={style.para}>More than half of consumers* turn to social media to learn about new brands, making social media management an essential component of At Book Marketing, we view social media management as the backbone of our approach, with data that supports our strategy.</p>
+                            <h2 className={style.title}>Having a social media account and managing it are two different aspects. </h2>
+                            <p className={style.para}>Our Social Media Managers ensure your content stays relevant, ranks high in searches, and aligns with current algorithms. </p>
                             <div className={style.cta}>
                                 <CTAGroupLight />
                             </div>

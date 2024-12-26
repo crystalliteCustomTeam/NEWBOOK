@@ -11,8 +11,8 @@ export default function OurCustomers({ bg = "bg-[#F2F5F7]" }) {
             <div className={`${styles.root} ${bg}`}>
                 <div className="container">
                     <div className={styles.content}>
-                        <h2 className={styles.title}>Here’s what Book Marketing Customers Have to Say!</h2>
-                        <p className={styles.para}>Our clientele speaks for itself. With a 100% retention rate and a loyal base of recurring clients, our track record reflects the trust and satisfaction we’ve earned by consistently delivering exceptional results.</p>
+                        <h2 className={styles.title}>Listen to What Our Customers Say!</h2>
+                        <p className={styles.para}>"I have always heard that getting a book published is no easy feat. That changed for me since I collaborated with teams at Book Marketing."</p>
                     </div>
                     <Cards />
                     <div className={styles.rating}>

@@ -15,8 +15,8 @@ export default function Publishing() {
                 <div className="container">
                     <div className={style.grids}>
                         <div className={style.cols}>
-                            <h2 className={style.title}>We help you take control of your online reputation with advanced online reputation management services.</h2>
-                            <p className={style.para}>We have exclusive partnerships with high-authority sites that can build a positive reputation for your business — in real life and on Google. By creating fresh online content, we’re able to replace negative search results to repair your reputation.</p>
+                            <h2 className={style.title}>Promote Your Book Trailer on Your Social Media</h2>
+                            <p className={style.para}>Share it on social media, include it on your website, and submit it to book-related platforms to maximize exposure.</p>
                             <div className={style.cta}>
                                 <CTAGroupLight />
                             </div>

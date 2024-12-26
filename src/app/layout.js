@@ -27,14 +27,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${fontSans.variable} ${fontMono.variable} ${fontManrope.variable} antialiased font-sans font-normal text-black`}
+        className={`${fontSans.variable} ${fontMono.variable} ${fontManrope.variable} antialiased font-sans font-normal text-black scroll-smooth`}
       >
         <Header />
         <main>
           {children}
         </main>
         <Footer />
-        <Popup />
+        {/* <Popup /> */}
       </body>
     </html>
   );

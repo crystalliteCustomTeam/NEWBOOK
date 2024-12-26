@@ -17,10 +17,10 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                                Welcome to Book Marketing Social Media Consulting Services!
+                            Social Media Marketing Services 
                             </h1>
                             <p className={style.para}>
-                                Get fired up about your social media profiles with next-generation social media marketing from THE social media marketing agency.
+                            In today’s digital world, a strong social media strategy is key to engaging your audience and boosting book revenue. At Book Marketing, we build your online presence through expert Social Media Management (SMM). 
                             </p>
                             <div className={style.cta}>
                                 <CTAGroupDark />

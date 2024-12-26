@@ -11,8 +11,8 @@ export default function ConvertTypes() {
             <div className={style.root}>
                 <div className="container">
                     <div className={style.content}>
-                        <h2 className={style.title}>Stand Out With Social Media Content That Converts</h2>
-                        <p className={style.para}>We understand that creating social content just because it’s trendy isn’t enough. Instead, we strive to remove ad waste and spend time and money on what works, helping your business achieve lasting social media marketing success and brand awareness across social media platforms.</p>
+                        <h2 className={style.title}>Our Social Media Services</h2>
+                        <p className={style.para}>Book Marketing’s comprehensive suite of social media services is designed to make your online presence stand out:</p>
                     </div>
                     <Cards />
                 </div>

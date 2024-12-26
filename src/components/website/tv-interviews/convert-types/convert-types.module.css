@@ -5,7 +5,7 @@
   @apply max-w-[1450px] mx-auto lg:flex lg:gap-x-10 lg:items-center;
 }
 .title {
-  @apply xl:basis-[90%] text-[30px] sm:text-[35px] xl:text-[45px] 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono mb-3;
+  @apply xl:basis-[90%] text-[25px] sm:text-[35px] xl:text-[40px] 2xl:text-[48px] leading-[1.1] font-mono mb-3;
 }
 .para {
   @apply lg:basis-[100%] text-[14px] sm:text-[16px] text-navy leading-normal;

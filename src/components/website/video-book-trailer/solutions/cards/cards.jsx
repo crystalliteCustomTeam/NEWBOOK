@@ -11,23 +11,23 @@ import Four from "media/amazon-optimization/icons/10.png"
 const data = [
     {
         img: One,
-        title: "Reputation Analysis",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Brevity",
+        para: "Keep it short and engaging"
     },
     {
         img: Two,
-        title: "Content Creation",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Clarity",
+        para: "Ensure clear audio"
     },
     {
         img: Three,
-        title: "Publishing",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Visuals",
+        para: "Use captivating visuals"
     },
     {
         img: Four,
-        title: "Promotion",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Storytelling",
+        para: "Tell a compelling story"
     }
 ]
 

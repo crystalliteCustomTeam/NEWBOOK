@@ -11,7 +11,7 @@
   @apply xl:py-[200px] lg:py-[120px] md:py-[80px] py-[50px];
 }
 .title {
-  @apply text-[25px] sm:text-[35px] xl:text-[45px] 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono mb-3;
+  @apply text-[25px] sm:text-[30px] xl:text-[38px] 2xl:text-[45px] 3xl:text-[50px] leading-[1.1] font-mono mb-3;
 }
 .para {
   @apply text-[14px] sm:text-[16px] 3xl:text-[18px] text-navy leading-normal mb-5 last:mb-0;

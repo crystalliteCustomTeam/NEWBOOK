@@ -98,7 +98,7 @@ export default function Header() {
                                     </div>
                                     :
                                     <div className={style.mobileNav}>
-                                        <MobileNav />
+                                        <MobileNav css={isMouseHover ? "!bg-black" : "bg-white"} />
                                     </div>
                                 }
                                 <div className={style.cta}>

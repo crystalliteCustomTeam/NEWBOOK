@@ -12,8 +12,8 @@ export default function ConvertTypes() {
             <div className={style.root}>
                 <div className="container">
                     <div className={style.content}>
-                        <h2 className={style.title}>Video Book Trailer Services!</h2>
-                            <p className={style.para}>Navigating the online world can be difficult, but your Video Book Trailer doesn’t have to be. As one of the leading Video Book Trailer Companies, Book Marketing begins by carefully examining online content and images, social media interactions, and search engine results. This step is vital to understanding your current online reputation score, whether you're an individual or a business. We analyze this information to create a clear picture of your current Video Book Trailer.</p>
+                        <h2 className={style.title}>How Book Trailers Help Authors</h2>
+                            <p className={style.para}>Book trailers generate buzz, attract new readers, and encourage word-of-mouth, making them a valuable marketing tool!</p>
                     </div>
                     <Cards />
                     <div className={style.cta}>

@@ -12,10 +12,9 @@ export default function ConvertTypes() {
             <div className={style.root}>
                 <div className="container">
                     <div className={style.content}>
-                        <h2 className={style.title}>Crush the Competition with Amazon Marketing!</h2>
+                        <h2 className={style.title}>Let Amazon Marketing Skyrocket Your Sales</h2>
                         <div>
-                            <p className={style.para}>If your products aren't ranking (or even showing up), you're missing out.</p>
-                            <p className={style.para}>Revenue growth is our sole focus when strategizing your Amazon campaigns. We have the secret formulas for balancing Amazon PPC and Amazon SEO to drive optimal campaign performance and increased profits.</p>
+                            <p className={style.para}>With eCommerce websites leading traditional markets, especially for international buyers, it’s time to leverage Amazon Marketing. Book Marketing provides simple services, letting you choose the one that best suits your needs and see instant results</p>
                         </div>
                     </div>
                     <Cards />

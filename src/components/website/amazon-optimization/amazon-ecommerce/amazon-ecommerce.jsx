@@ -11,7 +11,7 @@ export default function AmazonEcommerce() {
             <div className="pb-[40px]">
                 <div className="container">
                     <div className={styles.content}>
-                        <h2 className={styles.title}>89% of buyers purchase on Amazon over any other eCommerce site.</h2>
+                        <h2 className={styles.title}>Make the Most of Amazon By Gaining Access to its 89% Lead of Buyers than other eCommerce Websites</h2>
                     </div>
                     <div className="grid grid-cols-12 md:mt-14 mt-8">
                         <div className="lg:col-span-2"></div>

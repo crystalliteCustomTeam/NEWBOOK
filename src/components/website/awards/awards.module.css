@@ -7,9 +7,9 @@
 }
 
 .content .title {
-    @apply text-[30px] sm:text-[35px] md:text-[45px] xl:text-[55px] 3xl:text-[60px] font-mono font-normal leading-tight mb-4
+    @apply text-[22px] sm:text-[25px] md:text-[30px] xl:text-[35px] 2xl:text-[43px] font-mono font-normal leading-tight mb-4
 }
 
 .content .para {
-    @apply text-navy text-base sm:text-lg 3xl:text-xl leading-normal lg:max-w-[450px] xl:max-w-full
+    @apply text-navy text-base sm:text-lg 3xl:text-xl leading-normal xl:max-w-[550px] lg:max-w-[450px]
 }

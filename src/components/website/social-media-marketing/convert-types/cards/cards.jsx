@@ -14,69 +14,67 @@ import Eight from "media/social-media-marketing/convert-types/8.png"
 import Nine from "media/social-media-marketing/convert-types/9.png"
 
 const data = [
-    {
-        img: One,
-        title: "Photography",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        img: Two,
-        title: "Copywriting",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        img: Three,
-        title: "Photo Manipulation",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        img: Four,
-        title: "Video Production",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        img: Five,
-        title: "Illustrations",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        img: Six,
-        title: "Live Social Broadcasts",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        img: Seven,
-        title: "Clear and Concise",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        img: Eight,
-        title: "Everything is Data-Driven",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        img: Nine,
-        title: "Customized Approach",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    }
+  {
+    img: One,
+    title: "Optimize ",
+    para: "your profile to deliver your brand’s identity. ",
+  },
+  {
+    img: Two,
+    title: "Create ",
+    para: "high-quality content that encourages interaction",
+  },
+  {
+    img: Three,
+    title: "Develope targeted ad ",
+    para: "to create your own community",
+  },
+  {
+    img: Four,
+    title: "Performe analysis ",
+    para: "to keep track of performance metrics evaluating your brand’s growth.",
+  },
+  {
+    img: Five,
+    title: "Create cohesive visuals",
+    para: "across platforms reflecting your brand.",
+  },
+  {
+    img: Six,
+    title: "Create engaging stories ",
+    para: "highlighting your brand.",
+  },
+  {
+    img: Seven,
+    title: "Optimize posting schedules ",
+    para: "to reach your audience at peak times.",
+  },
+  {
+    img: Eight,
+    title: "Engaging with Followers to",
+    para: "foster a community.",
+  },
+  {
+    img: Nine,
+    title: "Leveraging Influencer ",
+    para: "partnerships for broader reach.",
+  },
 ]
 
 export default function Cards() {
-    return (
-        <div className={style.root}>
-            {
-                data.map(({ img, title, para }, i) => (
-                    <div key={i} className={`${style.cards} group`}>
-                        <Image src={img} alt="domain" className="group-hover:brightness-0 group-hover:invert" />
-                        <h3 className={`${style.title} group-hover:text-white`}>
-                            {title}
-                        </h3>
-                        <p className={`${style.para} group-hover:text-white`}>
-                            {para}
-                        </p>
-                    </div>
-                ))
-            }
+  return (
+    <div className={style.root}>
+      {data.map(({ img, title, para }, i) => (
+        <div key={i} className={`${style.cards} group`}>
+          <Image
+            src={img}
+            alt="domain"
+            className="group-hover:brightness-0 group-hover:invert"
+          />
+          <h3 className={`${style.title} group-hover:text-white`}>{title}</h3>
+          <p className={`${style.para} group-hover:text-white`}>{para}</p>
         </div>
-    )
+      ))}
+    </div>
+  )
 }

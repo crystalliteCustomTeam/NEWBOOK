@@ -15,7 +15,7 @@ export default function AutomationServices() {
                 <div className="container">
                     <div className={styles.__grid}>
                         <div className={styles.column}>
-                            <h2 className={styles.title}>We manage and grow your Amazon automation business entirely and collect profits!</h2>
+                            <h2 className={styles.title}>Book Marketing Manages Amazon Marketing, So You Can Focus On Collecting Your Profits</h2>
                             <p className={styles.para}>Looking for an automated FBA store partner that provides profitable wholesale items & top-tier customer service?</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />

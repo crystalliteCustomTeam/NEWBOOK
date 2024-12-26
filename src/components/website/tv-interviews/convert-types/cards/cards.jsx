@@ -13,33 +13,33 @@ import Six from "media/tv-interviews/icons/6.png"
 const data = [
     {
         img: One,
-        title: "Get In The Spotlight",
-        para: "Control the digital narrative, improve online visibility, and build trust with reputation management solutions designed for businesses of all sizes."
+        title: "Creating a plan",
+        para: "From your goals to the essential messages, our team personalizes a strategy for you. "
     },
     {
         img: Two,
-        title: "Watch Spotlight",
-        para: "Earn more positive online reviews, remove negative reviews that interfere with your brand’s online reputation, and improve trust in your brand with cutting-edge review management solutions."
+        title: "Coaching",
+        para: "Our TV crew provides personalized coaching to improve your on-camera presence, including body language and tone."
     },
     {
         img: Three,
-        title: "Created For Creators",
-        para: "Identify current and emerging threats, streamline communications, and recover quickly with customized crisis management solutions."
+        title: "Script Development",
+        para: "We combine your mission with our vision to create a script that effectively conveys your brand to viewers. "
     },
     {
         img: Four,
-        title: "The Write Way",
-        para: "Spot problems before they harm your business prospects with proactive 24/7 business reputation monitoring solutions designed for your needs."
+        title: "Mock Interviews",
+        para: "Our mock interviews ensure work delivery, brand confidence, and answers are perfected before execution. "
     },
     {
         img: Five,
-        title: "Global Digital Streaming",
+        title: "Execution",
         para: "Remove harmful content and information that has the potential to damage your hard-earned online reputation."
     },
     {
         img: Six,
-        title: "Where To Watch",
-        para: "Develop a visible, authoritative, and influential brand with comprehensive business branding services."
+        title: "Post-Interview Promotion",
+        para: "After the interview, we amplify your reach by sharing it across targeted digital channels, maximizing exposure and ensuring lasting impact."
     }
 ]
 

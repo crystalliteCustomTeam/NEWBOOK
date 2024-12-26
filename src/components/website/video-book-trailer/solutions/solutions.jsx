@@ -9,8 +9,8 @@ export default function Solutions() {
             <div className="container">
                 <div className={styles.__grid}>
                     <div className={styles.content}>
-                        <h2 className={styles.title}>Video Book Trailer Solutions!</h2>
-                        <p className={styles.para}>Our Online Reputation Management Service is comprehensive, covering all aspects of digital presence. We don’t just stop at monitoring and creating content. We also provide ongoing support, content removal, and strategy, helping you navigate the ever-changing digital landscape. Our team stays on top of trends and adapts strategies to ensure that your online reputation remains strong and positive, reflecting the dynamic nature of the internet.</p>
+                        <h2 className={styles.title}>The Power of Book Trailers</h2>
+                        <p className={styles.para}>A moving picture narrates a thousand episodes. Our trailers strike a chord with your target audience, making them eager to explore your publication.</p>
                         <div className={styles.cta}>
                             <CTAGroupLight />
                         </div>

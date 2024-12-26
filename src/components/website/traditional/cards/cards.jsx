@@ -6,10 +6,10 @@ export default function Cards() {
         <div className={styles.root}>
             {
                 [
-                    ["1B+", "Engaged Customers"],
+                    ["1B+", "Customers"],
                     ["7x", "Avg ROAS increase"],
                     ["35", "Awards"],
-                    ["42%", "Avg CAC reduction"],
+                    ["42%", "Avg CAC Deduction"],
                 ].map(([title, desc], i) => (
                     <div key={i} className={styles.cards}>
                         <h3 className={styles.title}

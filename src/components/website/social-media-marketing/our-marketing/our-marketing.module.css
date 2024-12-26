@@ -3,7 +3,7 @@
 }
 
 .title {
-    @apply text-[30px] md:text-[40px] xl:text-[50px] 2xl:text-[60px] font-mono leading-[1.1] max-w-[900px] 2xl:max-w-[1100px] mb-[60px] md:mb-[120px]
+    @apply text-[25px] md:text-[40px] xl:text-[45px] 2xl:text-[60px] font-mono leading-[1.1] max-w-[900px] 2xl:max-w-[1250px] mb-[60px] md:mb-[120px]
 }
 
 .root2 {

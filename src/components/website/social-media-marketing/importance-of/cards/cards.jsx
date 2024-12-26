@@ -12,22 +12,22 @@ const data = [
     {
         img: One,
         title: "Brand Awareness",
-        para: "Most online customers these days are likely to say they discovered a new brand on social media..."
+        para: "SMM at Book Marketing effectively elevates your brand visibility."
     },
     {
         img: Two,
         title: "Customer Engagement",
-        para: "Maintaining customer engagement is vital to the success of a brand on social media."
+        para: "Our passionate Marketing Team grows your following and maintains engagement."
     },
     {
         img: Three,
         title: "Increased Traffic",
-        para: "Most online customers these days are likely to say they discovered a new brand on social media..."
+        para: "Experience increased reach and stronger connections with your audience."
     },
     {
         img: Four,
         title: "Higher Sales & Revenue",
-        para: "There are many factors that determine the success of a social media campaign."
+        para: "Unlock greater brand influence and a more dynamic social media presence."
     }
 ]
 

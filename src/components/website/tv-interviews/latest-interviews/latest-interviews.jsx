@@ -22,44 +22,110 @@ export default function LatestInterviews() {
         { value: "business" },
         { value: "music" },
     ];
+    const fetchedData = [
+        {
+          title: "Authors Unplugged",
+          location: "Bric House",
+          imageUrl: Image1,
+          category: "technology",
+        },
+        {
+          title: "The Story Behind the Pages",
+          location: "Bric House",
+          imageUrl: Image2,
+          category: "business",
+        },
+        {
+          title: "Voices of Inspiration",
+          location: "Bric House",
+          imageUrl: Image3,
+          category: "business",
+        },
+        {
+          title: "Inside the Author’s Mind",
+          location: "Bric House",
+          imageUrl: Image4,
+          category: "business",
+        },
+        {
+          title: "Beyond the Book",
+          location: "Bric House",
+          imageUrl: Image5,
+          category: "business",
+        },
+        {
+          title: "Turning Words into Worlds",
+          location: "Bric House",
+          imageUrl: Image6,
+          category: "business",
+        },
+        {
+          title: "The Journey of a Storyteller",
+          location: "Bric House",
+          imageUrl: Image7,
+          category: "music",
+        },
+        {
+          title: "Literary Lights",
+          location: "Bric House",
+          imageUrl: Image8,
+          category: "music",
+        },
+        {
+          title: "In the Author's Own Words",
+          location: "Bric House",
+          imageUrl: Image9,
+          category: "music",
+        },
+        {
+          title: "From Draft to Bestseller",
+          location: "Bric House",
+          imageUrl: Image1,
+          category: "music",
+        },
+      ];
     return (
         <section>
             <div>
                 <div className="container">
-                    <Tabs defaultValue={tabData[0].value}>
-                        <TabsList className={styles.tabList}>
-                            <h2 className={styles.title}>Latest TV Interviews</h2>
-                            <div className={styles.__grid}>
-                                {tabData.map((tab, i) => (
-                                    <TabsTrigger key={i} className={styles.tabTrigger} value={tab.value}>
-                                        {tab.value}
-                                    </TabsTrigger>
-                                ))}
+                <Tabs defaultValue={tabData[0].value}>
+            <TabsList className={styles.tabList}>
+              <h2 className={styles.title}>Latest TV Interviews</h2>
+              <div className={styles.__grid}>
+                {tabData.map((tab, i) => (
+                  <TabsTrigger key={i} className={styles.tabTrigger} value={tab.value}>
+                    {tab.value}
+                  </TabsTrigger>
+                ))}
+              </div>
+            </TabsList>
+            <div className={styles.content}>
+              {tabData.map((tab, i) => (
+                <TabsContent key={i} value={tab.value} className={styles.__grid2}>
+                  {fetchedData.map((interview, j) => (
+                    tab.value === "all" || interview.category === tab.value ? (
+                      <div key={j} className={styles.card}>
+                        <div className={styles.__grid3}>
+                          <div className={styles.img}>
+                            <Image src={interview.imageUrl} alt="domain" />
+                            <div>
+                              <h3 className={styles.name}>{interview.title}</h3>
+                              <h4 className={styles.about}>
+                                Location: <span>{interview.location}</span>
+                              </h4>
                             </div>
-                        </TabsList>
-                        <div className={styles.content}>
-                            {tabData.map((tab, i) => (
-                                <TabsContent key={i} value={tab.value} className={styles.__grid2}>
-                                    {
-                                        [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9].map((e, i) => (
-                                            <div key={i} className={styles.card}>
-                                                <div className={styles.__grid3}>
-                                                    <div className={styles.img}>
-                                                        <Image src={e} alt="domain" />
-                                                        <div>
-                                                            <h3 className={styles.name}>Mindscape Musings</h3>
-                                                            <h4 className={styles.about}>Location: <span>Bric House</span></h4>
-                                                        </div>
-                                                    </div>
-                                                    <Link href="/" className={styles.cta}>Open To All</Link>
-                                                </div>
-                                            </div>
-                                        ))
-                                    }
-                                </TabsContent>
-                            ))}
+                          </div>
+                          <Link href="#" className={styles.cta}>
+                            Open To All
+                          </Link>
                         </div>
-                    </Tabs>
+                      </div>
+                    ) : null
+                  ))}
+                </TabsContent>
+              ))}
+            </div>
+          </Tabs>
                 </div>
             </div>
         </section>
