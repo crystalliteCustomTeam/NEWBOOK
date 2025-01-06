@@ -11,54 +11,52 @@ import Five from "media/smm-follower-&-likes/icons/5.png"
 import Six from "media/smm-follower-&-likes/icons/6.png"
 
 const data = [
-    {
-        img: One,
-        title: "Social Media Strategy",
-        para: "Control the digital narrative, improve online visibility, and build trust with reputation management solutions designed for businesses of all sizes."
-    },
-    {
-        img: Two,
-        title: "Social Media Management",
-        para: "Earn more positive online reviews, remove negative reviews that interfere with your brand’s online reputation, and improve trust in your brand with cutting-edge review management solutions."
-    },
-    {
-        img: Three,
-        title: "Management & Listening",
-        para: "Identify current and emerging threats, streamline communications, and recover quickly with customized crisis management solutions."
-    },
-    {
-        img: Four,
-        title: "Social Selling",
-        para: "Spot problems before they harm your business prospects with proactive 24/7 business reputation monitoring solutions designed for your needs."
-    },
-    {
-        img: Five,
-        title: "Analysis & ROI Modeling",
-        para: "Remove harmful content and information that has the potential to damage your hard-earned online reputation."
-    },
-    {
-        img: Six,
-        title: "Paid Social Advertising",
-        para: "Develop a visible, authoritative, and influential brand with comprehensive business branding services."
-    }
+  {
+    img: One,
+    title: "Amplifying Social Following",
+    para: "We optimize your profile to attract the right audience, not just followers.",
+  },
+  {
+    img: Two,
+    title: "Your Idea, Our Creation",
+    para: "Book Marketing helps bring your ideas to life. Stuck on execution? We've got you covered!",
+  },
+  {
+    img: Three,
+    title: "Innovative Marketing Strategies",
+    para: "We sell your story uniquely with personalized marketing strategies designed exclusively for you.",
+  },
+  {
+    img: Four,
+    title: "Monitoring Analytics",
+    para: "Book Marketing is data-driven. We analyze traffic engagement and move accordingly.",
+  },
+  {
+    img: Five,
+    title: "Engaging Content Creation",
+    para: "Captivate your audience with high-quality, engaging content that aligns with your brand's voice.",
+  },
+  {
+    img: Six,
+    title: "Targeted Campaigns",
+    para: "Maximize your reach with campaigns tailored to your ideal reader demographics.",
+  },
 ]
 
 export default function Cards() {
-    return (
-        <div className={style.root}>
-            {
-                data.map(({ img, title, para }, i) => (
-                    <div key={i} className={`${style.cards} group`}>
-                        <Image src={img} alt="domain" className="group-hover:brightness-0 group-hover:invert" />
-                        <h3 className={`${style.title} group-hover:text-white`}>
-                            {title}
-                        </h3>
-                        <p className={`${style.para} group-hover:text-white`}>
-                            {para}
-                        </p>
-                    </div>
-                ))
-            }
+  return (
+    <div className={style.root}>
+      {data.map(({ img, title, para }, i) => (
+        <div key={i} className={`${style.cards} group`}>
+          <Image
+            src={img}
+            alt="domain"
+            className="group-hover:brightness-0 group-hover:invert"
+          />
+          <h3 className={`${style.title} group-hover:text-white`}>{title}</h3>
+          <p className={`${style.para} group-hover:text-white`}>{para}</p>
         </div>
-    )
+      ))}
+    </div>
+  )
 }

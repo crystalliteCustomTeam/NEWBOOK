@@ -11,7 +11,7 @@ export default function Grids() {
     return (
         <div>
             <div>
-                <h3 className={styles.title}>Take a look at how we’re different:</h3>
+                <h3 className={styles.title}>We Are Not Your Conventional SEO Agency</h3>
             </div>
             <div className={styles.__grid}>
                 <div className={styles.mobColumn}>

@@ -13,33 +13,33 @@ import Six from "media/tv-interviews/icons/6.png"
 const data = [
     {
         img: One,
-        title: "Reputation Management",
-        para: "Control the digital narrative, improve online visibility, and build trust with reputation management solutions designed for businesses of all sizes."
+        title: "Influencer Marketing Advantage",
+        para: "Leverage influencer marketing as a modern approach to elevate brand presence."
     },
     {
         img: Two,
-        title: "Review Management",
-        para: "Earn more positive online reviews, remove negative reviews that interfere with your brand’s online reputation, and improve trust in your brand with cutting-edge review management solutions."
+        title: "Boost Brand Awareness",
+        para: "Collaborate with creators sharing your brand's values to increase engagement and awareness."
     },
     {
         img: Three,
-        title: "Crisis Management",
-        para: "Identify current and emerging threats, streamline communications, and recover quickly with customized crisis management solutions."
+        title: "Drive Conversions",
+        para: "Influencer partnerships strategically designed to resonate with your audience, converting attention into action."
     },
     {
         img: Four,
-        title: "Reputation Monitoring",
-        para: "Spot problems before they harm your business prospects with proactive 24/7 business reputation monitoring solutions designed for your needs."
+        title: "Influencer Matchmaking",
+        para: "Connect your brand with influencers whose audiences align with your mission for authentic, impactful partnerships."
     },
     {
         img: Five,
-        title: "Content Removal",
-        para: "Remove harmful content and information that has the potential to damage your hard-earned online reputation."
+        title: "Multi-Channel Campaigns",
+        para: "Campaigns launched across diverse platforms, maximizing reach and visibility."
     },
     {
         img: Six,
-        title: "Branding",
-        para: "Develop a visible, authoritative, and influential brand with comprehensive business branding services."
+        title: "Real-Time Performance Metrics",
+        para: "Data-driven insights for ongoing adjustments to ensure each campaign’s success and optimal performance."
     }
 ]
 

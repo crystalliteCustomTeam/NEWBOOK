@@ -16,11 +16,10 @@ export default function Hero() {
           <div className="container">
             <div>
               <h1 className={style.title}>
-                Tap Live Session Services to Boost Your Results!
+              Meet-and-Greet from the Convenience of Your Home
               </h1>
               <p className={style.para}>
-                Keep your audience captivated and steadily guide them toward a
-                purchase with targeted News / Article Publishing services.
+              Nothing makes readers happier than connecting with their favorite authors. Book Marketing’s Live Session bridges the gap, designed for new authors expanding their reader community! 
               </p>
               <div className={style.cta}>
                 <CTAGroupDark />

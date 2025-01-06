@@ -13,8 +13,8 @@ export default function EmailsSlap() {
                 <div className="container">
                     <div className={styles.__grid}>
                         <div>
-                            <h2 className={styles.title}>Make sure your emails *slap*</h2>
-                            <p className={styles.para}>With Book Marketing, you can always be confident your design will look great. Preview email templates in all their glory. Share them with colleagues via link, email & socials. Test until they're perfect across all platforms and devices.</p>
+                            <h2 className={styles.title}>Our Approach to Newsletter Success</h2>
+                            <p className={styles.para}>Clear the next steps for your readers.</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />
                             </div>

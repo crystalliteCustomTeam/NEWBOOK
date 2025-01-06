@@ -17,7 +17,7 @@
   @apply 3xl:px-[70px] xl:px-[60px] xl:py-0 py-[40px] md:px-[50px] px-[30px] bg-[#F2F5F7] h-full flex flex-col justify-center rounded-[20px];
 }
 .card .title {
-  @apply text-[25px] sm:text-[35px] lg:text-[40px] 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono my-3;
+  @apply text-[25px] sm:text-[35px] lg:text-[30px] 2xl:text-[40px] 3xl:text-[50px] leading-[1.1] font-mono my-3;
 }
 .card .para {
   @apply text-[14px] sm:text-[16px] xl:text-[18px] 3xl:text-[20px] leading-normal text-navy;

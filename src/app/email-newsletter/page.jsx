@@ -13,8 +13,8 @@ export default function EmailNewsletter() {
             <Campaign />
             <Traditional />
             <Banner1
-                title="Email Marketing agencies that make empty promises and don’t deliver?"
-                desc="Most of our clients were too… until they started working with us. Because at our SEO company, we only make promises that we can keep. Book a free consultation to find out if our SEO agency can get you the results that you’re after."
+                title="Tired of Book Marketing Companies That Ghost?"
+                desc="Unlike other companies, Book Marketing is committed to delivering every promise made. With our 24/7 help, you’re never at risk of being left stranded."
             />
             <Reviews />
             <TrustedClients />

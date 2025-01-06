@@ -11,23 +11,23 @@ import Four from "media/amazon-optimization/icons/10.png"
 const data = [
     {
         img: One,
-        title: "Represented Creators",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Authenticity & Trust",
+        para: "Access trusted influencers who connect with your potential customers."
     },
     {
         img: Two,
-        title: "Avg ROAs increase",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "High Engagement",
+        para: "Drive interaction with relevant content tailored to your audience."
     },
     {
         img: Three,
-        title: "Talent Verticals",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Data-Driven Insights",
+        para: "Make informed decisions with our in-depth analytics on influencer performance."
     },
     {
         img: Four,
-        title: "Avg CAC reduction",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Scalable Campaigns",
+        para: "From local to global audiences, our campaigns are designed to scale with your brand's growth."
     }
 ]
 

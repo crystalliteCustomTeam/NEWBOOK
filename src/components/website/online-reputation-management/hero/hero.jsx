@@ -16,10 +16,10 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Tap Into Online Reputation Management Services to Boost Your Results!
+                            Online Reputation Management Services for New Entrepreneurs and First-time Authors
                             </h1>
                             <p className={style.para}>
-                            Keep your audience captivated and steadily guide them toward a purchase with targeted Online Reputation Management services.
+                            In today's media, false information often outweighs facts. An Online Reputation Management (ORM) Team steps in as a damage control agent, preventing situations from escalating. 
                             </p>
                             <div className={style.cta}>
                                 <CTAGroupDark />

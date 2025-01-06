@@ -13,13 +13,10 @@ export default function ConvertTypes() {
         <div className="container">
           <div className={style.content}>
             <h2 className={style.title}>
-              Live Session - What Book Marketing Guarantees!
+            Live Session - What Book Marketing Guarantees!
             </h2>
             <p className={style.para}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            Don’t miss this opportunity to grow as an author. Join our Live Sessions and take the next step toward achieving your writing goals!
             </p>
           </div>
           <Cards />

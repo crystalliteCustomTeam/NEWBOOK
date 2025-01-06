@@ -16,10 +16,10 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Tap Social Media Marketing Services to Boost Your Results!
+                            Social Media Marketing: Get Enhanced Following and Likes 
                             </h1>
                             <p className={style.para}>
-                            Keep your audience captivated and steadily guide them toward a purchase with targeted News / Article Publishing services.
+                            Book Marketing enables users to enhance their social media following and likes via unmatched SMM services across several platforms. 
                             </p>
                             <div className={style.cta}>
                                 <CTAGroupDark />

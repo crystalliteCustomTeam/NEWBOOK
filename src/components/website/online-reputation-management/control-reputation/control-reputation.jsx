@@ -16,7 +16,7 @@ export default function ControlReputation() {
                         <Image src={NegativeResults} alt="domain" />
                         <div className={styles.content}>
                             <h2 className={styles.title}>We help you take control of your online reputation with advanced online reputation management services.</h2>
-                            <p className={styles.para}>We have exclusive partnerships with high-authority sites that can build a positive reputation for your business — in real life and on Google. By creating fresh online content, we’re able to replace negative search results to repair your reputation.</p>
+                            <p className={styles.para}>Our specialized Online Reputation Management (ORM) services for businesses and authors work tirelessly to build and maintain a positive digital reputation for your brand, even while you sleep.</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />
                             </div>

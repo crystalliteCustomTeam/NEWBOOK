@@ -12,22 +12,22 @@ const data = [
     {
         img: One,
         title: "Reputation Analysis",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        para: "We analyze your book and brand's online perception, identifying areas for improvement to help build a positive reputation that connects with your readers."
     },
     {
         img: Two,
         title: "Content Creation",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        para: "We create compelling, optimized content—from author bios to book summaries—that boosts your visibility, enhances your Google Knowledge Panel, and attracts more readers."
     },
     {
         img: Three,
         title: "Publishing",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        para: "We ensure your content reaches the right platforms, maximizing impact, building credibility, and increasing online exposure for your brand."
     },
     {
         img: Four,
         title: "Promotion",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        para: "Boost your book’s reach with targeted strategies that maximize visibility across digital channels, driving engagement and enhancing your online presence."
     }
 ]
 

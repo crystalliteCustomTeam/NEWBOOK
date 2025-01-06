@@ -3,7 +3,7 @@
   }
   
   .cards {
-    @apply rounded-[20px] h-full [boxShadow:0px_10px_80px_rgba(0,_0,_0,_0.1)] p-6 xl:p-8 hover:border-[#E4E4E4] border-2 hover:bg-black transition-all duration-500 col-span-12 sm:col-span-6 lg:odd:-mt-[60px];
+    @apply rounded-[20px] lg:h-[250px] h-full [boxShadow:0px_10px_80px_rgba(0,_0,_0,_0.1)] p-6 xl:p-8 hover:border-[#E4E4E4] border-2 hover:bg-black transition-all duration-500 col-span-12 sm:col-span-6 lg:odd:-mt-[60px];
   }
   
   .title {

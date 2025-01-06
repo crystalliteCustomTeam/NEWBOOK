@@ -16,7 +16,7 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Tap Google Knowledge Services to Boost Your Results!
+                            Google Knowledge Services to Elevate Your Online Visibility and Authority!
                             </h1>
                             <p className={style.para}>
                             Keep your audience captivated and steadily guide them toward a purchase with targeted News / Article Publishing services.

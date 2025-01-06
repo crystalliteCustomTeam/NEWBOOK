@@ -12,7 +12,7 @@ export default function ConvertTypes() {
             <div className={style.root}>
                 <div className="container">
                     <div className={style.content}>
-                        <h2 className={style.title}>6 Impressive Design Tools for Magazines in Book Marketing</h2>
+                        <h2 className={style.title}>Benefits of Using Book Marketing for Print Placement</h2>
                             <p className={style.para}>Book Marketing continues to evolve, the trusted choice for magazine design for over 40 years. Design exceptional magazines layouts for print and digital with unmatched ease and power.</p>
                     </div>
                     <Cards />

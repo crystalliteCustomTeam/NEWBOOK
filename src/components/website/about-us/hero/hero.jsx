@@ -16,10 +16,10 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                                Take Your Social Media Marketing to the Next Level
+                            Bringing Readers to Your Story
                             </h1>
                             <p className={style.para}>
-                                Get fired up about your social media profiles with next-generation social media marketing from THE social media marketing agency.
+                            Bringing authors and readers together through Book Marketing, editing, publishing, and marketing services. 
                             </p>
                             <div className={style.cta}>
                                 <CTAGroupDark />

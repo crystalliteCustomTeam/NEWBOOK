@@ -11,7 +11,7 @@ export default function Score() {
         <div className="container">
           <div className={styles.content}>
             <h2 className={styles.title}>
-              Score A+ Grades With Our Live Sessions
+            Successful Live Sessions That Build Communities
             </h2>
             <p className={styles.para}>
               Achieve Academic Excellence Through Our Live Sessions With Book

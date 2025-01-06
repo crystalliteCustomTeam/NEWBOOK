@@ -15,8 +15,8 @@ export default function ConsumerTrust() {
                 <div className={styles.__grid}>
                     <div className="col-span-6"></div>
                     <div className={styles.column}>
-                        <h2 className={styles.title}>Behind every consumer is a creator they trust!</h2>
-                        <p className={styles.para}>Creators are the world’s new media. With over 200M+ professional creators, finding the right talent for your campaign is like finding a needle in a sea of haystacks. Viral Nation’s end-to-end influencer marketing team simplifies this process by curating the perfect creators for your brand across global markets.</p>
+                        <h2 className={styles.title}>Influence Your Brand’s Potential toward Success with Book Marketing’s Influencer Marketing Tricks</h2>
+                        <p className={styles.para}>Want that match-made-in-heaven trade for your brand? Contact us today to create a campaign that enhances your influence and impact.</p>
                         <div className={styles.cta}>
                             <CTAGroupLight />
                         </div>

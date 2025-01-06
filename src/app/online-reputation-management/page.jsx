@@ -14,7 +14,7 @@ export default function OnlineReputationManagement() {
             <Traditional />
             <Banner1
                 title="Need Help Fixing Your Online Reputation? Free Reputation Consultation"
-                desc="Most of our clients were too… until they started working with us. Because at our Online Reputation Management company, we only make promises that we can keep. Book a free consultation to find out if our ORM agency can get you the results that you’re after."
+                desc="At our Online Reputation Management company, we make only promises we can keep. Book a free consultation to see how our ORM services can help you"
             />
             <Reviews />
             <TrustedClients />

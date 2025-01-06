@@ -16,7 +16,7 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Tap Billboard in Times Square, New York Services to Boost Your Results!
+                            Billboard Marketing Services to Amplify Your Brand’s Reach
                             </h1>
                             <p className={style.para}>
                             Keep your audience captivated and steadily guide them toward a purchase with targeted News / Article Publishing services.

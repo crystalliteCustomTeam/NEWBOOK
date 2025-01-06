@@ -16,7 +16,7 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Execute Hyper-Targeted Campaigns With Influencer Marketing!
+                            Let Targeted Influencer Marketing Diversify Your Brand’s Scope 
                             </h1>
                             <p className={style.para}>
                             Want to increase your conversions and brand presence through influencer marketing?

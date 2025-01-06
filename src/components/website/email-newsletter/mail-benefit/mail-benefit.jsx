@@ -7,7 +7,7 @@ export default function MailBenefit() {
             <div className="pb-[20px]">
                 <div className="container">
                     <div>
-                        <h2 className={styles.title}>73% of Customers Prefer Direct Mail over Other Marketing Channels.</h2>
+                        <h2 className={styles.title}>Book Marketing offers expert newsletter writing services with high-impact keywords to boost your online presence, engagement, and conversions.</h2>
                         <p className={styles.para}>Savvy marketers who diversify their mix with Direct Mail benefit from:</p>
                         <ul className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-0 gap-y-5 items-center lg:max-w-[790px] 3xl:max-w-[900px] mt-[20px]">
                             {

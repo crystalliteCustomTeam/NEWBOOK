@@ -4,7 +4,7 @@ import styles from "./about-marketing.module.css"
 import { CTAGroupLight } from "@/components"
 import Cards from "./cards/cards"
 
-const data = ["Tech Integrated Solutions", "Client Focused Approach", "Disruptive Innovation", "Digital Transformation Partner"]
+const data = ["Tech Integration Solutions", "Client Focused Approach", "Disruptive Innovation", "Digital Transformation Partnerships"]
 
 export default function AboutMarketing() {
     return (
@@ -14,7 +14,7 @@ export default function AboutMarketing() {
                     <div className={styles.grids}>
                         <div>
                             <h2 className={styles.title}>About Book Marketing!</h2>
-                            <p className={styles.para}>Book Marketing is helping startups and organizations build and implement digital transformation solutions tailored to their demand and needs.</p>
+                            <p className={styles.para}>Book Marketing is a platform that provides anything and everything an author needs. From a thought to becoming a book, we at Book Marketing enable authors to create a flawlessly written book. </p>
                             <ul className={styles.lists}>
                                 {
                                     data.map((e, i) => (

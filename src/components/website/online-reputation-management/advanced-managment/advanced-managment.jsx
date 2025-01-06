@@ -15,8 +15,8 @@ export default function AdvancedManagment() {
                     <div className={styles.__grid}>
                         <Image src={Phone} alt="domain" />
                         <div className={styles.content}>
-                            <h2 className={styles.title}>We help you take control of your online reputation with advanced online reputation management services.</h2>
-                            <p className={styles.para}>Remove, suppress, repair, and monitor your online reputation with the reputation experts.</p>
+                            <h2 className={styles.title}>Get Started with Our ORM Services</h2>
+                            <p className={styles.para}>Don’t leave your online reputation unguarded. Join our ORM services and take proactive steps to ensure a positive digital footprint for your business or writing career!</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />
                             </div>

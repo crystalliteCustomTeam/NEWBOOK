@@ -5,7 +5,7 @@
   @apply grid lg:grid-cols-2 grid-cols-1 gap-y-5 lg:gap-x-5 items-center;
 }
 .title {
-  @apply font-mono font-normal text-[30px] sm:text-[40px] md:text-[50px] 2xl:text-[60px] leading-[1.1] mb-4 max-w-[700px];
+  @apply font-mono font-normal text-[30px] md:text-[35px] xl:text-[45px] 2xl:text-[50px] 3xl:text-[60px] leading-[1.1] mb-4;
 }
 .para {
   @apply text-[14px] sm:text-[16px] lg:text-[18px] leading-normal 2xl:max-w-[670px] mb-8;

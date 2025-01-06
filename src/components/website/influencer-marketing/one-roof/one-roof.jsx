@@ -14,8 +14,8 @@ export default function OneRoof() {
                 <div className="container">
                     <div className={styles.__grid}>
                         <div className={styles.column}>
-                            <h2 className={styles.title}>Influence that’s always-on! Everything Social, Under One Roof</h2>
-                            <p className={styles.para}>Creators are the world’s new media. With over 200M+ professional creators, finding the right talent for your campaign is like finding a needle in a sea of haystacks. Viral Nation’s end-to-end influencer marketing team simplifies this process by curating the perfect creators for your brand across global markets.</p>
+                            <h2 className={styles.title}>Bring your brand to its target audience with the command of influencers to connect with your audience.</h2>
+                            <p className={styles.para}>At Book Marketing, we specialize in creating engaging, customized influencer marketing campaigns that align with your unique goals.</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />
                             </div>

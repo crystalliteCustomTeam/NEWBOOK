@@ -16,48 +16,48 @@ import Nine from "media/email-newsletter/icons/9.png"
 const data = [
     {
         img: One,
-        title: "Email Templates Gallery",
-        para: "A diverse collection of pre-designed email templates for every occasion."
+        title: "Top-Rated Quality",
+        para: "Skilled, seasoned writers ensure engaging, well-researched articles."
     },
     {
         img: Two,
-        title: "Custom Fonts Support",
-        para: "Upload free or purchased fonts that align more closely with your brand's identity."
+        title: "Creative and Unique",
+        para: "Content that’s memorable and stands out."
     },
     {
         img: Three,
-        title: "Layout View",
-        para: "Easily move through modules and elements, rearrange them, hide, or add new ones."
+        title: "SEO-Optimized Content",
+        para: "Brand visibility that actually reaches rank on search engines."
     },
     {
         img: Four,
-        title: "Version History",
-        para: "Securely access and restore previous files from anywhere with cloud backup."
+        title: "Affordable Packages",
+        para: "Best value with our cost-effective services."
     },
     {
         img: Five,
-        title: "Manage Content",
-        para: "Enhance modules with text, links, and images using hyper-intuitive visual editor."
+        title: "Real-Time Collaboration",
+        para: "Work with your team in real-time to edit and refine articles."
     },
     {
         img: Six,
-        title: "Mobile Ready",
-        para: "Create fully responsive, retina-ready emails optimized for desktop and mobile viewing."
+        title: "Automated Formatting",
+        para: "Save time with automated formatting for consistently professional articles."
     },
     {
         img: Seven,
-        title: "Clean Code",
-        para: "We export the code that’s easy to understand and easy to change if you have to."
+        title: "Multi-Platform Publishing: ",
+        para: "Publish across multiple platforms simultaneously to reach wider audience."
     },
     {
         img: Eight,
-        title: "Direct Email Preview",
-        para: "Send and verify templates directly through your or your teammate's email client."
+        title: "Detailed Analytics",
+        para: "Gain insights into your article performance with our built-in analytics."
     },
     {
         img: Nine,
-        title: "One-click Export",
-        para: "It’s just one magical click to export to your favorite email marketing tool."
+        title: "Seamless Integration",
+        para: "Our platform integrates seamlessly with your systems for a smooth publishing process."
     }
 ]
 

@@ -15,27 +15,27 @@ export default function AboutUs() {
             <BelieveIn />
             <Traditional />
             <WhyChoose title="Why Choose Cross Podcast?"
-                desc="At Cross Podcast, we blend expertise with creativity to deliver exceptional podcasting solutions. Here's why we're the top choice for your podcasting needs:"
+                desc="At Cross Podcast, we are dedicated to bringing your podcast vision to life. With tailored solutions, innovative tools, and a committed team, we combine creativity and expertise to ensure your podcast reaches the listeners it deserves."
                 data={[
                     {
                         icon: Icon1,
-                        title: "Diverse Podcasting Expertise",
-                        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+                        title: "Expert Podcast Guidance",
+                        desc: "Our team brings years of podcasting expertise to help shape, refine, and elevate your content, ensuring a professional and engaging experience."
                     },
                     {
                         icon: Icon2,
-                        title: "Supportive Community",
-                        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+                        title: "Customized Marketing Solutions",
+                        desc: "We develop targeted marketing strategies to reach your ideal listeners, amplifying your podcast’s reach and growing your audience."
                     },
                     {
                         icon: Icon3,
-                        title: "Cutting-Edge Technology",
-                        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+                        title: "Advanced Recording Tools",
+                        desc: "Access cutting-edge technology and high-quality recording tools designed to make your podcast sound top-notch and keep your listeners hooked."
                     },
                     {
                         icon: Icon4,
-                        title: "Exclusive Merchandise",
-                        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+                        title: "Engaged Listener Community",
+                        desc: "Join a vibrant community of podcast enthusiasts who support, inspire, and connect with you as your podcast journey unPages."
                     }
                 ]}
             />

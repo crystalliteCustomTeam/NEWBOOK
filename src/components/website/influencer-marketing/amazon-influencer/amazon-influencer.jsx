@@ -8,33 +8,37 @@ import Marketings from "media/influencer-marketing/marketings.png"
 // Components
 import { CTAGroupLight } from "@/components"
 export default function AmazonInfluencer() {
-    return (
-        <section>
-            <div className={style.root}>
-                <div className="container">
-                    <div className={style.__grid}>
-                        <div>
-                            <Image src={Marketings} alt="domain" />
-                        </div>
-                        <div>
-                            <h2 className={style.title}>Drive ROI with Influencer Marketing on Amazon.</h2>
-                            <ul className={style.lists}>
-                                {
-                                    ["Simplify your affiliate campaigns", "Stand out in a crowded market", "Structure motivating rewards for creators"].map((e, i) => (
-                                        <li key={i} className={style.items}>
-                                            <Image src={Checkbox} alt="domain" />
-                                            {e}
-                                        </li>
-                                    ))
-                                }
-                            </ul>
-                            <div className={style.cta}>
-                                <CTAGroupLight />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <section>
+      <div className={style.root}>
+        <div className="container">
+          <div className={style.__grid}>
+            <div>
+              <Image src={Marketings} alt="domain" />
             </div>
-        </section>
-    )
+            <div>
+              <h2 className={style.title}>
+                Drive ROI with Influencer Marketing on Amazon.
+              </h2>
+              <ul className={style.lists}>
+                {[
+                  "Streamline your affiliate campaigns",
+                  "Differentiate yourself in a competitive market",
+                  "Design compelling rewards for creators",
+                ].map((e, i) => (
+                  <li key={i} className={style.items}>
+                    <Image src={Checkbox} alt="domain" />
+                    {e}
+                  </li>
+                ))}
+              </ul>
+              <div className={style.cta}>
+                <CTAGroupLight />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }

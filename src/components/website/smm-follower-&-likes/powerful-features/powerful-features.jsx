@@ -16,7 +16,7 @@ export default function PowerfulFeatures() {
                             <Image src={Likes} alt="domain" className="mx-auto" />
                         </div>
                         <div className={styles.content}>
-                            <h2 className={styles.title}>One easy-to-use solution, loaded with powerful features.</h2>
+                            <h2 className={styles.title}>Accessible and simplified solutions to generate social media power</h2>
                             <p className={styles.para}>Everything you need to dominate social media—fortified with the industry’s #1 rated customer support.</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />

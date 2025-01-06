@@ -11,8 +11,8 @@ export default function TrustAndCredibility() {
             <div className={styles.root}>
                 <div className="container">
                     <div className={styles.content}>
-                        <h2 className={styles.title}>Guaranteed publicity on 200 News Sites Build Trust & Credibility With Ease!</h2>
-                        <p className={styles.para}>Publish your story on influential news sites that your competitors can't reach. With millions of readers every month, you'll get a massive boost in exposure, interest, and credibility.</p>
+                        <h2 className={styles.title}>At Book Marketing, we deliver impactful, SEO-focused article writing tailored to your business needs.</h2>
+                        <p className={styles.para}>Our team of experts comprises of Best Published Article Writers, providing plagiarism-free content that is guaranteed to reach your audience through all algorithms.</p>
                     </div>
                     <Image src={Mockups} alt="domain" className={styles.img} />
                 </div>

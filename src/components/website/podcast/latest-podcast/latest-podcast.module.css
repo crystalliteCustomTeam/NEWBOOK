@@ -17,17 +17,17 @@
   @apply grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 items-center mt-0;
 }
 .card {
-  @apply py-3 xl:px-5 px-3 bg-[#FAFAFA] transition-all ease-in-out duration-500 shadow-[0px_4px_12px_rgba(0,_0,_0,_0.08)] hover:shadow-[0px_4px_12px_rgba(0,_0,_0,_0.18)] rounded-2xl;
+  @apply py-3 xl:px-5 px-3 bg-[#FAFAFA] h-full transition-all ease-in-out duration-500 shadow-[0px_4px_12px_rgba(0,_0,_0,_0.08)] hover:shadow-[0px_4px_12px_rgba(0,_0,_0,_0.18)] rounded-2xl;
 }
 .__grid3 {
-  @apply flex justify-between sm:items-center items-end;
+  @apply flex gap-x-3 justify-between sm:items-center items-end;
 }
 .img {
-  @apply flex 2xl:gap-4 gap-2 overflow-hidden rounded-xl;
+  @apply xl:basis-[25%] overflow-hidden rounded-xl;
 }
 .name {
   @apply 3xl:text-[25px] 2xl:text-[22px] text-[18px] leading-none text-black font-mono mb-2;
 }
 .about {
-  @apply text-base leading-none font-normal font-manrope text-navy mb-2;
+  @apply text-base leading-normal font-normal font-manrope text-navy mb-2;
 }

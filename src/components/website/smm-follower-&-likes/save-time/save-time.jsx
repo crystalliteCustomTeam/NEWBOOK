@@ -10,7 +10,7 @@ export default function SaveTime() {
             <div className={styles.root}>
                 <div className="container">
                     <div className={styles.content}>
-                        <h2 className={styles.title}>Save time on Paid Ad Marketing!</h2>
+                        <h2 className={styles.title}>Time-Savy Social Media Services</h2>
                     </div>
                     <Image src={Models} alt="domain" />
                 </div>

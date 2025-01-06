@@ -13,7 +13,7 @@ export default function ConvertTypes() {
                 <div className="container">
                     <div className={style.content}>
                         <h2 className={style.title}>Influencer Marketing Services!</h2>
-                            <p className={style.para}>Navigating the online world can be difficult, but your Online Reputation doesn’t have to be. As one of the leading Online Reputation Companies, Book Marketing begins by carefully examining online content and images, social media interactions, and search engine results. This step is vital to understanding your current online reputation score, whether you're an individual or a business. We analyze this information to create a clear picture of your current Online Reputation.</p>
+                            <p className={style.para}>Managing your Online Reputation doesn’t have to be difficult. At Book Marketing, we analyze your online content, social media, and search results to understand and improve your current reputation.</p>
                     </div>
                     <Cards />
                     <div className={style.cta}>

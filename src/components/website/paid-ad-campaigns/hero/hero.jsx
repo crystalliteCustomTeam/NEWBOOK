@@ -16,10 +16,10 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Tap Into Paid Ad Campaigns Services to Boost Your Results!
+                            Paid Ad Campaign Services for New Businesses and Authors
                             </h1>
                             <p className={style.para}>
-                            Keep your audience captivated and steadily guide them toward a purchase with targeted Paid Ad Campaigns services.
+                            Book Marketing offers Paid Ad Campaign services to help writers and new businesses reach a broader audience with effective strategies that deliver results.
                             </p>
                             <div className={style.cta}>
                                 <CTAGroupDark />

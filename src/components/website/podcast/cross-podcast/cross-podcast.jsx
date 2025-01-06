@@ -22,10 +22,9 @@ export default function CrossPodcast() {
             <div className={styles.leftColumn}>
               <div className={styles.card}>
                 <Image src={One} alt="one" />
-                <h3 className={styles.title}>Our Podcast Studios</h3>
+                <h3 className={styles.title}>Take Action on Your Podcasting Needs</h3>
                 <p className={styles.para}>
-                  Odio duis nullam turpis mattis tristique hac. Nec cursus non
-                  molestie velit. Nunc aliquet
+                Do not lose the chance to engage with your followers through podcasts. Contact us today to learn how Book Marketing’s Podcast services can support your journey.
                 </p>
                 <CTA
                   text="Start Your Podcast"

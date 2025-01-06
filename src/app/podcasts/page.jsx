@@ -24,32 +24,33 @@ export default function Podcasts() {
       <Services />
       <TrendingPodcasts />
       <WhyChoose
-        desc="At Cross Podcast, we blend expertise with creativity to deliver exceptional podcasting solutions. Here's why we're the top choice for your podcasting needs:"
+        title="Why Choose Book Marketing’s Podcast Services?"
+        desc="By hiring us, you can: "
         data={[
           {
             icon: Icon1,
-            title: "Diverse Podcasting Expertise",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+            title: "Grow Your Audience",
+            desc: "To reach a wider audience, distribute top-notch podcast episodes on reliable platforms.",
           },
           {
             icon: Icon2,
-            title: "Supportive Community",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+            title: "Engage your Audience",
+            desc: "Craft captivating conversations that encourage brand and book loyalty.",
           },
           {
             icon: Icon3,
-            title: "Cutting-Edge Technology",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+            title: "Create Authority",
+            desc: "Present insightful information and anecdotes that establish you as a subject-matter authority.",
           },
           {
             icon: Icon4,
-            title: "Exclusive Merchandise",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+            title: "Track Performance",
+            desc: "Get data on listener engagement and growth that will aid in the improvement of your content strategy. ",
           },
         ]}
       />
-      <Reviews/>
-      <TrustedClients/>
+      <Reviews />
+      <TrustedClients />
     </>
   )
 }

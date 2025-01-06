@@ -16,8 +16,8 @@ export default function LogicalProcess() {
                             <Image src={Research} alt="domain" />
                         </div>
                         <div className={styles.content}>
-                            <h2 className={styles.title}>Our keyword research services are structured with a logical process.</h2>
-                            <p className={styles.para}>Once the keyword research process is done, Book Marketing will work with you to create an overall keyword strategy. This includes things like your KPIs, budget, long-tail and short-term keywords, and how they will be used in your content. We always make sure this aligns with your overall business plan and goals.</p>
+                            <h2 className={styles.title}>Ready to Boost Your Google Knowledge Presence? </h2>
+                            <p className={styles.para}>Contact us to make your mark on Google and grow your authority across digital platforms!</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />
                             </div>

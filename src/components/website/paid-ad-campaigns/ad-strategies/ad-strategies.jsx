@@ -14,8 +14,8 @@ export default function AdStrategies() {
                 <div className="container">
                     <div className={styles.__grid}>
                         <div className={styles.column}>
-                            <h2 className={styles.title}>Stop Losing Your Ad Budget on the Wrong Audience and Ineffective Ad Strategies.</h2>
-                            <p className={styles.para}>At Book Marketing, we create ads that  work with Meta’s new interest graph and AI-powered targeting, ensuring  your content reaches the right audience every time. By leveraging  advanced data insights and creative strategies, our certified Meta and  Google media buyers can help you achieve higher conversion rates and  consistent 3-6x ROAS.</p>
+                            <h2 className={styles.title}>Get started with Paid Advertising Campaign Services for Book Marketing</h2>
+                            <p className={styles.para}>Get in touch with us to find out how Book Marketing’s Paid Ad Campaign services will help you in achieving your objectives.</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />
                             </div>

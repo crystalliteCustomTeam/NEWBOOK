@@ -11,7 +11,7 @@ export default function ImportanceOf() {
                 <div className="container">
                     <div className={style._grid}>
                         <div>
-                            <h2 className={style.title}>Behind Every Mic: The Art of Podcasting Excellence!</h2>
+                            <h2 className={style.title}>What to Expect from Our Podcast Services</h2>
                             <p className={style.para}>From ideation to production, we guide you through each step with expert insights and creative strategies, ensuring your podcast not only stands out but also resonates deeply with your audience.</p>
                             <div className={style.cta}>
                                 <CTAGroupLight />

@@ -16,7 +16,7 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Tap Into Email Marketing Services to Boost Your Results!
+                            Newsletter Writing Services to Drive Engagement and Grow Your Audience!
                             </h1>
                             <p className={style.para}>
                             Keep your audience captivated and steadily guide them toward a purchase with targeted email marketing services.

@@ -16,21 +16,20 @@ export default function Publishing() {
         <div className="container">
           <div className={style.grids}>
             <div className={style.cols}>
-              <h2 className={style.title}>
-                Digital billboards have revolutionized the industry with
-                cutting-edge technology.
-              </h2>
+              <h2 className={style.title}>Why Billboard Marketing?</h2>
               <p className={style.para}>
-                Times Square advertising and its digital billboards are
-                accessible to companies of all sizes.
+                Billboards provide unmatched visibility and engage diverse
+                audiences effectively. From creative design to strategic
+                placement, our campaigns build brand recognition and drive
+                growth.
               </p>
               <ul className={style.lists}>
                 {[
-                  "174 Million People enter the Times Square Bowtie annually.",
-                  "Approximately 330,000 pass through Times Square Daily (View Source)",
-                  "53% of Residents are considered high-income, educated young professionals who are mobile and progressively early adopters with cutting-edge retail preferences.",
-                  "47% of visitors continue to share on social media after they visit Times Square.",
-                  "The Times Square crowd is a late-night crowd: over 85,000 pedestrians enter the Bowtie from 7pm-1am",
+                  "Massive exposure to put your message in front of thousands of people every day, giving visibility.",
+                  "Massive exposure to put your message in front of thousands of people every day, giving visibility.",
+                  "Memorable visuals to make a lasting impression in a crowded space.",
+                  "Smart location choices to place your ad in high-traffic areas, targeting the right audience at the right time.",
+                  "Well-executed billboard campaigns build trust, spark interest, and lead to increased sales or recognition.",
                 ].map((e, i) => (
                   <li key={i} className={style.items}>
                     {e}
@@ -48,13 +47,9 @@ export default function Publishing() {
             <div className={style.cols2}>
               <h2 className={style.title}>How Book Marketing can help.</h2>
               <p className={style.para2}>
-              At Book Marketing, We specialize in helping companies advertise in Times Square, effectively reaching America’s most desirable and hard-to-reach audiences. With our extensive expertise and industry knowledge, we guide you through the entire process, from selecting the optimal locations and formats for maximum impact to crafting compelling messages tailored to the diverse and dynamic crowds of Times Square.
-              </p>
-              <p className={style.para2}>
-              By leveraging our strategic insights and established relationships with media owners, we ensure that your brand not only stands out amidst the bustling environment but also resonates deeply with the millions of viewers who pass through this iconic location daily.
-              </p>
+              At Book Marketing, we specialize in helping companies advertise in Times Square, reaching America’s most desirable and hard-to-reach audiences. With our expertise, we guide you through the process, from choosing the best locations and formats to crafting catchy messages for Times Square's dynamic crowds. Using our strategic insights and media relationships, we ensure your brand stands out and resonates with the millions of viewers who pass through daily.</p>
               <div className={style.cta}>
-                <CTAGroupLight/>
+                <CTAGroupLight />
               </div>
             </div>
           </div>

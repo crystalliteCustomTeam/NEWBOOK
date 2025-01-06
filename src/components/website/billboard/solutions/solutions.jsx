@@ -9,8 +9,8 @@ export default function Solutions() {
             <div className="container">
                 <div className={styles.__grid}>
                     <div className={styles.content}>
-                        <h2 className={styles.title}>Combine keyword research with our other services!</h2>
-                        <p className={styles.para}>While utilizing an SEO keyword research service is important, it shouldn’t be used as a standalone service but instead as part of your overarching SEO strategy. Indeed, keyword analysis permeates many areas of SEO, so it’s worthwhile looking at the other SEO services we offer and how they can complement your digital marketing:</p>
+                        <h2 className={styles.title}>From Pages to the Big Stage: Light Up Times Square with Your Book Launch!</h2>
+                        <p className={styles.para}>Billboard advertising in Times Square gives authors unique visibility in a globally iconic location, reaching a vast, diverse audience. This exposure boosts brand credibility, attracts potential readers, sparks social media buzz, and can lead to increased sales and media opportunities.</p>
                         <div className={styles.cta}>
                             <CTAGroupLight />
                         </div>

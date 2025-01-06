@@ -1,6 +1,6 @@
 "use client"
 // React
-import { useState, useRef, useEffect } from "react"
+import { useState, useRef } from "react"
 // Components
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 // Css
@@ -26,15 +26,60 @@ export default function LatestInterviews() {
   const audioRefs = useRef([]) // Array to hold refs for each audio
 
   const tracks = [
-    { src: "/podcast/audios/1.mp3", img: Image1 },
-    { src: "/podcast/audios/2.mp3", img: Image2 },
-    { src: "/podcast/audios/3.mp3", img: Image3 },
-    { src: "/podcast/audios/4.mp3", img: Image4 },
-    { src: "/podcast/audios/5.mp3", img: Image5 },
-    { src: "/podcast/audios/1.mp3", img: Image6 },
-    { src: "/podcast/audios/2.mp3", img: Image7 },
-    { src: "/podcast/audios/3.mp3", img: Image8 },
-    { src: "/podcast/audios/4.mp3", img: Image9 },
+    {
+      src: "/podcast/audios/1.mp3",
+      img: Image1,
+      name: "The Writer's Journey",
+      about: "Episode 1: Embracing the Author’s Path",
+    },
+    {
+      src: "/podcast/audios/2.mp3",
+      img: Image2,
+      name: "The Creative Edge",
+      about: "Episode 1: Pushing Boundaries in Storytelling",
+    },
+    {
+      src: "/podcast/audios/3.mp3",
+      img: Image3,
+      name: "Beyond Borders",
+      about: "Episode 1: Exploring Cultures Through Literature",
+    },
+    {
+      src: "/podcast/audios/4.mp3",
+      img: Image4,
+      name: "Wellness Waves",
+      about: "Episode 1: Mindfulness for the Modern Writer",
+    },
+    {
+      src: "/podcast/audios/5.mp3",
+      img: Image5,
+      name: "Tech Talk for Authors",
+      about: "Episode 1: Digital Tools for Better Writing",
+    },
+    {
+      src: "/podcast/audios/1.mp3",
+      img: Image6,
+      name: "Infinite Horizons",
+      about: "Episode 1: Imagining the Future in Fiction",
+    },
+    {
+      src: "/podcast/audios/2.mp3",
+      img: Image7,
+      name: "Human Chronicles",
+      about: "Episode 1: Stories That Define Us",
+    },
+    {
+      src: "/podcast/audios/3.mp3",
+      img: Image8,
+      name: "Nature’s Symphony",
+      about: "Episode 1: Finding Inspiration in the Outdoors",
+    },
+    {
+      src: "/podcast/audios/4.mp3",
+      img: Image9,
+      name: "Game Changers",
+      about: "Episode 1: Authors Who Break the Mold",
+    },
   ]
 
   const playAudio = (index) => {
@@ -96,38 +141,40 @@ export default function LatestInterviews() {
           <div className={styles.content}>
             {tabData.map((tab, i) => (
               <TabsContent key={i} value={tab.value} className={styles.__grid2}>
-                {tracks.map(({ img, src }, i) => (
+                {tracks.map(({ img, src, name, about }, i) => (
                   <div key={i} className={styles.card}>
                     <div className={styles.__grid3}>
                       <div className={styles.img}>
-                        <Image src={img} alt="podcast thumbnail" className="object-cover" />
+                        <Image
+                          src={img}
+                          alt="podcast thumbnail"
+                          className="object-cover"
+                        />
+                      </div>
+                      <div>
+                        <h3 className={styles.name}>{name}</h3>
+                        <h4 className={styles.about}>{about}</h4>
+                        <audio
+                          ref={(el) => (audioRefs.current[i] = el)}
+                          src={src}
+                          onTimeUpdate={() => updateProgress(i)}
+                          preload="metadata"
+                        />
+                        <div className="flex items-center justify-between">
+                          <span className="text-[13px] font-manrope font-semibold text-black">
+                            {formatTime(audioRefs.current[i]?.currentTime || 0)}
+                          </span>
+                          <div className="w-full h-1 bg-[#E9E9E9] mx-2">
+                            <div
+                              className="h-1 bg-[#FF0004]"
+                              style={{ width: `${progress[i] || 0}%` }}
+                            ></div>
                           </div>
-                        <div>
-                          <h3 className={styles.name}>Mindscape Musings</h3>
-                          <h4 className={styles.about}>Episode 1 - Season 1</h4>
-                          <audio
-                            ref={(el) => (audioRefs.current[i] = el)}
-                            src={src}
-                            onTimeUpdate={() => updateProgress(i)}
-                            preload="metadata"
-                          />
-                          <div className="flex items-center justify-between">
-                            <span className="text-[13px] font-manrope font-semibold text-black">
-                              {formatTime(
-                                audioRefs.current[i]?.currentTime || 0
-                              )}
-                            </span>
-                            <div className="w-full h-1 bg-[#E9E9E9] mx-2">
-                              <div
-                                className="h-1 bg-[#FF0004]"
-                                style={{ width: `${progress[i] || 0}%` }}
-                              ></div>
-                            </div>
-                            <span className="text-[13px] font-manrope font-semibold text-black">
-                              {formatTime(audioRefs.current[i]?.duration || 0)}
-                            </span>
-                          </div>
+                          <span className="text-[13px] font-manrope font-semibold text-black">
+                            {formatTime(audioRefs.current[i]?.duration || 0)}
+                          </span>
                         </div>
+                      </div>
                       <button
                         onClick={() =>
                           isPlaying === i ? pauseAudio(i) : playAudio(i)

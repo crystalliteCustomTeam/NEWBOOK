@@ -15,10 +15,10 @@ export default function Hero() {
                 <div className="container">
                     <div>
                         <h1 className={style.title}>
-                            We Take Digital Experiences To The Next Level
+                        Book Marketing’s Services That Elevate Branding
                         </h1>
                         <p className={style.para}>
-                            The products we build are changing the way industry leaders do their core business.
+                        Our services are designed to not only rebrand your business but to transform the way it is perceived globally.
                         </p>
                         <div className={style.cta}>
                             <CTAGroupDark />

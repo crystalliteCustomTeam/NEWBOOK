@@ -12,8 +12,8 @@ export default function ConvertTypes() {
             <div className={style.root}>
                 <div className="container">
                     <div className={style.content}>
-                        <h2 className={style.title}>Easily Build an HTML Email Template with Book Marketing</h2>
-                        <p className={style.para}>Book Marketing email builder gives you all the tools to expertly start building and customizing your HTML email template. Get it done from zero to the finished product in just a few minutes!</p>
+                        <h2 className={style.title}>Why Choose Us for Your Newsletter Needs?</h2>
+                        <p className={style.para}>Book Marketing email builder gives you all the tools to expertly start building and customizing your HTML email template from zero to the finished product!</p>
                     </div>
                     <Cards />
                     <div className={style.cta}>

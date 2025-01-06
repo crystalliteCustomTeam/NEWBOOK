@@ -2,7 +2,7 @@
   @apply py-[70px] md:py-[100px] bg-[#F2F5F7];
 }
 .content {
-  @apply max-w-[1260px];
+  @apply max-w-[1260px] mx-auto flex flex-wrap gap-5 items-center justify-between;
 }
 .title {
   @apply text-[30px] sm:text-[35px] md:text-[45px] lg:text-[50px] xl:text-[55px] 2xl:text-[60px] leading-[1.1] font-mono mb-6;

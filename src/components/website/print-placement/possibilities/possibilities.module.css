@@ -2,7 +2,7 @@
   @apply bg-black lg:py-[100px] md:py-[80px] py-[60px] text-white;
 }
 .title {
-  @apply text-[30px] text-center sm:text-[35px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[55px] leading-[1.1] font-mono mb-5;
+  @apply text-[30px] text-center sm:text-[35px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[55px] max-w-[900px] mx-auto leading-[1.1] font-mono mb-5;
 }
 .__grid {
   @apply grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-x-10 gap-10 max-w-[1440px] pt-[50px] mx-auto;
@@ -10,14 +10,14 @@
 .card {
   @apply text-center h-full;
 }
-.imgCard{
-  @apply h-[320px] shadow-[0px_4px_4px_0px_#00000025] rounded-lg flex items-center justify-center md:mb-10 mb-5
+.imgCard {
+  @apply h-[320px] shadow-[0px_4px_4px_0px_#00000025] rounded-lg flex items-center justify-center md:mb-10 mb-5;
 }
-.imgCard img{
-  @apply mx-auto max-w-[90%] h-full
+.imgCard img {
+  @apply mx-auto max-w-[90%] h-full;
 }
 .content {
-  @apply max-w-[320px] mx-auto mt-4;
+  @apply max-w-[420px] mx-auto mt-4;
 }
 .content > .title {
   @apply text-[25px] md:text-[32px] leading-tight font-normal font-mono mb-5;

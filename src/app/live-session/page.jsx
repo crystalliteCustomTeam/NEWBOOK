@@ -11,8 +11,8 @@ export default function LiveSession() {
       <Sessions/>
       <Traditional/>
       <Banner1 
-      title="Need Help Fixing Google Knowledge Panel? Free Reputation Consultation"
-      desc="Most of our clients were too… until they started working with us. Because at our Online Reputation Management company, we only make promises that we can keep. Book a free consultation to find out if our ORM agency can get you the results that you’re after."
+      title="Looking for Affordable But Impactful Live Sessions?"
+      desc="Connect with one of our representative now to learn how Book Marketing’s Live Sessions work, and how they can benefit your brand."
       />
       <Reviews/>
       <TrustedClients/>

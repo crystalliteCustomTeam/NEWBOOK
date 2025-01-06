@@ -14,8 +14,8 @@ export default function RevenueGrowth() {
                 <div className="container">
                     <div className={styles.__grid}>
                         <div className={styles.column}>
-                            <h2 className={styles.title}>Drive Revenue Growth with Strategic Paid Ad Campaigns!</h2>
-                            <p className={styles.para}>Transform your clicks into revenue with PPC management services that integrate your sales data with your campaigns. Discover how businesses have achieved an average 25% increase in ROI using our PPC agency’s expertise and award-winning technology. Request your free strategy proposal!</p>
+                            <h2 className={styles.title}>Why choose Book Marketing for Paid Advertising Campaign Services?</h2>
+                            <p className={styles.para}>Our services boost brand recognition, attract new customers, and drive sales with impactful ads. We optimize strategies for higher ROI and measure campaign success to ensure ongoing improvement.</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />
                             </div>

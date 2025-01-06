@@ -5,7 +5,7 @@ export default function Advertise() {
   const data = [
     {
       title: "90%",
-      desc: "Public opinion of Times SQ - 90% consider TSQ as the most recognizable part of NYC.",
+      desc: "Public opinion of Times SQ - 90% consider TSQ as the most recognizable part of NYC.",
     },
     {
       title: "243K+",
@@ -13,7 +13,7 @@ export default function Advertise() {
     },
     {
       title: "286K+",
-      desc: "Average Daily Pedestrian Count - Over 286K+ pedestrians passing through daily.",
+      desc: "Average Daily Pedestrian Count - Over 286K+ pedestrians passing through daily.",
     },
   ]
   return (
@@ -22,26 +22,13 @@ export default function Advertise() {
         <div className="container">
           <div className={styles.content}>
             <h2 className={styles.title}>
-              Advertise on Billboards in Times Square
+            Take Your Brand to New Heights with Book Marketing!
             </h2>
             <p className={styles.para}>
-              Target millions of viewers on Times Square’s iconic digital
-              screens and billboards.
+            Take Your Brand to New Heights with Book Marketing!
             </p>
             <p className={styles.para}>
-              Times Square is one of the world's most iconic locations and a
-              highly visited tourist attraction, with approximately 330,000
-              people passing through every day. Given this vast number of
-              'eyes,' Times Square is an ideal place to communicate your message
-              through its numerous billboards and digital screens that are
-              synonymous with the area. As a leading media buyer, Book Marketing
-              can connect you with New York audiences through effective Times
-              Square advertising campaigns.
-            </p>
-            <p className={styles.para}>
-              Times Square, a major tourist attraction known for its iconic
-              outdoor advertising, giant billboards, and digital displays, makes
-              it one of the world's most photographed landmarks
+            Times Square, one of the world’s most iconic locations and a top tourist attraction, sees approximately 330,000 people passing through daily. With such a vast audience, it’s the perfect place to communicate your message through its famous billboards and digital screens. As a leading media buyer, Book Marketing can help connect you with New York audiences through effective Times Square advertising campaigns, showcasing your brand in one of the world’s most photographed landmarks.
             </p>
           </div>
           <div className={styles.__grid}>

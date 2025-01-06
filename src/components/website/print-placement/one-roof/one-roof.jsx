@@ -14,7 +14,7 @@ export default function OneRoof() {
                 <Image src={Book} alt="domain" className={styles.img} />
                     <div className={styles.__grid}>
                         <div className={styles.column}>
-                            <h2 className={styles.title}>Print Placement (Magazine) that’s always-on! Everything Social, Under One Roof</h2>
+                            <h2 className={styles.title}>Our premium Print Placement Services are focused on leaving a lasting impression through magazines and other print media. </h2>
                             <p className={styles.para}>Creators are the world’s new media. With over 200M+ professional creators, finding the right talent for your campaign is like finding a needle in a sea of haystacks. Viral Nation’s end-to-end influencer marketing team simplifies this process by curating the perfect creators for your brand across global markets.</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />

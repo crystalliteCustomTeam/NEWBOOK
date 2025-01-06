@@ -12,33 +12,33 @@ import Six from "media/billboard/cards/6.png"
 const data = [
   {
     img: One,
-    title: "Digital Godzilla Billboards",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    title: "Track Record",
+    para: "Consistent success across campaigns.",
   },
   {
     img: Two,
-    title: "Digital Big Kahuna Billboards",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    title: "Expert Team",
+    para: "Skilled marketers crafting impactful campaigns.",
   },
   {
     img: Three,
-    title: "20 Times Square Billboards",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    title: "Cost-Effective Solutions",
+    para: "Packages to fit any budget.",
   },
   {
     img: Four,
-    title: "1560 Broadway Billboards",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    title: "Extensive Network",
+    para: "Top placements for maximum exposure.",
   },
   {
     img: Five,
-    title: "Thomson Reuters Billboards",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    title: "In-Depth Knowledge",
+    para: "Industry insight to boost success.",
   },
   {
     img: Six,
-    title: "The Takeover Billboards",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    title: "Results-driven",
+    para: "Every campaign is tailored for measurable impact.",
   },
 ]
 
@@ -47,11 +47,7 @@ export default function Cards() {
     <div className={style.root}>
       {data.map(({ img, title, para }, i) => (
         <div key={i} className={`${style.cards} group`}>
-          <Image
-            src={img}
-            alt="domain"
-            className="group-hover:opacity-100"
-          />
+          <Image src={img} alt="domain" className="group-hover:opacity-100" />
           <span className="group-hover:opacity-100"></span>
           <h3 className={`${style.title} group-hover:text-white`}>{title}</h3>
           <p className={`${style.para} group-hover:text-white`}>{para}</p>

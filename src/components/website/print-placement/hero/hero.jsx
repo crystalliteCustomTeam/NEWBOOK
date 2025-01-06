@@ -16,10 +16,10 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Tap Into Print Placement (Magazine) Services to Boost Your Results!
+                            Print Placement Services for New Businesses and Authors
                             </h1>
                             <p className={style.para}>
-                            Keep your audience captivated and steadily guide them toward a purchase with targeted News / Article Publishing services.
+                            At Book Marketing, we maximize your brand and book's visibility with premium Print Placement Services, ensuring your presence in relevant printed media for maximum exposure.
                             </p>
                             <div className={style.cta}>
                                 <CTAGroupDark />

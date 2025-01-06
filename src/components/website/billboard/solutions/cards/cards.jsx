@@ -11,23 +11,23 @@ import Four from "media/amazon-optimization/icons/10.png"
 const data = [
     {
         img: One,
-        title: "Reputation Analysis",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Set Your Goal",
+        para: "Define the purpose of your billboard—boost visibility, drive book sales, and create buzz."
     },
     {
         img: Two,
-        title: "Content Creation",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Choose the Right Billboard",
+        para: "Select a high-traffic spot in Times Square aligning with your budget and audience reach."
     },
     {
         img: Three,
-        title: "Publishing",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Design Eye-Catching Content",
+        para: "Create bold visuals that grabs attention and delivers your brand instantly."
     },
     {
         img: Four,
-        title: "Promotion",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Promote the Launch",
+        para: "Share the Times Square moment on social media and with press outlets to amplify the impact of your billboard."
     }
 ]
 

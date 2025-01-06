@@ -27,11 +27,10 @@ export default function Hero() {
             <div className="relative">
             <div>
               <h1 className={style.title}>
-                Unleash Your Voice. Share Your Story. Join Carlene Cross Podcast
+              Podcast Services for New Businesses and Authors
               </h1>
               <p className={style.para}>
-                Scelerisque dignissim pellentesque parturient ornare in viverra
-                feugiat id non vel enim purus ut eget.
+              Book Marketing’s specialist Podcast services boost your brand’s visibility. Our team helps you create engaging content that resonates with your target audience.
               </p>
               <div className={style.cta}>
                 <CTAGroupDark />

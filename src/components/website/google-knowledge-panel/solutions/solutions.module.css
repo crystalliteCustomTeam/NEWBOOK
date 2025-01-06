@@ -5,13 +5,13 @@
   @apply grid lg:grid-cols-2 grid-cols-1 items-center lg:gap-x-5 gap-y-10;
 }
 .content {
-  @apply lg:max-w-[660px];
+  @apply lg:max-w-[800px];
 }
 .title {
-  @apply text-[30px] sm:text-[40px] xl:text-[50px] 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono mb-5 3xl:max-w-[650px] lg:max-w-[600px];
+  @apply text-[30px] sm:text-[40px] xl:text-[50px] 2xl:text-[55px] 3xl:text-[60px] leading-[1.1] font-mono mb-5 3xl:max-w-[750px] lg:max-w-[600px];
 }
 .para {
-  @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal lg:max-w-[700px];
+  @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal lg:max-w-[750px];
 }
 .cta {
   @apply flex items-center gap-4 mt-7;

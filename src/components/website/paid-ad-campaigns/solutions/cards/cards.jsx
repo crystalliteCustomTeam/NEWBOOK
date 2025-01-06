@@ -11,23 +11,23 @@ import Four from "media/paid-ad-campaigns/icons/4.png"
 const data = [
     {
         img: One,
-        title: "Super Scalable",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "First Consultation",
+        para: "We start with a one-on-one conversation to understand your needs and preferences for an advertising strategy."
     },
     {
         img: Two,
-        title: "Platform Integrations",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Ad Design and Creation",
+        para: "Our talented team creates captivating ads that showcase your USP and engage the right potential customers."
     },
     {
         img: Three,
-        title: "See Insights",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Campaign Launch",
+        para: "We manage the distribution of your ads across key channels, ensuring optimal timing and positioning."
     },
     {
         img: Four,
-        title: "White Label Ready",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        title: "Continuous Management & Optimization",
+        para: "We monitor your campaigns and make adjustments to enhance effectiveness and achieve your goals."
     }
 ]
 

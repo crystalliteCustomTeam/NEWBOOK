@@ -26,8 +26,8 @@ export default function Billboard() {
       <Publishing />
       <Traditional />
       <Banner1
-        title="Need Help Fixing Google Knowledge Panel? Free Reputation Consultation"
-        desc="Most of our clients were too… until they started working with us. Because at our Online Reputation Management company, we only make promises that we can keep. Book a free consultation to find out if our ORM agency can get you the results that you’re after."
+        title="In Search Of A Way To Showcase Your Work At Timesquare? "
+        desc="Get a free consultation with Book Marketing today to learn how you can have your brand advertised in Timesquare without burning a hole in your pocket."
       />
       <Reviews />
       <TrustedClients />

@@ -11,7 +11,7 @@
   @apply lg:col-span-6 col-span-12;
 }
 .title {
-  @apply text-[25px] sm:text-[35px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[55px] leading-[1.1] font-mono mb-5 3xl:max-w-[600px] 2xl:max-w-[500px] lg:max-w-[500px];
+  @apply text-[25px] sm:text-[35px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[55px] leading-[1.1] font-mono mb-5 max-w-[750px];
 }
 .para {
   @apply text-[14px] sm:text-[16px] 2xl:text-[18px] text-navy leading-normal lg:max-w-[680px];

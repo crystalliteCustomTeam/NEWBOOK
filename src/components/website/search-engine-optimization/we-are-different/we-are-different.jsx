@@ -6,8 +6,8 @@ export default function WeAreDifferent() {
             <div className={styles.root}>
                 <div className="container">
                     <div className={styles.content}>
-                        <h2 className={styles.title}>Been burned by other agencies before? Many of our clients have too.</h2>
-                        <p className={styles.para}>But believe us when we say that our search engine optimization agency isn’t like other agencies. Really.</p>
+                        <h2 className={styles.title}>Disappointed by Other SEO Operators? We Feel You!</h2>
+                        <p className={styles.para}>We know how it feels to be let down by other SEO agencies. At Book Marketing, we have changed the dynamics of conventional SEO techniques. Here’s how we do it:</p>
                     </div>
                     <Grids/>
                 </div>

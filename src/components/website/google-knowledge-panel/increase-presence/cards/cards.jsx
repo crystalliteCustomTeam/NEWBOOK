@@ -9,18 +9,18 @@ import Three from "media/google-knowledge-panel/icons/9.png"
 const data = [
     {
         img: One,
-        title: "Higher rankings",
-        para: "The team’s efforts contributed to an increase in the client’s organic traffic and keyword positions."
+        title: "Skilled SEO Specialists",
+        para: "Our team specializes in creating Google-friendly, high-ranking content."
     },
     {
         img: Two,
-        title: "More high-quality traffic",
-        para: "Thanks to Book Marketing, the client’s website traffic increased from 100,000 to more than 2 million per month."
+        title: "Comprehensive Approach",
+        para: "We manage everything from profile setup to continuous optimization for your Google Knowledge Panel."
     },
     {
         img: Three,
-        title: "More sales",
-        para: "Book Marketing helped the client increase sales revenue, customer satisfaction & employee productivity."
+        title: "Affordable Pricing",
+        para: "Gain high-quality service without exceeding your budget."
     }
 ]
 

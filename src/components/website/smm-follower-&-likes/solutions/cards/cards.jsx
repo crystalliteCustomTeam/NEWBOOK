@@ -12,22 +12,22 @@ const data = [
     {
         img: One,
         title: "Reputation Analysis",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        para: "Delivering top services to connect your target audience with your content."
     },
     {
         img: Two,
         title: "Content Creation",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        para: "Amplified brand recognition focusing on audience attention."
     },
     {
         img: Three,
         title: "Publishing",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        para: "Enhanced brand loyalty fostering loyalty through consistent social media marketing."
     },
     {
         img: Four,
         title: "Promotion",
-        para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        para: "Consistent engagement keeps your audience connected to your brand."
     }
 ]
 

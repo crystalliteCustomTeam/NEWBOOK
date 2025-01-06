@@ -14,8 +14,8 @@ export default function Templates() {
                 <div className="container">
                     <div className={styles.__grid}>
                         <div className={styles.content}>
-                            <h2 className={styles.title}>Create email newsletter designs that customers can’t wait to read.</h2>
-                            <p className={styles.para}>Get started faster with gorgeous, pre-designed templates, ready to export straight to your marketing tool.</p>
+                            <h2 className={styles.title}>Ready to Stand Out with Your Newsletters?</h2>
+                            <p className={styles.para}>Let us handle your content needs and help you connect with your audience!</p>
                             <div className={styles.cta}>
                                 <CTAGroupLight />
                             </div>

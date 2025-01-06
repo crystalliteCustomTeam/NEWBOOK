@@ -16,48 +16,48 @@ import Nine from "media/email-newsletter/icons/9.png"
 const data = [
     {
         img: One,
-        title: "Email Templates Gallery",
-        para: "A diverse collection of pre-designed email templates for every occasion."
+        title: "Engaging Content",
+        para: "Our professional writers produce error-free, compelling newsletters tailored to your audience."
     },
     {
         img: Two,
-        title: "Custom Fonts Support",
-        para: "Upload free or purchased fonts that align more closely with your brand's identity."
+        title: "SEO-Focused Approach",
+        para: "Optimize for search and visibility."
     },
     {
         img: Three,
-        title: "Layout View",
-        para: "Easily move through modules and elements, rearrange them, hide, or add new ones."
+        title: "Experienced Writers",
+        para: "Skilled writers crafting engaging, high-quality content."
     },
     {
         img: Four,
-        title: "Version History",
-        para: "Securely access and restore previous files from anywhere with cloud backup."
+        title: "Comprehensive Services",
+        para: "From strategy to delivery, we cover all newsletter needs."
     },
     {
         img: Five,
-        title: "Manage Content",
-        para: "Enhance modules with text, links, and images using hyper-intuitive visual editor."
+        title: "Affordable Rates",
+        para: "Quality content without high costs."
     },
     {
         img: Six,
-        title: "Mobile Ready",
-        para: "Create fully responsive, retina-ready emails optimized for desktop and mobile viewing."
+        title: "Customer Satisfaction",
+        para: "Your satisfaction is our priority, with a track record of excellent service."
     },
     {
         img: Seven,
-        title: "Clean Code",
-        para: "We export the code that’s easy to understand and easy to change if you have to."
+        title: "Concise, Impactful Content",
+        para: "We focus on delivering your message clearly."
     },
     {
         img: Eight,
-        title: "Direct Email Preview",
-        para: "Send and verify templates directly through your or your teammate's email client."
+        title: "Eye-Catching Headers and Subheadings",
+        para: "For easy navigation and readability."
     },
     {
         img: Nine,
-        title: "One-click Export",
-        para: "It’s just one magical click to export to your favorite email marketing tool."
+        title: "Bullet Points",
+        para: "Breaking down content for quick reads."
     }
 ]
 

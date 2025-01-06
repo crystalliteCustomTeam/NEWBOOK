@@ -16,7 +16,7 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Tap Into News / Article Publishing Services to Boost Your Results!
+                            Boost Your Reach with Professional Amazon Article Publishing & Ghostwriting Services
                             </h1>
                             <p className={style.para}>
                             Keep your audience captivated and steadily guide them toward a purchase with targeted News / Article Publishing services.

@@ -16,10 +16,10 @@ export default function Hero() {
                     <div className="container">
                         <div>
                             <h1 className={style.title}>
-                            Tap Into Book Launch Campaigns Services to Boost Your Results!
+                            Book Launch Campaigns for Maximum Exposure!
                             </h1>
                             <p className={style.para}>
-                            Keep your audience captivated and steadily guide them toward a purchase with targeted News / Article Publishing services.
+                            Our goal is to implement strategic marketing plans that establish your name and create a strong foundation for your writing career.
                             </p>
                             <div className={style.cta}>
                                 <CTAGroupDark />

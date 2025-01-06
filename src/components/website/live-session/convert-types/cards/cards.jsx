@@ -2,28 +2,28 @@
 import style from "./cards.module.css"
 const data = [
   {
-    title: "Live Session with Matter Experts",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    title: "Interactive Reader Engagement",
+    para: "Connect directly with readers in real-time.",
   },
   {
-    title: "Clarity of Doubts",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    title: "Expert Guidance",
+    para: "Receive personalized advice from industry professionals.",
   },
   {
-    title: "Cost-Effective",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    title: "Skill Improvement",
+    para: "Enhance your writing through expert tips and insights.",
   },
   {
-    title: "Customer Confidentiality",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    title: "Author Networking",
+    para: "Build connections with fellow authors in a supportive space.",
   },
   {
-    title: "Learning you Prefer",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    title: "Publishing Insights",
+    para: "Gain valuable knowledge about the publishing process.",
   },
   {
-    title: "Your Better Performance",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    title: "Convenience",
+    para: "Enjoy these benefits from the comfort of your home.",
   },
 ]
 

@@ -7,7 +7,7 @@ export default function IncreasePresence() {
             <div className={styles.root}>
                 <div className="container">
                     <div className={styles.content}>
-                        <h2 className={styles.title}>Our keyword research service helped 200 companies increase their online presence</h2>
+                        <h2 className={styles.title}>What Sets Book Marketing’s Google Knowledge Services Apart?</h2>
                     </div>
                     <Cards/>
                 </div>

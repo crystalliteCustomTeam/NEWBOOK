@@ -32,7 +32,7 @@ export default function OurWork() {
                 <div className="container">
                     <div className={style.content}>
                         <h2 className={style.title}>
-                            Our Work.
+                        Some of Our Masterpieces
                         </h2>
                         <p className={style.para}>
                             A collection of our favorite work, showcasing the innovative solutions we've delivered.

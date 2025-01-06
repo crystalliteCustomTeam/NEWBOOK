@@ -16,8 +16,8 @@ export default function Publishing() {
                 <div className="container">
                     <div className={style.grids}>
                         <div className={style.cols}>
-                            <h2 className={style.title}>What Sets Our Book Launch Campaigns!</h2>
-                            <p className={style.para}>At Book Marketing, We offer superior-quality book editing services to elevate your book with help from former bestselling writers and publishing executives. Our goal at Ghostwriters Avenue is to simplify the editing process so you, the author, are not overwhelmed with the complexities of the editing world.</p>
+                            <h2 className={style.title}>Let Our Team Elevate Your Book Launch!</h2>
+                            <p className={style.para}>You’re one step closer to showcasing your writing excellence. Our professionals are here to guide you through editing, proofreading, and publishing. We understand the effort involved—let us help! Reach out today to collaborate!</p>
                             <div className={style.cta}>
                                 <CTAGroupLight />
                             </div>
