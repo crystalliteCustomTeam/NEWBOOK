@@ -14,7 +14,7 @@
 }
 
 .cols {
-  @apply lg:basis-[47%];
+  @apply lg:basis-[43%];
 }
 
 .title {

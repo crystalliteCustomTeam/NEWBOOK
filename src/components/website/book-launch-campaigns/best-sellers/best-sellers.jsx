@@ -11,39 +11,54 @@ import Book5 from "media/book-launch-campaigns/bestSellers/5.png"
 import Book6 from "media/book-launch-campaigns/bestSellers/6.png"
 import Book7 from "media/book-launch-campaigns/bestSellers/7.png"
 export default function BestSellers() {
-    return (
-        <section>
-            <div className={styles.root}>
-                <div className="container">
-                    <div className={styles.content}>
-                        <h2 className={styles.title}>Our Best Sellers</h2>
-                        <p className={styles.para}>We are a full-cycle book writing that combines creative thinking with technical expertise to create creative writing that solve real problems and drive business growth.</p>
-                    </div>
-                    <div className={styles.__grid}>
-                        <div className={styles.leftColumn}>
-                            <div className={styles.cardGrid}>
-                                {
-                                    [Book1, Book2, Book3, Book4, Book5, Book6].map((e, i) => (
-                                        <div key={i} className={`${styles.card} group`}>
-                                            <Image src={e} alt="domain" className={`${styles.img} group-hover:scale-105`} />
-                                            <h4 className={styles.title}>Book Name</h4>
-                                            <p className={styles.para}>We are known for our writing skills that help you attract multiple readers...</p>
-                                        </div>
-                                    ))
-                                }
-                            </div>
-                        </div>
-                        <div className={styles.rightColumn}>
-                            <div className={styles.bg}>
-                                <h3 className={styles.title2}>Hire The Best Book Launch Campaigns In USA To Showcase Your Masterpiece To The World</h3>
-                                <div>
-                                    <Image src={Book7} alt="domain" className={styles.rightImg} />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <section>
+      <div className={styles.root}>
+        <div className="container">
+          <div className={styles.content}>
+            <h2 className={styles.title}>Our Best Sellers</h2>
+            <p className={styles.para}>
+              We are a full-cycle book writing that combines creative thinking
+              with technical expertise to create creative writing that solve
+              real problems and drive business growth.
+            </p>
+          </div>
+          <div className={styles.__grid}>
+            <div className={styles.leftColumn}>
+              <div className={styles.cardGrid}>
+                {[
+                  [Book1, "Divide And Conquer"],
+                  [Book2, "Hell To Heaven"],
+                  [Book3, "Jehovah Rapha"],
+                  [Book4, "To The End Of The Earth"],
+                  [Book5, "Causes Of Mental Anomalies"],
+                  [Book6, "Swing Vote-2024"],
+                ].map(([img, bookName], i) => (
+                  <div key={i} className={`${styles.card} group`}>
+                    <Image
+                      src={img}
+                      alt="domain"
+                      className={`${styles.img} group-hover:scale-105`}
+                    />
+                    <h4 className={styles.title}>{bookName}</h4>
+                  </div>
+                ))}
+              </div>
             </div>
-        </section>
-    )
+            <div className={styles.rightColumn}>
+              <div className={styles.bg}>
+                <h3 className={styles.title2}>
+                  Hire The Best Book Launch Campaigns In USA To Showcase Your
+                  Masterpiece To The World
+                </h3>
+                <div>
+                  <Image src={Book7} alt="domain" className={styles.rightImg} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }

@@ -13,7 +13,7 @@ export default function Awards() {
                 <MobileRender>
                     <div className={style.content}>
                         <h2 className={style.title}>
-                            Our Reputation Toward Noteworthy <br className="lg:block hidden" /> Book  Marketing, Affirmed <br className="lg:block hidden" /> Through Awards
+                        Awards That Spotlight <br className="lg:block hidden" /> Our Book Marketing <br className="lg:block hidden" />  Expertise  
                         </h2>
                         <p className={style.para}>
                             At Book Marketing, our accomplishments speak of why we’re the best in service!

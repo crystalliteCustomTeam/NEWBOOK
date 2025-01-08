@@ -21,7 +21,7 @@ export default function TrendingPodcast() {
                 </MobileRender>
                 <div className={`container ${style.left}`}>
                     <div className={style.content}>
-                        <h2 className={style.title}>Number One Podcast Charts with Book Marketing</h2>
+                        <h2 className={style.title}>No #1 Podcast Charts with Book Marketing</h2>
                         <MobileRender>
                             <p className={style.para}>Podcasts offer an easy yet impactful way of connecting with relevant audiences in your field. With Book Marketing’s Podcast services, your book stays in the limelight of bestsellers, what’s new and trending, and relevant hot topics through genuine and engaging discussions by industry professionals.</p>
                             <div className={style.cta}>

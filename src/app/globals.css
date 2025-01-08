@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .awardsSlider .is-snapped {
+    box-shadow: 18px 15px 35px 0px #00000017;
+  }
+}

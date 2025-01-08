@@ -3,7 +3,7 @@
 }
 
 .slides {
-    @apply grow-0 shrink-0 basis-[250px] 3xl:basis-[270px] text-center border-y border-[#EEF3F5] h-[300px] flex items-center justify-center flex-col gap-4 hover:[boxShadow:_18px_15px_35px_0px_#00000017] border-x
+    @apply grow-0 shrink-0 basis-[250px] 3xl:basis-[270px] text-center border-y border-[#EEF3F5] h-[300px] flex items-center justify-center flex-col gap-4 border-x;
 }
 
 .slides img {

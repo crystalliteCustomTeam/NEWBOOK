@@ -1,5 +1,5 @@
 .title {
-    @apply text-[35px] sm:text-[40px] md:text-[50px] lg:text-[60px] 3xl:text-[65px] leading-[1.1] font-mono mb-5 max-w-[415px]
+    @apply text-[35px] sm:text-[40px] md:text-[50px] lg:text-[60px] 3xl:text-[65px] leading-[1.1] font-mono mb-5 max-w-[630px]
 }
 
 .para {
@@ -7,11 +7,11 @@
 }
 
 .lists {
-    @apply grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-4 max-w-[450px] my-7
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-4 max-w-[500px] my-7
 }
 
 .items {
-    @apply flex items-center gap-3 text-[16px] md:text-[13px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] leading-normal font-medium
+    @apply flex gap-3 text-[16px] md:text-[13px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] leading-normal font-medium
 }
 
 .cta {

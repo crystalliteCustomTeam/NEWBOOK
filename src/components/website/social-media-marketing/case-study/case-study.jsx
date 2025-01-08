@@ -12,7 +12,7 @@ export default function CaseStudy() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10 lg:gap-y-0 gap-x-5 3xl:gap-x-10 items-center">
                         <div>
                             <p className="text-[16px] md:text-[18px] xl:text-[20px] 3xl:text-[24px] leading-normal mb-3">Case Study</p>
-                            <h2 className="text-[30px] md:text-[36px] xl:text-[45px] 2xl:text-[50px] 3xl:text-[60px] leading-[1.1] font-mono sm:max-w-[40%] md:max-w-[40%] lg:max-w-[60%] mb-3">What's Possible With Our Social Media?</h2>
+                            <h2 className="text-[30px] md:text-[36px] xl:text-[45px] 2xl:text-[50px] 3xl:text-[60px] leading-[1.1] font-mono sm:max-w-[40%] md:max-w-[40%] lg:max-w-[80%] mb-3">What's Possible With Our Social Media?</h2>
                             <p className="text-[14px] sm:text-[16px] xl:text-[18px] 3xl:text-[20px] leading-normal mb-8 max-w-[90%] xl:max-w-[85%] 2xl:max-w-[70%]">Had a growing online audience that engaged with their blog and large podcast network. They turned to Coast Digital to help formulate the growth strategy of how to turn their loyal fans into paying customers.</p>
                             <div className="grid grid-cols-2 gap-5 3xl:gap-10 max-w-[470px] 3xl:max-w-[510px] mb-8">
                                 <div>

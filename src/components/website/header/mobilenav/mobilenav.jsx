@@ -78,15 +78,15 @@ const servicesMenu = [
     }
 ]
 
-export default function MobileNav({css}) {
+export default function MobileNav() {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <>
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
                 <SheetTrigger className={style.toggle}>
-                    <span className={css}></span>
-                    <span className={css}></span>
-                    <span className={css}></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </SheetTrigger>
                 <SheetContent className={style.sheet}>
                     <SheetHeader className="hidden">

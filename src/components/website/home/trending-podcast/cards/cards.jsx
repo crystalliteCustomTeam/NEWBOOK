@@ -17,63 +17,63 @@ const data = [
     {
         img: One,
         episode: "Episode: 12",
-        title: "Tech Talk: Future of Marketing",
-        name: "John Smith",
+        title: "Unearthing Relics",
+        name: "Jay Cartier, Archaeologist",
         duration: "8Hr 36M",
         category: "Technology",
-        desc: "Ligula viverra consectetur velit interdum. Tempus aliquam senectus facilisis condimentum tortor libero maecenas arcu pellentesque.",
+        desc: "The ancient pharaohs hold secrets far beyond what we have uncovered. Delve into the fascinating origins of mummification…",
         cta: "Share This Episode"
     },
     {
         img: Two,
         episode: "Episode: 23",
-        title: "Uncovering Ancient Mysteries",
-        name: "Sarah Johnson",
+        title: "Conscious vs. Subconscious Living",
+        name: "Tara Banerjee",
         duration: "8Hr 36M",
         category: "History",
-        desc: "Ligula viverra consectetur velit interdum. Tempus aliquam senectus facilisis condimentum tortor libero maecenas arcu pellentesque.",
+        desc: "Most of us are going about our days on auto-pilot without even realizing ….",
         cta: "Share This Episode"
     },
     {
         img: Three,
         episode: "Episode: 35",
-        title: "Mindful Living: Finding Inner Peace",
-        name: "Emily Parker",
+        title: "Marketing Made Easy",
+        name: "Jake Peter",
         duration: "8Hr 36M",
         category: "Health & Wellness",
-        desc: "Ligula viverra consectetur velit interdum. Tempus aliquam senectus facilisis condimentum tortor libero maecenas arcu pellentesque.",
+        desc: "Reaching Forbes is as easy as solving a Rubik’s cube if you….",
         cta: "Share This Episode"
     },
     {
         img: Four,
         episode: "Episode: 46",
-        title: "Economic Insights: Global Markets",
-        name: "David Ramirez",
+        title: "Remission or Myth-Cancer Cure at a Glance",
+        name: "Sammy Raya",
         duration: "8Hr 36M",
         category: "Business & Finance",
-        desc: "Ligula viverra consectetur velit interdum. Tempus aliquam senectus facilisis condimentum tortor libero maecenas arcu pellentesque.",
+        desc: "With so many self-proclaimed nutritionists on the rise, it is hard to establish what a is cure …",
         cta: "Share This Episode"
     },
-    {
-        img: Five,
-        episode: "Episode: 73",
-        title: "Uncovering Ancient Mysteries",
-        name: "Sarah Johnson",
-        duration: "8Hr 36M",
-        category: "History",
-        desc: "Ligula viverra consectetur velit interdum. Tempus aliquam senectus facilisis condimentum tortor libero maecenas arcu pellentesque.",
-        cta: "Share This Episode"
-    },
-    {
-        img: Six,
-        episode: "Episode: 54",
-        title: "Mindful Living: Finding Inner Peace",
-        name: "Emily Parker",
-        duration: "8Hr 36M",
-        category: "Health & Wellness",
-        desc: "Ligula viverra consectetur velit interdum. Tempus aliquam senectus facilisis condimentum tortor libero maecenas arcu pellentesque.",
-        cta: "Share This Episode"
-    }
+    // {
+    //     img: Five,
+    //     episode: "Episode: 73",
+    //     title: "Uncovering Ancient Mysteries",
+    //     name: "Sarah Johnson",
+    //     duration: "8Hr 36M",
+    //     category: "History",
+    //     desc: "Ligula viverra consectetur velit interdum. Tempus aliquam senectus facilisis condimentum tortor libero maecenas arcu pellentesque.",
+    //     cta: "Share This Episode"
+    // },
+    // {
+    //     img: Six,
+    //     episode: "Episode: 54",
+    //     title: "Mindful Living: Finding Inner Peace",
+    //     name: "Emily Parker",
+    //     duration: "8Hr 36M",
+    //     category: "Health & Wellness",
+    //     desc: "Ligula viverra consectetur velit interdum. Tempus aliquam senectus facilisis condimentum tortor libero maecenas arcu pellentesque.",
+    //     cta: "Share This Episode"
+    // }
 ]
 
 export default function Cards() {

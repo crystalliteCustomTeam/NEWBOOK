@@ -15,7 +15,7 @@
 }
 
 .navlist {
-    @apply hidden xl:block xl:mr-[150px]
+    @apply hidden xl:block xl:mr-[150px] text-white
 }
 
 .mobileNav {

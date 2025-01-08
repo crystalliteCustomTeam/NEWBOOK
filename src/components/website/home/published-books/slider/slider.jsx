@@ -13,55 +13,70 @@ import Image from "next/image"
 import style from "./slider.module.css"
 
 const data = [
-    {
-        book: One,
-        title: "Book Name 1",
-        desc: "We are known for our writing skills that help you attract multiple readers..."
-    },
-    {
-        book: Two,
-        title: "Book Name 2",
-        desc: "We are known for our writing skills that help you attract multiple readers..."
-    },
-    {
-        book: Three,
-        title: "Book Name 3",
-        desc: "We are known for our writing skills that help you attract multiple readers..."
-    },
-    {
-        book: Four,
-        title: "Book Name 4",
-        desc: "We are known for our writing skills that help you attract multiple readers..."
-    },
-    {
-        book: Five,
-        title: "Book Name 5",
-        desc: "We are known for our writing skills that help you attract multiple readers..."
-    },
-    {
-        book: Six,
-        title: "Book Name 6",
-        desc: "We are known for our writing skills that help you attract multiple readers..."
-    }
+  {
+    book: One,
+    title: "Echoes Of Resilience",
+  },
+  {
+    book: Two,
+    title: "I Just Wanna Go Home",
+  },
+  {
+    book: Three,
+    title: "Dirtman",
+  },
+  {
+    book: Four,
+    title: "Japan Time Travel",
+  },
+  {
+    book: Five,
+    title: "Baja Bay",
+  },
+  {
+    book: Six,
+    title: "The Grand Leadership Strategy",
+  },
+  {
+    book: One,
+    title: "Echoes Of Resilience",
+  },
+  {
+    book: Two,
+    title: "I Just Wanna Go Home",
+  },
+  {
+    book: Three,
+    title: "Dirtman",
+  },
+  {
+    book: Four,
+    title: "Japan Time Travel",
+  },
+  {
+    book: Five,
+    title: "Baja Bay",
+  },
+  {
+    book: Six,
+    title: "The Grand Leadership Strategy",
+  },
 ]
 
 export default function Slider() {
-    return (
-        <AutoPlaySlider
-            emblaWrapper="flex [margin-left:calc(50px_*_-1)]"
-            wrapperClasses="overflow-visible"
-            align="center"
-            arrows={false}
-        >
-            {
-                data.map(({ book, title, desc }) => (
-                    <div className={style.slides} key={title}>
-                        <Image src={book} alt="domain" />
-                        <h3 className={style.title}>{title}</h3>
-                        <p className={style.para}>{desc}</p>
-                    </div>
-                ))
-            }
-        </AutoPlaySlider>
-    )
+  return (
+    <AutoPlaySlider
+      emblaWrapper="flex [margin-left:calc(50px_*_-1)]"
+      wrapperClasses="overflow-visible"
+      align="center"
+      arrows={false}
+    >
+      {data.map(({ book, title },i) => (
+        <div className={style.slides} key={i}>
+          <Image src={book} alt="domain" />
+          <h3 className={style.title}>{title}</h3>
+        </div>
+      ))}
+    </AutoPlaySlider>
+  )
 }

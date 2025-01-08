@@ -1,5 +1,6 @@
 // Components
-import { AutoScrollSlider } from "@/components"
+import { AutoScrollSliderActive } from "@/components"
+
 // Media
 import One from "media/home/awards/1.webp"
 import Two from "media/home/awards/2.webp"
@@ -12,8 +13,8 @@ import style from "./slider.module.css"
 
 export default function Slider() {
     return (
-        <div className={style.root}>
-            <AutoScrollSlider wrapperCss="overflow-visible" emblaWrapper="flex pt-[50px] lg:pt-[120px] lg:pb-[180px]" >
+        <div className={`awardsSlider ${style.root}`}>
+            <AutoScrollSliderActive wrapperCss="overflow-visible" emblaWrapper="flex pt-[50px] lg:pt-[120px] lg:pb-[180px]" >
                 {
                     [
                         {
@@ -64,7 +65,7 @@ export default function Slider() {
                         </div>
                     ))
                 }
-            </AutoScrollSlider>
+            </AutoScrollSliderActive>
         </div>
     )
 }

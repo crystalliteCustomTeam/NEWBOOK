@@ -1,43 +1,43 @@
 .slides {
-    @apply grow-0 shrink-0 basis-[340px] sm:basis-[500px] xl:basis-[550px] pl-4 text-white pb-2
+  @apply grow-0 shrink-0 basis-full sm:basis-[500px] xl:basis-[550px] pl-4 text-white pb-2 h-full;
 }
 
 .imgBox {
-    @apply rounded-xl overflow-hidden relative
+  @apply rounded-xl overflow-hidden relative;
 }
 
 .episode {
-    @apply absolute left-[40px] bottom-[40px] flex w-[170px] bg-white rounded-full items-center h-[40px] gap-3
+  @apply absolute left-[40px] bottom-[40px] flex w-[170px] bg-white rounded-full items-center h-[40px] gap-3;
 }
 
 .episode .icon {
-    @apply w-[60px] bg-blue h-full flex items-center rounded-full justify-center
+  @apply w-[60px] bg-blue h-full flex items-center rounded-full justify-center;
 }
 
 .episode .number {
-    @apply inline-block text-[14px] leading-tight font-manrope text-purple
+  @apply inline-block text-[14px] leading-tight font-manrope text-purple;
 }
 
 .title {
-    @apply text-[20px] sm:text-[26px] xl:text-[32px] font-mono leading-tight my-7
+  @apply text-[20px] sm:text-[26px] xl:text-[32px] font-mono leading-tight my-7 min-h-[45px] sm:min-h-[74px];
 }
 
 .details {
-    @apply flex gap-4 sm:gap-8 pb-5 border-b-2 border-white mb-5
+  @apply flex gap-4 sm:gap-8 pb-5 border-b-2 border-white mb-5;
 }
 
 .details .col {
-    @apply flex items-center gap-1 sm:gap-3
+  @apply flex items-center gap-1 sm:gap-3;
 }
 
 .details .col .name {
-    @apply text-[12px] sm:text-[16px] xl:text-[18px] leading-tight inline-block
+  @apply text-[12px] sm:text-[16px] xl:text-[18px] leading-tight inline-block;
 }
 
 .para {
-    @apply text-[14px] sm:text-[16px] xl:text-[18px] leading-normal mb-5
+  @apply text-[14px] sm:text-[16px] xl:text-[18px] leading-normal mb-5 min-h-[50px];
 }
 
 .cta {
-    @apply text-[14px] sm:text-[16px] xl:text-[18px] leading-tight underline underline-offset-8
+  @apply text-[14px] sm:text-[16px] xl:text-[18px] leading-tight underline underline-offset-8;
 }

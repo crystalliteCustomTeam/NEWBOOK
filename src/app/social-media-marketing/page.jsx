@@ -22,27 +22,27 @@ export default function Page() {
             <CaseStudy />
             <Services />
             <WhyChoose
-                desc="At Cross Podcast, we blend expertise with creativity to deliver exceptional podcasting solutions. Here's why we're the top choice for your podcasting needs:"
+                desc="At Book Marketing, we combine creativity with strategy to deliver impactful solutions for promoting your book."
                 data={[
                     {
                         icon: Icon1,
-                        title: "Diverse Podcasting Expertise",
-                        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+                        title: "Diverse Marketing Strategies",
+                        desc: "Our book marketing services reach diverse audiences through social media campaigns, email marketing, and influencer partnerships to ensure your book gets noticed."
                     },
                     {
                         icon: Icon2,
                         title: "Supportive Community",
-                        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+                        desc: "We help you build a loyal community of readers by fostering engagement and encouraging discussions, turning them into passionate advocates for your book."
                     },
                     {
                         icon: Icon3,
-                        title: "Cutting-Edge Technology",
-                        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+                        title: "Cutting-Edge Digital Tools",
+                        desc: "Stay ahead with cutting-edge digital marketing tools, using targeted ads and analytics to ensure your book gets the attention it deserves."
                     },
                     {
                         icon: Icon4,
-                        title: "Exclusive Merchandise",
-                        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+                        title: "Exclusive Author Merchandise",
+                        desc: "Engage your audience with branded merchandise that reflects your book's theme. From bookmarks to custom prints, we create memorable items that fans can cherish and share."
                     }
                 ]}
             />
