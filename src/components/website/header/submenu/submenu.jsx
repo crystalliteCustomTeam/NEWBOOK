@@ -4,95 +4,76 @@ import { NavigationMenuItem, NavigationMenuLink } from "@/components/shadcnui"
 import Link from "next/link"
 import Image from "next/image"
 // Media
-import Mockup from "media/submenu-mockup.png"
+import Mockup from "media/home/services/promo.png"
 // Css
 import style from "./submenu.module.css"
 
 const servicesOne = [
   {
-    text: "Amazon <br /> Optimization",
+    text: "Amazon Optimization",
     href: "/amazon-optimization",
   },
   {
-    text: "SMM Follower <br /> & Likes",
+    text: "SMM Follower & Likes",
     href: "/smm-follower-and-likes",
   },
   {
-    text: "Email <br /> Newsletter",
+    text: "Email Newsletter",
     href: "/email-newsletter",
   },
   {
-    text: "Online Reputation <br /> Management",
+    text: "Online Reputation Management",
     href: "/online-reputation-management",
+  },
+  {
+    text: "News / Article Publishing",
+    href: "/news-article-publishing",
+  },
+  {
+    text: "Paid Ad Campaigns",
+    href: "/paid-ad-campaigns",
+  },
+  {
+    text: "Influencer Marketing",
+    href: "/influencer-marketing",
   },
 ]
 
 const servicesTwo = [
   {
-    text: "News / Article <br /> Publishing",
-    href: "/news-article-publishing",
-  },
-  {
-    text: "Paid Ad <br /> Campaigns",
-    href: "/paid-ad-campaigns",
-  },
-  {
-    text: "Influencer <br /> Marketing",
-    href: "/influencer-marketing",
-  },
-  {
-    text: "Search Engine <br /> Optimization",
+    text: "Search Engine Optimization",
     href: "/search-engine-optimization",
   },
-]
-
-const servicesThree = [
   {
-    text: "Google Knowledge <br /> Panel",
+    text: "Google Knowledge Panel",
     href: "/google-knowledge-panel",
   },
   {
-    text: "Social Media <br /> Marketing",
+    text: "Print Placement (Magazine)",
+    href: "/print-placement",
+  },
+  {
+    text: "Social Media Marketing",
     href: "/social-media-marketing",
   },
   {
-    text: "Video Book <br /> Trailer",
+    text: "Video Book Trailer",
     href: "/video-book-trailer",
   },
   {
-    text: "Book Launch <br /> Campaigns",
+    text: "Book Launch Campaigns",
     href: "/book-launch-campaigns",
   },
-]
-
-const servicesFour = [
   {
-    text: "TV <br /> Interviews",
+    text: "TV Interviews",
     href: "/tv-interviews",
-  },
-  {
-    text: "Print Placement <br /> (Magazine)",
-    href: "/print-placement",
-  },
+  }
 ]
 
 export default function Submenu() {
   return (
     <div className={style.root}>
       <div className={style.left}>
-        <div>
-          <h2 className={style.title}>
-            Activate Your <span className="text-blue">Coupon</span>{" "}
-            <span className="text-pink">
-              {" "}
-              <br /> 50% off
-            </span>
-          </h2>
-          <p className={style.para}>Get Affordable Rates</p>
-        </div>
-        <Image src={Mockup} alt="domain" />
-      </div>
-      <div className={style.right}>
         <div>
           <ul className={style.navlinks}>
             {servicesOne.map(({ text, href }) => (
@@ -119,7 +100,7 @@ export default function Submenu() {
             ))}
           </ul>
         </div>
-        <div>
+        {/* <div>
           <ul className={style.navlinks}>
             {servicesThree.map(({ text, href }) => (
               <NavigationMenuItem key={text}>
@@ -131,19 +112,32 @@ export default function Submenu() {
               </NavigationMenuItem>
             ))}
           </ul>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <ul className={style.navlinks}>
-            {servicesFour.map(({ text, href }) => (
-              <NavigationMenuItem key={text}>
+          {servicesFour.map(({ text, href }) => (
+            <NavigationMenuItem key={text}>
                 <Link href={href} legacyBehavior passHref>
                   <NavigationMenuLink>
-                    <span dangerouslySetInnerHTML={{ __html: text }} />
+                  <span dangerouslySetInnerHTML={{ __html: text }} />
                   </NavigationMenuLink>
-                </Link>
-              </NavigationMenuItem>
-            ))}
-          </ul>
+                  </Link>
+                  </NavigationMenuItem>
+                  ))}
+                  </ul>
+                  </div> */}
+      </div>
+      <div className={style.right}>
+        <Image src={Mockup} alt="domain" />
+        <div>
+          <h2 className={style.title}>
+            Activate Your <span className="text-blue">Coupon</span>{" "}
+            <span className="text-pink">
+              {" "}
+              <br /> 50% off
+            </span>
+          </h2>
+          <p className={style.para}>Get Affordable Rates</p>
         </div>
       </div>
     </div>
