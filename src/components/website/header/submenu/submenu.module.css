@@ -1,9 +1,18 @@
 .root {
-  @apply grid grid-cols-12 text-black font-mono;
+  @apply grid grid-cols-12 gap-x-12 text-black font-manrope;
+}
+.left {
+  @apply col-span-8 mb-10 max-w-[950px];
+}
+.navText > .title {
+  @apply text-4xl 2xl:text-[55px] font-bold !leading-tight bg-gradient [-webkit-background-clip:_text] [-webkit-text-fill-color:_transparent];
+}
+.navText > .para {
+  @apply text-lg leading-normal mt-5 mb-10;
 }
 
 .title {
-  @apply text-4xl 2xl:text-5xl !leading-tight;
+  @apply text-4xl 3xl:text-5xl font-semibold !leading-tight text-black/95;
 }
 
 .para {
@@ -11,13 +20,19 @@
 }
 
 .right {
-  @apply col-span-6 grid grid-cols-2 items-center;
+  @apply col-span-4 items-center mb-16;
+}
+.right img {
+  @apply me-auto;
 }
 
-.left {
-  @apply grid grid-cols-2 col-span-6 gap-x-[20px];
+.links {
+  @apply grid grid-cols-3 col-span-8 gap-x-[40px];
 }
 
 .navlinks {
-    @apply grid grid-cols-1 gap-y-[20px] font-manrope font-semibold;
+  @apply grid grid-cols-1 gap-y-[20px] font-manrope font-semibold;
+}
+.bottomBar{
+  @apply col-span-12 text-center bg-gradient absolute w-full left-0 right-0 bottom-0 py-5 h-max text-white text-[25px] font-semibold font-manrope
 }
