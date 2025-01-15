@@ -7,7 +7,7 @@ import Image from "next/image"
 import Mockup from "media/home/services/promo.png"
 // Css
 import style from "./submenu.module.css"
-import { ArrowBigRight } from "lucide-react"
+import { ArrowBigRight, ChevronRight } from "lucide-react"
 
 const servicesOne = [
   {
@@ -29,7 +29,7 @@ const servicesOne = [
   {
     text: "News / Article Publishing",
     href: "/news-article-publishing",
-  }
+  },
 ]
 
 const servicesTwo = [
@@ -52,7 +52,7 @@ const servicesTwo = [
   {
     text: "Print Placement (Magazine)",
     href: "/print-placement",
-  }
+  },
 ]
 const servicesThree = [
   {
@@ -91,7 +91,8 @@ export default function Submenu() {
               {servicesOne.map(({ text, href }) => (
                 <NavigationMenuItem key={text}>
                   <Link href={href} legacyBehavior passHref>
-                    <NavigationMenuLink>
+                    <NavigationMenuLink className="flex gap-x-2">
+                      <ChevronRight className="text-pink" />
                       <span dangerouslySetInnerHTML={{ __html: text }} />
                     </NavigationMenuLink>
                   </Link>
@@ -104,7 +105,8 @@ export default function Submenu() {
               {servicesTwo.map(({ text, href }) => (
                 <NavigationMenuItem key={text}>
                   <Link href={href} legacyBehavior passHref>
-                    <NavigationMenuLink>
+                    <NavigationMenuLink className="flex gap-x-2">
+                      <ChevronRight className="text-pink" />
                       <span dangerouslySetInnerHTML={{ __html: text }} />
                     </NavigationMenuLink>
                   </Link>
@@ -117,7 +119,8 @@ export default function Submenu() {
               {servicesThree.map(({ text, href }) => (
                 <NavigationMenuItem key={text}>
                   <Link href={href} legacyBehavior passHref>
-                    <NavigationMenuLink>
+                    <NavigationMenuLink className="flex gap-x-2">
+                      <ChevronRight className="text-pink" />
                       <span dangerouslySetInnerHTML={{ __html: text }} />
                     </NavigationMenuLink>
                   </Link>
@@ -134,11 +137,13 @@ export default function Submenu() {
             <br /> 50% off
           </h2>
           <p className={style.para}>Get Affordable Rates</p>
-          <Image src={Mockup} alt="domain" width={350} height={350} />
+          <Image src={Mockup} alt="domain" width={300} height={300} />
         </div>
       </div>
       <div className={style.bottomBar}>
-        <Link href="/" className="flex items-center gap-x-3 justify-center">Explore Our New Survery Features <ArrowBigRight className="size-8"/></Link>
+        <Link href="/" className="flex items-center gap-x-3 justify-center">
+          Explore Our New Survery Features <ArrowBigRight className="size-7" />
+        </Link>
       </div>
     </div>
   )
