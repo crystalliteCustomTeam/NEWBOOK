@@ -16,9 +16,9 @@ export default function Services() {
             <div className={styles.root}>
                 <div className="container">
                     <div className={styles.content}>
-                        <h2 className={styles.title}>Book Marketing Services </h2>
+                        <h2 className={styles.title}>Marketing Services That Serve Your Book Best </h2>
                         <MobileRender>
-                            <p className={styles.para}>Writing a book alone isn’t enough; it needs the right marketing strategies to reach its full potential. At Book Marketing, we offer a plethora of services, allowing you to choose the marketing strategy that fits your criteria and budget. </p>
+                            <p className={styles.para}>From targeted promotions to global outreach, our expert book marketing services are designed to boost visibility, drive sales, and connect your book with the right audience. </p>
                             <Link className={styles.link} href="/">
                                 <span>Explore</span>
                                 <Image src={ChevronRight} alt="domain" />

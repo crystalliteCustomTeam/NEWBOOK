@@ -7,7 +7,7 @@
 }
 
 .content .title {
-    @apply leading-[1.1] text-[35px] sm:text-[45px] xl:text-[55px] 3xl:text-[60px] font-mono font-normal basis-full xl:basis-auto
+    @apply leading-[1.1] text-[35px] sm:text-[45px] xl:text-[50px] 3xl:text-[60px] font-mono font-normal basis-full xl:basis-auto
 }
 
 .content .para {

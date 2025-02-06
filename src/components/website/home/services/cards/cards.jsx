@@ -9,88 +9,82 @@ import styles from "./cards.module.css"
 
 const data = [
   {
-    title: "Amazon <br class='hidden sm:block' /> Optimization",
-    para: "Amazon listings have become a powerful advertising tool. Leverage Book Marketing’s expert Amazon Optimization team to keep your book aligned with trending algorithms",
+    title: "Amazon Best  <br class='hidden sm:block' /> Seller Badge",
+    para: "Achieve the coveted Amazon Best Seller Badge and boost your book’s credibility, sales, and visibility on the world’s largest book marketplace.",
     cta: "Read More",
-    ctaLink: "/amazon-optimization",
+    ctaLink: "/",
   },
   {
-    title: "SMM Follower <br class='hidden sm:block' /> & Likes",
-    para: "Book Marketing ensures that your social media accounts are always growing in terms of followers and likes via organic and engaging content.",
-    cta: "Read More",
-    ctaLink: "/smm-follower-and-likes",
-  },
-  {
-    title: "Email <br class='hidden sm:block' /> Newsletter",
-    para: "Keep your devoted readers engaged and informed about your book's release and upcoming events with Book Marketing’s expertly crafted newsletters. ",
-    cta: "Read More",
-    ctaLink: "/email-newsletter",
-  },
-  {
-    title: "Online Reputation <br class='hidden sm:block' /> Management",
-    para: "Stay ahead of your growing social media community to protect your reputation and build rapport with the 24/7 support of our ORM Team.",
+    title: "Author Online <br class='hidden sm:block' /> Reputation Management",
+    para: "Enhance your author brand with expert reputation management, ensuring positive reviews, media presence, and trust-building across online platforms.",
     cta: "Read More",
     ctaLink: "/online-reputation-management",
   },
   {
-    title: "News / Article <br class='hidden sm:block' /> Publishing",
-    para: "An article by renowned columnists in prestigious publications provides the credibility needed to assure your audience they're in for a treat.",
+    title: "Building an  <br class='hidden sm:block' /> Online Presence",
+    para: "Establish a powerful online presence with strategic book marketing, helping you connect with readers, increase engagement, and boost book sales by creating a strong online presence. Start with your website now!",
     cta: "Read More",
-    ctaLink: "/news-article-publishing",
+    ctaLink: "/",
   },
   {
-    title: "Paid Ad <br class='hidden sm:block' /> Campaigns",
-    para: "Paid campaigns ensure that your book finds its way to your desired audience across all platforms easily, increasing its visibility.",
-    cta: "Read More",
-    ctaLink: "/paid-ad-campaigns",
-  },
-  {
-    title: "Influencer <br class='hidden sm:block' /> Marketing",
-    para: "Influencer Marketing makes your book accessible to newer audiences by highlighting all that is relevant and trending. ",
-    cta: "Read More",
-    ctaLink: "/influencer-marketing",
-  },
-  {
-    title: "Search Engine <br class='hidden sm:block' /> Optimization",
-    para: "Drive organic visibility of your book with the right SEO techniques so the right readers for your book can find you easily.",
+    title: "Search Engine <br class='hidden sm:block' /> Optimization (SEO)",
+    para: "Optimize your book and author website with advanced SEO strategies, ensuring higher search rankings, increased traffic, and maximum discoverability.",
     cta: "Read More",
     ctaLink: "/search-engine-optimization",
   },
   {
-    title: "Google Knowledge <br class='hidden sm:block' /> Panel",
-    para: "Enhance your readers’ search for your book by providing them with all the necessary facts for your book’s marketing. ",
-    cta: "Read More",
-    ctaLink: "/google-knowledge-panel",
-  },
-  {
-    title: "Social Media <br class='hidden sm:block' /> Marketing",
-    para: "Start building a community of readers with a niche-driven strategy of social media marketing.",
+    title: "Social Media <br class='hidden sm:block' /> Marketing (SMM)",
+    para: "Leverage powerful social media marketing to promote your book, grow your audience, and drive engagement across Facebook, Instagram, Twitter, and more.",
     cta: "Read More",
     ctaLink: "/social-media-marketing",
   },
   {
-    title: "Video Book <br class='hidden sm:block' /> Trailer",
-    para: "Let a visual glimpse of your book’s plot drive the reader’s interest and leave them anticipating the story.",
+    title: "Book Video <br class='hidden sm:block' /> Trailer",
+    para: "Captivate readers with a professional book video trailer, designed to visually showcase your story and generate excitement across digital platforms.",
     cta: "Read More",
     ctaLink: "/video-book-trailer",
   },
   {
-    title: "Book Launch <br class='hidden sm:block' /> Campaigns",
-    para: "Create the right hype to gain momentum for your book even before its launch.",
+    title: "Influencer <br class='hidden sm:block' /> Marketing",
+    para: "Boost book sales with strategic influencer marketing, connecting your book with top influencers, bloggers, and reviewers in your genre. Get the word around with influencers your Target Audience can connect and relate with.",
     cta: "Read More",
-    ctaLink: "/book-launch-campaigns",
+    ctaLink: "/influencer-marketing",
+  },
+  {
+    title: "Press Release<br class='hidden sm:block' /> & Publications",
+    para: "Get your book featured in major media outlets with a compelling press release, enhancing credibility, visibility, and reader interest. We have some of the best platforms on board to spread the word around. ",
+    cta: "Read More",
+    ctaLink: "/print-placement",
+  },
+  {
+    title: "Paid Ad  <br class='hidden sm:block' /> Campaigns",
+    para: "Maximize book sales with targeted paid ad campaigns on Amazon, Facebook, and Google, reaching your ideal audience with precision.",
+    cta: "Read More",
+    ctaLink: "/paid-ad-campaigns",
   },
   {
     title: "TV <br class='hidden sm:block' /> Interviews",
-    para: "TV Interviews enable you to put the best of your book out there for a wider audience.",
+    para: "Increase your author brand’s credibility with expert-arranged TV interviews, putting your book in front of a massive audience.",
     cta: "Read More",
     ctaLink: "/tv-interviews",
   },
   {
-    title: "Print Placement <br class='hidden sm:block' /> (Magazine)",
+    title: "Podcasts & <br class='hidden sm:block' />  TV Interviews",
+    para: "Expand your reach with exclusive podcast and TV interviews, positioning you as an expert and promoting your book to the right audience.",
+    cta: "Read More",
+    ctaLink: "/podcasts",
+  },
+  {
+    title: "Email <br class='hidden sm:block' /> Marketing",
+    para: "Drive book sales with high-converting email marketing, connecting directly with readers through engaging newsletters and promotional campaigns.",
+    cta: "Read More",
+    ctaLink: "/email-newsletter",
+  },
+  {
+    title: "Times Square <br class='hidden sm:block' /> Advertising",
     para: "Magazines are the perfect resolution to get your book the international recognition it deserves. ",
     cta: "Read More",
-    ctaLink: "/print-placement",
+    ctaLink: "/billboard",
   },
 ]
 
@@ -118,13 +112,10 @@ export default function Cards() {
       <MobileRender>
         <div className={styles.promo}>
           <div>
-            <h3 className={styles.title}>
-              Estimate Your Book Marketing <br className="hidden sm:block" />{" "}
-              Project’s Cost Now!
-            </h3>
+            <h3 className={styles.title}>Start Your Book Promotion Now!</h3>
             <p className={styles.para}>
-              Partner with us to make your book reach its full potential of
-              success. Reach out to us today to get the best price quote!
+              Get in touch with our Book Marketing Experts and get the best plan
+              tailored as per your needs.
             </p>
             <CTA
               css="bg-white text-purple font-manrope font-medium capitalize [boxShadow:0px_5px_15px_rgba(15,_23,_42,_0.1)] hover:bg-black hover:border hover:border-white hover:text-white"

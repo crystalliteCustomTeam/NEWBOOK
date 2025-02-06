@@ -9,17 +9,17 @@ export default function Page() {
       <Hero />
       <Awards />
       <Services />
-      <TrendingPodcast />
-      <Publishing />
-      <Sessions />
       <PublishedBooks />
-      <Contact />
-      <LatestPublished />
-      <Interviews />
-      <WhyChoose />
+      <Sessions />
+      <Publishing />
       <Billboard />
+      <WhyChoose />
+      {/* <LatestPublished /> */}
+      {/* <Interviews /> */}
       <Reviews />
+      <TrendingPodcast />
       <TrustedClients />
+      <Contact />
     </>
   )
 }
