@@ -7,7 +7,7 @@ import { CTA, MobileRender } from "@/components"
 // Css
 import style from "./sessions.module.css"
 
-const data = ["Seamless Connectivity with Audience", "One-On-One Interaction", "Regular Polls", "Live Feedback"]
+const data = ["Regular Polls", "Live Feedback","One-On-One Interaction","Seamless Connectivity with Audience"]
 
 export default function Sessions() {
     return (
@@ -29,10 +29,12 @@ export default function Sessions() {
                                 {
                                     data.map((e) => (
                                         <li key={e} className={style.items}>
+                                            <div className="shrink-0">
                                             <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <rect y="0.48999" width="28" height="28" rx="5" fill="#F32FA4" />
                                                 <path d="M12.2497 16.9225L10.2255 14.8983C9.99805 14.6708 9.63055 14.6708 9.40305 14.8983C9.17555 15.1258 9.17555 15.4933 9.40305 15.7208L11.8414 18.1592C12.0689 18.3867 12.4364 18.3867 12.6639 18.1592L18.8355 11.9875C19.063 11.76 19.063 11.3925 18.8355 11.165C18.608 10.9375 18.2405 10.9375 18.013 11.165L12.2497 16.9225Z" fill="white" />
                                             </svg>
+                                            </div>
                                             <span>{e}</span>
                                         </li>
                                     ))

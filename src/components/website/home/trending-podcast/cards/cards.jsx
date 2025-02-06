@@ -39,7 +39,7 @@ const data = [
         episode: "Episode: 35",
         title: "Marketing Made Easy",
         name: "Jake Peter",
-        duration: "10Hr 15M",
+        duration: "5Hr 15M",
         category: "Health & Wellness",
         desc: "Reaching Forbes is as easy as solving a Rubik’s cube if you….",
         // cta: "Share This Episode"
@@ -49,7 +49,7 @@ const data = [
         episode: "Episode: 46",
         title: "Remission or Myth-Cancer Cure at a Glance",
         name: "Sammy Raya",
-        duration: "12Hr 5M",
+        duration: "3Hr 5M",
         category: "Business & Finance",
         desc: "With so many self-proclaimed nutritionists on the rise, it is hard to establish what a is cure …",
         // cta: "Share This Episode"

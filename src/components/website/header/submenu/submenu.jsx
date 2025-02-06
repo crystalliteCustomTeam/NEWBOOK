@@ -78,11 +78,14 @@ export default function Submenu() {
     <div className={style.root}>
       <div className={style.left}>
         <div className={style.navText}>
-          <h3 className={style.title}>We're more than Survey Softwere</h3>
+          <h3 className={style.title}>
+            Marketing That Puts Your Book in the Spotlight!
+          </h3>
           <p className={style.para}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
-            corporis hic laudantium optio, fugiat molestiae culpa itaque neque
-            perspiciatis. Reprehenderit?
+            We help authors reach the right audience with strategic promotions,
+            targeted advertising, and expert branding. From social media buzz to
+            bestseller campaigns, we ensure your book gets the attention it
+            deserves!
           </p>
         </div>
         <div className={style.links}>
@@ -142,7 +145,8 @@ export default function Submenu() {
       </div>
       <div className={style.bottomBar}>
         <Link href="/" className="flex items-center gap-x-3 justify-center">
-          Explore Our New Survery Features <ArrowBigRight className="size-7" />
+          Discover Our Latest Book Marketing Innovations!{" "}
+          <ArrowBigRight className="size-7" />
         </Link>
       </div>
     </div>
