@@ -12,13 +12,13 @@ export default function Cards() {
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-3 gap-y-10">
             {
                 [
-                    [Image1,"Tech Talk: Future of Marketing"],
-                    [Image2,"Uncovering Ancient Mysteries"],
-                    [Image3,"Mindful Living: Finding Inner Peace"],
-                    [Image4,"Economic Insights: Global Markets"],
-                    [Image5,"Uncovering Ancient Mysteries"],
-                    [Image6,"Mindful Living: Finding Inner Peace"],
-                ].map(([img,title],i) => (
+                    [Image1,"Tech Talk: Future of Marketing","Sunridge"],
+                    [Image2,"Uncovering Ancient Mysteries","Rockford"],
+                    [Image3,"Mindful Living: Finding Inner Peace","Grandview"],
+                    [Image4,"Economic Insights: Global Markets","Fairhaven"],
+                    [Image5,"Uncovering Ancient Mysteries","Westgate"],
+                    [Image6,"Mindful Living: Finding Inner Peace","Brookside"],
+                ].map(([img,title,lc],i) => (
                     <div key={i}>
                         <Image src={img} alt="domain" />
                         <div className="text-white my-5">
@@ -30,7 +30,7 @@ export default function Cards() {
                                 </div>
                                 <div>
                                     <span className="block">Location:</span>
-                                    <span className="block">BRIC House</span>
+                                    <span className="block">{lc}</span>
                                 </div>
                             </div>
                         </div>

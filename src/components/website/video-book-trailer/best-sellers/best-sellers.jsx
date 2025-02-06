@@ -24,8 +24,8 @@ export default function BestSellers() {
                             [Book1, Book2, Book3, Book4, Book5].map((e, i) => (
                                 <div key={i} className={`${styles.card} group`}>
                                     <Image src={e} alt="domain" className={`${styles.img} group-hover:scale-105`} />
-                                    <h4 className={styles.title}>Book Name</h4>
-                                    <p className={styles.para}>We are known for our writing skills that help you attract multiple readers...</p>
+                                    {/* <h4 className={styles.title}>Book Name</h4>
+                                    <p className={styles.para}>We are known for our writing skills that help you attract multiple readers...</p> */}
                                 </div>
                             ))
                         }

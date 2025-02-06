@@ -15,51 +15,51 @@ import style from "./slider.module.css"
 const data = [
   {
     book: One,
-    title: "Echoes Of Resilience",
+    // title: "Echoes Of Resilience",
   },
   {
     book: Two,
-    title: "I Just Wanna Go Home",
+    // title: "I Just Wanna Go Home",
   },
   {
     book: Three,
-    title: "Dirtman",
+    // title: "Dirtman",
   },
   {
     book: Four,
-    title: "Japan Time Travel",
+    // title: "Japan Time Travel",
   },
   {
     book: Five,
-    title: "Baja Bay",
+    // title: "Baja Bay",
   },
   {
     book: Six,
-    title: "The Grand Leadership Strategy",
+    // title: "The Grand Leadership Strategy",
   },
   {
     book: One,
-    title: "Echoes Of Resilience",
+    // title: "Echoes Of Resilience",
   },
   {
     book: Two,
-    title: "I Just Wanna Go Home",
+    // title: "I Just Wanna Go Home",
   },
   {
     book: Three,
-    title: "Dirtman",
+    // title: "Dirtman",
   },
   {
     book: Four,
-    title: "Japan Time Travel",
+    // title: "Japan Time Travel",
   },
   {
     book: Five,
-    title: "Baja Bay",
+    // title: "Baja Bay",
   },
   {
     book: Six,
-    title: "The Grand Leadership Strategy",
+    // title: "The Grand Leadership Strategy",
   },
 ]
 
@@ -74,7 +74,7 @@ export default function Slider() {
       {data.map(({ book, title },i) => (
         <div className={style.slides} key={i}>
           <Image src={book} alt="domain" />
-          <h3 className={style.title}>{title}</h3>
+          {/* <h3 className={style.title}>{title}</h3> */}
         </div>
       ))}
     </AutoPlaySlider>

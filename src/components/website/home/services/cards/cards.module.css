@@ -29,7 +29,7 @@
 }
 
 .promo .title {
-    @apply text-2xl xl:text-xl 2xl:text-2xl 3xl:text-3xl font-mono font-normal leading-tight mb-3 transition-all duration-500
+    @apply text-2xl xl:text-xl 2xl:text-3xl 3xl:text-3xl font-mono font-normal leading-tight mb-3 transition-all duration-500
 }
 
 .promo .para {

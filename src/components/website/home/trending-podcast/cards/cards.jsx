@@ -22,37 +22,37 @@ const data = [
         duration: "8Hr 36M",
         category: "Technology",
         desc: "The ancient pharaohs hold secrets far beyond what we have uncovered. Delve into the fascinating origins of mummification…",
-        cta: "Share This Episode"
+        // cta: "Share This Episode"
     },
     {
         img: Two,
         episode: "Episode: 23",
         title: "Conscious vs. Subconscious Living",
         name: "Tara Banerjee",
-        duration: "8Hr 36M",
+        duration: "7Hr 16M",
         category: "History",
         desc: "Most of us are going about our days on auto-pilot without even realizing ….",
-        cta: "Share This Episode"
+        // cta: "Share This Episode"
     },
     {
         img: Three,
         episode: "Episode: 35",
         title: "Marketing Made Easy",
         name: "Jake Peter",
-        duration: "8Hr 36M",
+        duration: "10Hr 15M",
         category: "Health & Wellness",
         desc: "Reaching Forbes is as easy as solving a Rubik’s cube if you….",
-        cta: "Share This Episode"
+        // cta: "Share This Episode"
     },
     {
         img: Four,
         episode: "Episode: 46",
         title: "Remission or Myth-Cancer Cure at a Glance",
         name: "Sammy Raya",
-        duration: "8Hr 36M",
+        duration: "12Hr 5M",
         category: "Business & Finance",
         desc: "With so many self-proclaimed nutritionists on the rise, it is hard to establish what a is cure …",
-        cta: "Share This Episode"
+        // cta: "Share This Episode"
     },
     // {
     //     img: Five,
@@ -133,9 +133,9 @@ export default function Cards() {
                             </div>
                         </div>
                         <p className={style.para}>{desc}</p>
-                        <Link href="/podcasts" className={style.cta}>
+                        {/* <Link href="/podcasts" className={style.cta}>
                             {cta}
-                        </Link>
+                        </Link> */}
                     </div>
                 ))
             }

@@ -25,61 +25,61 @@ export default function LatestInterviews() {
     const fetchedData = [
         {
           title: "Authors Unplugged",
-          location: "Bric House",
+          location: "Cedar Hill",
           imageUrl: Image1,
           category: "technology",
         },
         {
           title: "The Story Behind the Pages",
-          location: "Bric House",
+          location: "Pine Creek",
           imageUrl: Image2,
           category: "business",
         },
         {
           title: "Voices of Inspiration",
-          location: "Bric House",
+          location: "Silver Bay",
           imageUrl: Image3,
           category: "business",
         },
         {
           title: "Inside the Author’s Mind",
-          location: "Bric House",
+          location: "Maplewood",
           imageUrl: Image4,
           category: "business",
         },
         {
           title: "Beyond the Book",
-          location: "Bric House",
+          location: "Riverbend",
           imageUrl: Image5,
           category: "business",
         },
         {
           title: "Turning Words into Worlds",
-          location: "Bric House",
+          location: "Oak Valley",
           imageUrl: Image6,
           category: "business",
         },
         {
           title: "The Journey of a Storyteller",
-          location: "Bric House",
+          location: "Blue Ridge",
           imageUrl: Image7,
           category: "music",
         },
         {
           title: "Literary Lights",
-          location: "Bric House",
+          location: "Greenfield",
           imageUrl: Image8,
           category: "music",
         },
         {
           title: "In the Author's Own Words",
-          location: "Bric House",
+          location: "Redstone",
           imageUrl: Image9,
           category: "music",
         },
         {
           title: "From Draft to Bestseller",
-          location: "Bric House",
+          location: "Shadowbrook",
           imageUrl: Image1,
           category: "music",
         },
@@ -115,9 +115,6 @@ export default function LatestInterviews() {
                               </h4>
                             </div>
                           </div>
-                          <Link href="#" className={styles.cta}>
-                            Open To All
-                          </Link>
                         </div>
                       </div>
                     ) : null

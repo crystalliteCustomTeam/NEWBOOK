@@ -26,21 +26,13 @@ export default function BestSellers() {
           <div className={styles.__grid}>
             <div className={styles.leftColumn}>
               <div className={styles.cardGrid}>
-                {[
-                  [Book1, "Divide And Conquer"],
-                  [Book2, "Hell To Heaven"],
-                  [Book3, "Jehovah Rapha"],
-                  [Book4, "To The End Of The Earth"],
-                  [Book5, "Causes Of Mental Anomalies"],
-                  [Book6, "Swing Vote-2024"],
-                ].map(([img, bookName], i) => (
+                {[Book1, Book2, Book3, Book4, Book5, Book6].map((e, i) => (
                   <div key={i} className={`${styles.card} group`}>
                     <Image
-                      src={img}
+                      src={e}
                       alt="domain"
                       className={`${styles.img} group-hover:scale-105`}
                     />
-                    <h4 className={styles.title}>{bookName}</h4>
                   </div>
                 ))}
               </div>
