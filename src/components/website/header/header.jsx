@@ -39,8 +39,6 @@ export default function Header() {
       ref.current.classList.add(
         "backdrop-blur-3xl",
         "bg-black/95",
-        "border-b-4",
-        "border-black"
       )
     }
 
@@ -63,8 +61,6 @@ export default function Header() {
       ref.current.classList.remove(
         "backdrop-blur-3xl",
         "bg-black/95",
-        "border-b-4",
-        "border-black"
       )
     }
 

@@ -12,7 +12,7 @@
 }
 
 .title {
-  @apply text-3xl 3xl:text-5xl font-extrabold !leading-tight text-white;
+  @apply text-4xl 3xl:text-5xl font-extrabold !leading-tight text-white;
 }
 
 .para {

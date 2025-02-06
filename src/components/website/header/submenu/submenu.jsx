@@ -94,9 +94,12 @@ export default function Submenu() {
               {servicesOne.map(({ text, href }) => (
                 <NavigationMenuItem key={text}>
                   <Link href={href} legacyBehavior passHref>
-                    <NavigationMenuLink className="flex gap-x-2">
+                    <NavigationMenuLink className="flex gap-x-2 group">
                       <ChevronRight className="text-pink" />
-                      <span dangerouslySetInnerHTML={{ __html: text }} />
+                      <div className="relative overflow-hidden">
+                        <div className="bg-pink transition-all ease-in-out duration-300 absolute w-full h-[2px] rounded-sm bottom-0 -translate-x-full group-hover:translate-x-0"></div>
+                        <span dangerouslySetInnerHTML={{ __html: text }} />
+                      </div>
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
@@ -108,9 +111,12 @@ export default function Submenu() {
               {servicesTwo.map(({ text, href }) => (
                 <NavigationMenuItem key={text}>
                   <Link href={href} legacyBehavior passHref>
-                    <NavigationMenuLink className="flex gap-x-2">
+                    <NavigationMenuLink className="flex gap-x-2 group">
                       <ChevronRight className="text-pink" />
-                      <span dangerouslySetInnerHTML={{ __html: text }} />
+                      <div className="relative overflow-hidden">
+                        <div className="bg-pink transition-all ease-in-out duration-300 absolute w-full h-[2px] rounded-sm bottom-0 -translate-x-full group-hover:translate-x-0"></div>
+                        <span dangerouslySetInnerHTML={{ __html: text }} />
+                      </div>
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
@@ -122,9 +128,12 @@ export default function Submenu() {
               {servicesThree.map(({ text, href }) => (
                 <NavigationMenuItem key={text}>
                   <Link href={href} legacyBehavior passHref>
-                    <NavigationMenuLink className="flex gap-x-2">
+                    <NavigationMenuLink className="flex gap-x-2 group">
                       <ChevronRight className="text-pink" />
-                      <span dangerouslySetInnerHTML={{ __html: text }} />
+                      <div className="relative overflow-hidden">
+                        <div className="bg-pink transition-all ease-in-out duration-300 absolute w-full h-[2px] rounded-sm bottom-0 -translate-x-full group-hover:translate-x-0"></div>
+                        <span dangerouslySetInnerHTML={{ __html: text }} />
+                      </div>
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
@@ -136,8 +145,8 @@ export default function Submenu() {
       <div className={style.right}>
         <div>
           <h2 className={style.title}>
-            Activate Your Coupon
-            <br /> 50% off
+            Activate <br /> Your Coupon
+            <br /> 50% Off
           </h2>
           <p className={style.para}>Get Affordable Rates</p>
           <Image src={Mockup} alt="domain" width={300} height={300} />
