@@ -4,9 +4,12 @@ import { useState, useEffect, useCallback } from "react"
 // Embla
 import useEmblaCarousel from "embla-carousel-react"
 // Media
-import Client1 from "media/home/testimonials/clients/4.png"
-import Client2 from "media/home/testimonials/clients/5.png"
-import Client3 from "media/home/testimonials/clients/6.png"
+import Client1 from "media/home/testimonials/clients/7.jpg"
+import Client2 from "media/home/testimonials/clients/8.jpg"
+import Client3 from "media/home/testimonials/clients/9.jpg"
+import Client4 from "media/home/testimonials/clients/10.jpg"
+import Client5 from "media/home/testimonials/clients/11.jpg"
+import Client6 from "media/home/testimonials/clients/12.jpg"
 // Components
 import {
   CTAGroupReviews,
@@ -20,7 +23,32 @@ import Image from "next/image"
 // CSS
 import styles from "./cards.module.css"
 
-const data1 = [[Client1], [Client2], [Client3], [Client1], [Client2], [Client3]]
+const data1 = [
+  [
+    "https://player.vimeo.com/progressive_redirect/playback/1054327194/rendition/480p/file.mp4?loc=external&log_user=0&signature=8f0dfe3f3c175ffc3bae8cc20544d7e96bc39d6ef0c983db4d023bd4c3f036f8",
+    Client1,
+  ],
+  [
+    "https://player.vimeo.com/progressive_redirect/playback/1054329510/rendition/480p/file.mp4?loc=external&log_user=0&signature=6bc334e5908113b05c127c8426fe9cd75eb8371cedb2ede3531586913081badb",
+    Client2,
+  ],
+  [
+    "https://player.vimeo.com/progressive_redirect/playback/1054329459/rendition/480p/file.mp4?loc=external&log_user=0&signature=6326475a0ab0bb06bb4c5080c4995ebf7bb57582925d054a5b003ce79100307c",
+    Client3,
+  ],
+  [
+    "https://player.vimeo.com/progressive_redirect/playback/1054329226/rendition/480p/file.mp4?loc=external&log_user=0&signature=db1cfba9f323f8564261c338e257e28be16f425bc838cc70ee4383fb03dccc62",
+    Client4,
+  ],
+  [
+    "https://player.vimeo.com/progressive_redirect/playback/1054329401/rendition/480p/file.mp4?loc=external&log_user=0&signature=2e1132f7b832fbce526df27a6814fb9f154e3571befdd1a467d86625be23d7b0",
+    Client5,
+  ],
+  [
+    "https://player.vimeo.com/progressive_redirect/playback/1054329295/rendition/480p/file.mp4?loc=external&log_user=0&signature=0b63f54044590187db518f7cff86c058ec350d632b9cc486f0f3f5bcad2b839d",
+    Client6,
+  ],
+]
 
 const data2 = [
   [
@@ -56,7 +84,7 @@ const data2 = [
 ]
 
 export default function Testimonials() {
-  const [selectedIndex, setSelectedIndex] = useState(0)
+  const [_selectedIndex, setSelectedIndex] = useState(0)
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "center" })
   const [emblaThumbsRef, emblaThumbsApi] = useEmblaCarousel({
     containScroll: "keepSnaps",
@@ -98,10 +126,10 @@ export default function Testimonials() {
         }}
         className="flex touch-pan-y ml-[calc(1rem_*_-1)]"
       >
-        {data1.map(([img], i) => (
+        {data1.map(([videoSrc, img], i) => (
           <div key={i} className={styles.embla__slide}>
-            <a data-fancybox="gallery" href="https://vimeo.com/1015023376">
-              <Image src={img} alt="domain" />
+            <a data-fancybox="gallery" href={videoSrc}>
+              <Image src={img} alt="domain" className="mx-auto" />
               <svg
                 className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
                 width="71"

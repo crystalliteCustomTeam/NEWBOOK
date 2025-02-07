@@ -32,11 +32,11 @@
   @apply relative lg:col-span-4;
 }
 .bg {
-  @apply bg-black lg:pt-[60px] 3xl:pb-[540px] xl:pb-[580px] lg:pb-[500px] px-[20px] py-[40px] text-center text-white rounded-[20px];
+  @apply bg-black lg:pt-[60px] 3xl:pb-[540px] xl:pb-[520px] lg:pb-[500px] px-[20px] py-[40px] text-center text-white rounded-[20px];
 }
 .title2 {
-  @apply text-[20px] md:text-[30px] lg:text-[35px] xl:text-[40px] 2xl:text-[50px] 3xl:text-[60px] leading-[1.4] font-mono lg:mb-0 mb-5;
+  @apply text-[20px] md:text-[30px] lg:text-[35px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[50px] leading-[1.4] font-mono lg:mb-0 mb-5;
 }
 .rightImg {
-  @apply lg:absolute lg:left-0 2xl:max-w-[700px] xl:max-w-[500px] lg:max-w-[400px] lg:bottom-0 mx-auto;
+  @apply lg:absolute lg:left-0 3xl:max-w-[650px] 2xl:max-w-[600px] xl:max-w-[500px] lg:max-w-[400px] lg:bottom-0 mx-auto;
 }
